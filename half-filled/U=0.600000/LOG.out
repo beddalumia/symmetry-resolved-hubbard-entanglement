@@ -1,0 +1,996 @@
+---------------MPI----------------
+rank:     0 of     60 alive
+rank:     1 of     60 alive
+rank:     2 of     60 alive
+rank:     3 of     60 alive
+rank:     4 of     60 alive
+rank:     5 of     60 alive
+rank:     6 of     60 alive
+rank:     7 of     60 alive
+rank:     8 of     60 alive
+rank:     9 of     60 alive
+rank:    10 of     60 alive
+rank:    11 of     60 alive
+rank:    12 of     60 alive
+rank:    13 of     60 alive
+rank:    14 of     60 alive
+rank:    15 of     60 alive
+rank:    16 of     60 alive
+rank:    17 of     60 alive
+rank:    18 of     60 alive
+rank:    19 of     60 alive
+rank:    20 of     60 alive
+rank:    21 of     60 alive
+rank:    22 of     60 alive
+rank:    23 of     60 alive
+rank:    24 of     60 alive
+rank:    25 of     60 alive
+rank:    26 of     60 alive
+rank:    27 of     60 alive
+rank:    28 of     60 alive
+rank:    29 of     60 alive
+rank:    30 of     60 alive
+rank:    31 of     60 alive
+rank:    32 of     60 alive
+rank:    33 of     60 alive
+rank:    34 of     60 alive
+rank:    35 of     60 alive
+rank:    36 of     60 alive
+rank:    37 of     60 alive
+rank:    38 of     60 alive
+rank:    40 of     60 alive
+rank:    39 of     60 alive
+rank:    41 of     60 alive
+rank:    42 of     60 alive
+rank:    43 of     60 alive
+rank:    44 of     60 alive
+rank:    45 of     60 alive
+rank:    46 of     60 alive
+rank:    47 of     60 alive
+rank:    48 of     60 alive
+rank:    49 of     60 alive
+rank:    50 of     60 alive
+rank:    51 of     60 alive
+rank:    52 of     60 alive
+rank:    53 of     60 alive
+rank:    54 of     60 alive
+----------------------------------
+
+rank:    55 of     60 alive
+rank:    56 of     60 alive
+rank:    57 of     60 alive
+rank:    58 of     60 alive
+rank:    59 of     60 alive
+ warning scalar in parse_cmd array:   ULOC
+ expecting a comma separated list of:            5
+ wrong dimensions parsing variable:   ULOC
+ expecting a comma separated list of:            5
+ warning scalar in parse_cmd array:   ULOC
+ expecting a comma separated list of:            5
+ wrong dimensions parsing variable:   ULOC
+ expecting a comma separated list of:            5
+ warning scalar in parse_cmd array:   ULOC
+ expecting a comma separated list of:            5
+ wrong dimensions parsing variable:   ULOC
+ expecting a comma separated list of:            5
+ warning scalar in parse_cmd array:   ULOC
+ expecting a comma separated list of:            5
+ wrong dimensions parsing variable:   ULOC
+ expecting a comma separated list of:            5
+ warning scalar in parse_cmd array:   ULOC
+ expecting a comma separated list of:            5
+ wrong dimensions parsing variable:   ULOC
+ expecting a comma separated list of:            5
+ warning scalar in parse_cmd array:   ULOC
+ expecting a comma separated list of:            5
+ wrong dimensions parsing variable:   ULOC
+ expecting a comma separated list of:            5
+ warning scalar in parse_cmd array:   ULOC
+ expecting a comma separated list of:            5
+ wrong dimensions parsing variable:   ULOC
+ expecting a comma separated list of:            5
+ warning scalar in parse_cmd array:   ULOC
+ expecting a comma separated list of:            5
+ wrong dimensions parsing variable:   ULOC
+ expecting a comma separated list of:            5
+ warning scalar in parse_cmd array:   ULOC
+ expecting a comma separated list of:            5
+ wrong dimensions parsing variable:   ULOC
+ expecting a comma separated list of:            5
+ warning scalar in parse_cmd array:   ULOC
+ expecting a comma separated list of:            5
+ wrong dimensions parsing variable:   ULOC
+ expecting a comma separated list of:            5
+ warning scalar in parse_cmd array:   ULOC
+ expecting a comma separated list of:            5
+ wrong dimensions parsing variable:   ULOC
+ expecting a comma separated list of:            5
+ warning scalar in parse_cmd array:   ULOC
+ expecting a comma separated list of:            5
+ wrong dimensions parsing variable:   ULOC
+ expecting a comma separated list of:            5
+ warning scalar in parse_cmd array:   ULOC
+ expecting a comma separated list of:            5
+ wrong dimensions parsing variable:   ULOC
+ warning scalar in parse_cmd array:   ULOC
+ expecting a comma separated list of:            5
+ wrong dimensions parsing variable:   ULOC
+ expecting a comma separated list of:            5
+ expecting a comma separated list of:            5
+ warning scalar in parse_cmd array:   ULOC
+ expecting a comma separated list of:            5
+ wrong dimensions parsing variable:   ULOC
+ expecting a comma separated list of:            5
+ warning scalar in parse_cmd array:   ULOC
+ expecting a comma separated list of:            5
+ wrong dimensions parsing variable:   ULOC
+ expecting a comma separated list of:            5
+ warning scalar in parse_cmd array:   ULOC
+ expecting a comma separated list of:            5
+ wrong dimensions parsing variable:   ULOC
+ expecting a comma separated list of:            5
+ warning scalar in parse_cmd array:   ULOC
+ expecting a comma separated list of:            5
+ wrong dimensions parsing variable:   ULOC
+ expecting a comma separated list of:            5
+ warning scalar in parse_cmd array:   ULOC
+ expecting a comma separated list of:            5
+ wrong dimensions parsing variable:   ULOC
+ expecting a comma separated list of:            5
+ warning scalar in parse_cmd array:   ULOC
+ expecting a comma separated list of:            5
+ wrong dimensions parsing variable:   ULOC
+ expecting a comma separated list of:            5
+ warning scalar in parse_cmd array:   ULOC
+ expecting a comma separated list of:            5
+ wrong dimensions parsing variable:   ULOC
+ expecting a comma separated list of:            5
+ warning scalar in parse_cmd array:   ULOC
+ expecting a comma separated list of:            5
+ wrong dimensions parsing variable:   ULOC
+ expecting a comma separated list of:            5
+ warning scalar in parse_cmd array:   ULOC
+ expecting a comma separated list of:            5
+ wrong dimensions parsing variable:   ULOC
+ expecting a comma separated list of:            5
+ warning scalar in parse_cmd array:   ULOC
+ expecting a comma separated list of:            5
+ wrong dimensions parsing variable:   ULOC
+ expecting a comma separated list of:            5
+ warning scalar in parse_cmd array:   ULOC
+ expecting a comma separated list of:            5
+ wrong dimensions parsing variable:   ULOC
+ expecting a comma separated list of:            5
+ warning scalar in parse_cmd array:   ULOC
+ expecting a comma separated list of:            5
+ wrong dimensions parsing variable:   ULOC
+ expecting a comma separated list of:            5
+ warning scalar in parse_cmd array:   ULOC
+ expecting a comma separated list of:            5
+ wrong dimensions parsing variable:   ULOC
+ expecting a comma separated list of:            5
+ warning scalar in parse_cmd array:   ULOC
+ expecting a comma separated list of:            5
+ wrong dimensions parsing variable:   ULOC
+ expecting a comma separated list of:            5
+ warning scalar in parse_cmd array:   ULOC
+ expecting a comma separated list of:            5
+ wrong dimensions parsing variable:   ULOC
+ expecting a comma separated list of:            5
+ warning scalar in parse_cmd array:   ULOC
+ expecting a comma separated list of:            5
+ wrong dimensions parsing variable:   ULOC
+ expecting a comma separated list of:            5
+ warning scalar in parse_cmd array:   ULOC
+ expecting a comma separated list of:            5
+ wrong dimensions parsing variable:   ULOC
+ expecting a comma separated list of:            5
+ warning scalar in parse_cmd array:   ULOC
+ expecting a comma separated list of:            5
+ wrong dimensions parsing variable:   ULOC
+ expecting a comma separated list of:            5
+ warning scalar in parse_cmd array:   ULOC
+ expecting a comma separated list of:            5
+ warning scalar in parse_cmd array:   ULOC
+ expecting a comma separated list of:            5
+ wrong dimensions parsing variable:   ULOC
+ expecting a comma separated list of:            5
+ warning scalar in parse_cmd array:   ULOC
+ expecting a comma separated list of:            5
+ wrong dimensions parsing variable:   ULOC
+ expecting a comma separated list of:            5
+ warning scalar in parse_cmd array:   ULOC
+ expecting a comma separated list of:            5
+ wrong dimensions parsing variable:   ULOC
+ expecting a comma separated list of:            5
+ warning scalar in parse_cmd array:   ULOC
+ expecting a comma separated list of:            5
+ wrong dimensions parsing variable:   ULOC
+ expecting a comma separated list of:            5
+ warning scalar in parse_cmd array:   ULOC
+ expecting a comma separated list of:            5
+ wrong dimensions parsing variable:   ULOC
+ wrong dimensions parsing variable:   ULOC
+ expecting a comma separated list of:            5
+ expecting a comma separated list of:            5
+ warning scalar in parse_cmd array:   ULOC
+ expecting a comma separated list of:            5
+ wrong dimensions parsing variable:   ULOC
+ expecting a comma separated list of:            5
+ warning scalar in parse_cmd array:   ULOC
+ expecting a comma separated list of:            5
+ wrong dimensions parsing variable:   ULOC
+ expecting a comma separated list of:            5
+ warning scalar in parse_cmd array:   ULOC
+ expecting a comma separated list of:            5
+ wrong dimensions parsing variable:   ULOC
+ expecting a comma separated list of:            5
+ warning scalar in parse_cmd array:   ULOC
+ expecting a comma separated list of:            5
+ wrong dimensions parsing variable:   ULOC
+ expecting a comma separated list of:            5
+ warning scalar in parse_cmd array:   ULOC
+ expecting a comma separated list of:            5
+ wrong dimensions parsing variable:   ULOC
+ expecting a comma separated list of:            5
+ warning scalar in parse_cmd array:   ULOC
+ expecting a comma separated list of:            5
+ wrong dimensions parsing variable:   ULOC
+ expecting a comma separated list of:            5
+ warning scalar in parse_cmd array:   ULOC
+ expecting a comma separated list of:            5
+ warning scalar in parse_cmd array:   ULOC
+ expecting a comma separated list of:            5
+ wrong dimensions parsing variable:   ULOC
+ expecting a comma separated list of:            5
+ warning scalar in parse_cmd array:   ULOC
+ expecting a comma separated list of:            5
+ wrong dimensions parsing variable:   ULOC
+ expecting a comma separated list of:            5
+ wrong dimensions parsing variable:   ULOC
+ expecting a comma separated list of:            5
+ warning scalar in parse_cmd array:   ULOC
+ expecting a comma separated list of:            5
+ wrong dimensions parsing variable:   ULOC
+ expecting a comma separated list of:            5
+ warning scalar in parse_cmd array:   ULOC
+ expecting a comma separated list of:            5
+ wrong dimensions parsing variable:   ULOC
+ expecting a comma separated list of:            5
+ warning scalar in parse_cmd array:   ULOC
+ expecting a comma separated list of:            5
+ wrong dimensions parsing variable:   ULOC
+ expecting a comma separated list of:            5
+ warning scalar in parse_cmd array:   ULOC
+ warning scalar in parse_cmd array:   ULOC
+ expecting a comma separated list of:            5
+ wrong dimensions parsing variable:   ULOC
+ expecting a comma separated list of:            5
+ warning scalar in parse_cmd array:   ULOC
+ expecting a comma separated list of:            5
+ wrong dimensions parsing variable:   ULOC
+ expecting a comma separated list of:            5
+ expecting a comma separated list of:            5
+ wrong dimensions parsing variable:   ULOC
+ expecting a comma separated list of:            5
+ warning scalar in parse_cmd array:   ULOC
+ expecting a comma separated list of:            5
+ wrong dimensions parsing variable:   ULOC
+ expecting a comma separated list of:            5
+ warning scalar in parse_cmd array:   ULOC
+ expecting a comma separated list of:            5
+ wrong dimensions parsing variable:   ULOC
+ expecting a comma separated list of:            5
+ warning scalar in parse_cmd array:   ULOC
+ expecting a comma separated list of:            5
+ wrong dimensions parsing variable:   ULOC
+ expecting a comma separated list of:            5
+ warning scalar in parse_cmd array:   ULOC
+ expecting a comma separated list of:            5
+ wrong dimensions parsing variable:   ULOC
+ expecting a comma separated list of:            5
+ warning scalar in parse_cmd array:   ULOC
+ expecting a comma separated list of:            5
+ wrong dimensions parsing variable:   ULOC
+ expecting a comma separated list of:            5
+ warning scalar in parse_cmd array:   ULOC
+ expecting a comma separated list of:            5
+ wrong dimensions parsing variable:   ULOC
+ expecting a comma separated list of:            5
+ warning scalar in parse_cmd array:   ULOC
+ expecting a comma separated list of:            5
+ wrong dimensions parsing variable:   ULOC
+ expecting a comma separated list of:            5
+Rank 4 writing to unit: 996
+Rank 47 writing to unit: 953
+Rank 2 writing to unit: 998
+Rank 36 writing to unit: 964
+Rank 10 writing to unit: 990
+Rank 24 writing to unit: 976
+Rank 43 writing to unit: 957
+Rank 17 writing to unit: 983
+Rank 48 writing to unit: 952
+Rank 22 writing to unit: 978
+Rank 9 writing to unit: 991
+Rank 44 writing to unit: 956
+Rank 26 writing to unit: 974
+Rank 5 writing to unit: 995
+Rank 28 writing to unit: 972
+Rank 56 writing to unit: 944
+Rank 14 writing to unit: 986
+Rank 32 writing to unit: 968
+Rank 8 writing to unit: 992
+Rank 38 writing to unit: 962
+Rank 20 writing to unit: 980
+Rank 18 writing to unit: 982
+Rank 7 writing to unit: 993
+Rank 31 writing to unit: 969
+Rank 11 writing to unit: 989
+Rank 25 writing to unit: 975
+Rank 53 writing to unit: 947
+Rank 39 writing to unit: 961
+Rank 29 writing to unit: 971
+Rank 21 writing to unit: 979
+Rank 55 writing to unit: 945
+Rank 27 writing to unit: 973
+Rank 54 writing to unit: 946
+Rank 15 writing to unit: 985
+Rank 51 writing to unit: 949
+Rank 6 writing to unit: 994
+Rank 58 writing to unit: 942
+Rank 37 writing to unit: 963
+Rank 49 writing to unit: 951
+Rank 23 writing to unit: 977
+Rank 59 writing to unit: 941
+Rank 30 writing to unit: 970
+Rank 40 writing to unit: 960
+Rank 34 writing to unit: 966
+Rank 52 writing to unit: 948
+Rank 3 writing to unit: 997
+Rank 46 writing to unit: 954
+Rank 1 writing to unit: 999
+Rank 42 writing to unit: 958
+Rank 41 writing to unit: 959
+Rank 13 writing to unit: 987
+Rank 16 writing to unit: 984
+Rank 12 writing to unit: 988
+Rank 19 writing to unit: 981
+Rank 35 writing to unit: 965
+Rank 45 writing to unit: 955
+Rank 50 writing to unit: 950
+Rank 33 writing to unit: 967
+Rank 57 writing to unit: 943
+SCIFOR VERSION (GIT): 57d16a1b8dfa8aa107a6152980bb326038025164
+Timestamp: + 4 January 2023  10:44:57.815
+ 
+code VERSION: 8f68932ce652ded35d1b79cc5c566e6c92b5cbc8
+Timestamp: + 4 January 2023  10:44:57.817
+ 
+The unique index of each site (on the cartesian plane) is as follows:
+ 
+ 3   4
+ 1   2
+ 
+ T
+Using Reciprocal Lattice vectors:
+bk_x = [  6.2832  0.0000  0.0000]
+bk_y = [  0.0000  6.2832  0.0000]
+bk_z = [  0.0000  0.0000  6.2832]
+ HWBAND=0.1000000
+INIT SOLVER FOR 
+Summary:
+--------------------------------------------
+# of levels/spin      =              12
+Total size            =              24
+# of sites            =               4
+# of impurities       =               1
+# of bath/impurity    =               2
+Number of sectors     =             169
+Largest Sector(s)     =      924       924              853776
+--------------------------------------------
+Required Lanc_nstates_total=1 => set T=0 calculation
+Lanczos ZERO temperature calculation:
+Reading bath from file hamiltonian.restart
+Looking into     91 sectors out of       169
+
+-----DMFT-loop    1 (max:  100)-----
+ 
+       V ||       Re(H) | Im(H)
+ 
+  0.1297 ||   -0.0318   0.0860   0.0860   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1297 ||    0.0860  -0.0318   0.0000   0.0860   |    0.0000   0.0000   0.0000   0.0000
+  0.1297 ||    0.0860   0.0000  -0.0318   0.0860   |    0.0000   0.0000   0.0000   0.0000
+  0.1297 ||    0.0000   0.0860   0.0860  -0.0318   |    0.0000   0.0000   0.0000   0.0000
+ 
+  0.1296 ||    0.0316   0.0859   0.0859   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1296 ||    0.0859   0.0316   0.0000   0.0859   |    0.0000   0.0000   0.0000   0.0000
+  0.1296 ||    0.0859   0.0000   0.0316   0.0859   |    0.0000   0.0000   0.0000   0.0000
+  0.1296 ||    0.0000   0.0859   0.0859   0.0316   |    0.0000   0.0000   0.0000   0.0000
+ 
+Diagonalize impurity H:
+ 
+  +ETA --> fort.6
+  10% |ETA: 0:00:09.590 @ 4 January 2023  10:45:02
+  20% |ETA: 0:00:45.707
+Warning/Error in PZNAUPD, info =      1
+Maximum number of iterations reached.
+All possible eigenvalues of OP has been found. 
+IPARAM(5) returns the number of wanted converged Ritz values.
+IPARAM(5) = 1
+  30% |ETA: 0:03:51.905
+Warning/Error in PZNAUPD, info =      1
+Maximum number of iterations reached.
+All possible eigenvalues of OP has been found. 
+IPARAM(5) returns the number of wanted converged Ritz values.
+IPARAM(5) = 1
+Warning/Error in PZNAUPD, info =      1
+Maximum number of iterations reached.
+All possible eigenvalues of OP has been found. 
+IPARAM(5) returns the number of wanted converged Ritz values.
+IPARAM(5) = 1
+Warning/Error in PZNAUPD, info =      1
+Maximum number of iterations reached.
+All possible eigenvalues of OP has been found. 
+IPARAM(5) returns the number of wanted converged Ritz values.
+IPARAM(5) = 1
+  40% |ETA: 0:07:48.914
+  50% |ETA: 0:05:28.640 @ 4 January 2023  10:50:36
+  60% |ETA: 0:03:43.873
+  70% |ETA: 0:02:25.568
+  80% |ETA: 0:01:28.693
+  90% |ETA: 0:00:39.619
+ 100% |ETA: 0:00:00.000
+Total time [h:m:s.ms]:   0:06:03.711
+Get impurity Greens functions:
+ 
+  +ETA --> fort.6
+  12% |ETA: 0:00:59.930
+  25% |ETA: 0:00:53.828
+  31% |ETA: 0:00:47.744
+  43% |ETA: 0:00:39.619
+  50% |ETA: 0:00:35.554 @ 4 January 2023  10:51:40
+  62% |ETA: 0:00:26.824
+  75% |ETA: 0:00:17.554
+  81% |ETA: 0:00:13.824
+  93% |ETA: 0:00:04.552
+ 100% |ETA: 0:00:00.000
+Total time [h:m:s.ms]:   0:01:10.973
+ 
+Get observables:
+dens site 1 =    0.999921488204    0.999921488204
+dens site 2 =    0.999921505910    0.999921505910
+dens site 3 =    0.999921508484    0.999921508484
+dens site 4 =    0.999921532903    0.999921532903
+dens  avg   =    0.999921508875    0.999921508875
+docc        =    0.190160693931
+ 
+ 
+Get local energy:
+Get cluster density matrix:
+Total time [h:m:s.ms]:   0:00:06.758
+Get single-particle density matrix (no print)
+  
+ Diagonalizing 4-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  5.2487546162829952
+  
+ Diagonalizing 3-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  4.7148581888558017
+  
+ Diagonalizing 2-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  3.3611026391547565
+  
+ Diagonalizing 1-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  1.9583239726576060
+
+ LOCAL-DM BENCHMARK [Mod.Phys.Lett.B.2013.27:05]
+ Semi-Analytical Estimate  |  Error
+  0.19023921640952443      |   3.3284486278262193E-013
+  0.30980003949080936      |   1.1657341758564144E-015
+  0.30980003948658297      |   3.3861802251067274E-015
+  0.19016070461308318      |   1.8596235662471372E-015
+
+Get local Matsubara Green's function (no print)
+ 
+  +ETA --> fort.6
+  10% |ETA: 0:00:00.685 @ 4 January 2023  10:52:27
+  20% |ETA: 0:00:00.588
+  30% |ETA: 0:00:00.520
+  40% |ETA: 0:00:00.877
+  50% |ETA: 0:00:00.724 @ 4 January 2023  10:52:28
+  60% |ETA: 0:00:00.581
+  70% |ETA: 0:00:00.863
+  80% |ETA: 0:00:00.567
+  90% |ETA: 0:00:00.577
+Total time [h:m:s.ms]:   0:00:00.722
+Gloc dmft_gfio: write spin diagonal elements on many files.
+chi^2|iter=    6.378113224E-02 |    14  <--  All Orbs, All Spins
+ 
+       V ||       Re(H) | Im(H)
+ 
+  0.1292 ||   -0.0312   0.0856   0.0856   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1292 ||    0.0856  -0.0312   0.0000   0.0856   |    0.0000   0.0000   0.0000   0.0000
+  0.1292 ||    0.0856   0.0000  -0.0312   0.0856   |    0.0000   0.0000   0.0000   0.0000
+  0.1292 ||    0.0000   0.0856   0.0856  -0.0312   |    0.0000   0.0000   0.0000   0.0000
+ 
+  0.1291 ||    0.0311   0.0856   0.0856   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1291 ||    0.0856   0.0311   0.0000   0.0856   |    0.0000   0.0000   0.0000   0.0000
+  0.1291 ||    0.0856   0.0000   0.0311   0.0856   |    0.0000   0.0000   0.0000   0.0000
+  0.1291 ||    0.0000   0.0856   0.0856   0.0311   |    0.0000   0.0000   0.0000   0.0000
+ 
+[1;91mmax error=[0m  1.0000000E+00       0
+[1;91m    error=[0m  1.0000000E+00       0
+[1;91mmin error=[0m  1.0000000E+00       0
+=====================================
+Total time [h:m:s.ms]:   0:07:30.722
+
+
+
+-----DMFT-loop    2 (max:  100)-----
+ 
+       V ||       Re(H) | Im(H)
+ 
+  0.1292 ||   -0.0312   0.0856   0.0856   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1292 ||    0.0856  -0.0312   0.0000   0.0856   |    0.0000   0.0000   0.0000   0.0000
+  0.1292 ||    0.0856   0.0000  -0.0312   0.0856   |    0.0000   0.0000   0.0000   0.0000
+  0.1292 ||    0.0000   0.0856   0.0856  -0.0312   |    0.0000   0.0000   0.0000   0.0000
+ 
+  0.1291 ||    0.0311   0.0856   0.0856   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1291 ||    0.0856   0.0311   0.0000   0.0856   |    0.0000   0.0000   0.0000   0.0000
+  0.1291 ||    0.0856   0.0000   0.0311   0.0856   |    0.0000   0.0000   0.0000   0.0000
+  0.1291 ||    0.0000   0.0856   0.0856   0.0311   |    0.0000   0.0000   0.0000   0.0000
+ 
+Diagonalize impurity H:
+  10% |ETA: 0:00:09.616 @ 4 January 2023  10:52:32
+  20% |ETA: 0:00:56.885
+Warning/Error in PZNAUPD, info =      1
+Maximum number of iterations reached.
+All possible eigenvalues of OP has been found. 
+IPARAM(5) returns the number of wanted converged Ritz values.
+IPARAM(5) = 1
+  30% |ETA: 0:04:03.953
+Warning/Error in PZNAUPD, info =      1
+Maximum number of iterations reached.
+All possible eigenvalues of OP has been found. 
+IPARAM(5) returns the number of wanted converged Ritz values.
+IPARAM(5) = 1
+Warning/Error in PZNAUPD, info =      1
+Maximum number of iterations reached.
+All possible eigenvalues of OP has been found. 
+IPARAM(5) returns the number of wanted converged Ritz values.
+IPARAM(5) = 1
+Warning/Error in PZNAUPD, info =      1
+Maximum number of iterations reached.
+All possible eigenvalues of OP has been found. 
+IPARAM(5) returns the number of wanted converged Ritz values.
+IPARAM(5) = 1
+  40% |ETA: 0:07:43.905
+  50% |ETA: 0:05:29.643 @ 4 January 2023  10:58:08
+  60% |ETA: 0:03:45.879
+  70% |ETA: 0:02:26.572
+Warning/Error in PZNAUPD, info =      1
+Maximum number of iterations reached.
+All possible eigenvalues of OP has been found. 
+IPARAM(5) returns the number of wanted converged Ritz values.
+IPARAM(5) = 1
+  80% |ETA: 0:01:30.704
+  90% |ETA: 0:00:40.629
+ 100% |ETA: 0:00:00.000
+Total time [h:m:s.ms]:   0:06:09.781
+Get impurity Greens functions:
+ 
+  +ETA --> fort.6
+  12% |ETA: 0:00:59.928
+  25% |ETA: 0:00:53.829
+  31% |ETA: 0:00:47.743
+  43% |ETA: 0:00:39.619
+  50% |ETA: 0:00:35.554 @ 4 January 2023  10:59:16
+  62% |ETA: 0:00:26.825
+  75% |ETA: 0:00:17.554
+  81% |ETA: 0:00:13.824
+  93% |ETA: 0:00:04.552
+ 100% |ETA: 0:00:00.000
+Total time [h:m:s.ms]:   0:01:10.910
+ 
+Get observables:
+dens site 1 =    0.999949991016    0.999949991016
+dens site 2 =    0.999949974377    0.999949974377
+dens site 3 =    0.999950009936    0.999950009936
+dens site 4 =    0.999949990891    0.999949990891
+dens  avg   =    0.999949991555    0.999949991555
+docc        =    0.190082878210
+ 
+ 
+Get local energy:
+Get cluster density matrix:
+Total time [h:m:s.ms]:   0:00:06.748
+Get single-particle density matrix (no print)
+  
+ Diagonalizing 4-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  5.2439562671875901
+  
+ Diagonalizing 3-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  4.7128515800418924
+  
+ Diagonalizing 2-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  3.3601201276167982
+  
+ Diagonalizing 1-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  1.9581942533214649
+
+ LOCAL-DM BENCHMARK [Mod.Phys.Lett.B.2013.27:05]
+ Semi-Analytical Estimate  |  Error
+  0.19013288009805732      |   1.9617640845126516E-013
+  0.30989212440876146      |   1.1657341758564144E-014
+  0.30989212437882507      |   1.3211653993039363E-014
+  0.19008287111435621      |   3.8857805861880479E-015
+
+Get local Matsubara Green's function (no print)
+ 
+  +ETA --> fort.6
+  10% |ETA: 0:00:00.685 @ 4 January 2023  11:00:04
+  20% |ETA: 0:00:00.584
+  30% |ETA: 0:00:00.508
+  40% |ETA: 0:00:00.865
+  50% |ETA: 0:00:00.716 @ 4 January 2023  11:00:04
+  60% |ETA: 0:00:00.575
+  70% |ETA: 0:00:00.855
+  80% |ETA: 0:00:00.562
+  90% |ETA: 0:00:00.572
+Total time [h:m:s.ms]:   0:00:00.718
+Gloc dmft_gfio: write spin diagonal elements on many files.
+chi^2|iter=    6.367783454E-02 |    20  <--  All Orbs, All Spins
+ 
+       V ||       Re(H) | Im(H)
+ 
+  0.1292 ||   -0.0312   0.0857   0.0857   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1292 ||    0.0857  -0.0312   0.0000   0.0857   |    0.0000   0.0000   0.0000   0.0000
+  0.1292 ||    0.0857   0.0000  -0.0312   0.0857   |    0.0000   0.0000   0.0000   0.0000
+  0.1292 ||    0.0000   0.0857   0.0857  -0.0312   |    0.0000   0.0000   0.0000   0.0000
+ 
+  0.1291 ||    0.0312   0.0856   0.0856   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1291 ||    0.0856   0.0312   0.0000   0.0856   |    0.0000   0.0000   0.0000   0.0000
+  0.1291 ||    0.0856   0.0000   0.0312   0.0856   |    0.0000   0.0000   0.0000   0.0000
+  0.1291 ||    0.0000   0.0856   0.0856   0.0312   |    0.0000   0.0000   0.0000   0.0000
+ 
+[1;91mmax error=[0m  2.0715979E-04       0
+[1;91m    error=[0m  6.7088127E-05       0
+[1;91mmin error=[0m  1.9060861E-05       0
+=====================================
+Total time [h:m:s.ms]:   0:07:36.367
+
+
+
+-----DMFT-loop    3 (max:  100)-----
+ 
+       V ||       Re(H) | Im(H)
+ 
+  0.1292 ||   -0.0312   0.0857   0.0857   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1292 ||    0.0857  -0.0312   0.0000   0.0857   |    0.0000   0.0000   0.0000   0.0000
+  0.1292 ||    0.0857   0.0000  -0.0312   0.0857   |    0.0000   0.0000   0.0000   0.0000
+  0.1292 ||    0.0000   0.0857   0.0857  -0.0312   |    0.0000   0.0000   0.0000   0.0000
+ 
+  0.1291 ||    0.0311   0.0856   0.0856   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1291 ||    0.0856   0.0311   0.0000   0.0856   |    0.0000   0.0000   0.0000   0.0000
+  0.1291 ||    0.0856   0.0000   0.0311   0.0856   |    0.0000   0.0000   0.0000   0.0000
+  0.1291 ||    0.0000   0.0856   0.0856   0.0311   |    0.0000   0.0000   0.0000   0.0000
+ 
+Diagonalize impurity H:
+  10% |ETA: 0:00:19.598 @ 4 January 2023  11:00:10
+  20% |ETA: 0:00:57.894
+Warning/Error in PZNAUPD, info =      1
+Maximum number of iterations reached.
+All possible eigenvalues of OP has been found. 
+IPARAM(5) returns the number of wanted converged Ritz values.
+IPARAM(5) = 1
+  30% |ETA: 0:04:00.937
+Warning/Error in PZNAUPD, info =      1
+Maximum number of iterations reached.
+All possible eigenvalues of OP has been found. 
+IPARAM(5) returns the number of wanted converged Ritz values.
+IPARAM(5) = 1
+Warning/Error in PZNAUPD, info =      1
+Maximum number of iterations reached.
+All possible eigenvalues of OP has been found. 
+IPARAM(5) returns the number of wanted converged Ritz values.
+IPARAM(5) = 1
+Warning/Error in PZNAUPD, info =      1
+Maximum number of iterations reached.
+All possible eigenvalues of OP has been found. 
+IPARAM(5) returns the number of wanted converged Ritz values.
+IPARAM(5) = 1
+  40% |ETA: 0:07:43.904
+  50% |ETA: 0:05:25.634 @ 4 January 2023  11:05:40
+  60% |ETA: 0:03:41.865
+  70% |ETA: 0:02:24.563
+Warning/Error in PZNAUPD, info =      1
+Maximum number of iterations reached.
+All possible eigenvalues of OP has been found. 
+IPARAM(5) returns the number of wanted converged Ritz values.
+IPARAM(5) = 1
+  80% |ETA: 0:01:28.694
+  90% |ETA: 0:00:39.620
+ 100% |ETA: 0:00:00.000
+Total time [h:m:s.ms]:   0:06:04.407
+Get impurity Greens functions:
+ 
+  +ETA --> fort.6
+  12% |ETA: 0:00:59.935
+  25% |ETA: 0:00:53.837
+  31% |ETA: 0:00:48.750
+  43% |ETA: 0:00:39.624
+  50% |ETA: 0:00:35.558 @ 4 January 2023  11:06:48
+  62% |ETA: 0:00:26.830
+  75% |ETA: 0:00:17.558
+  81% |ETA: 0:00:13.830
+  93% |ETA: 0:00:04.557
+ 100% |ETA: 0:00:00.000
+Total time [h:m:s.ms]:   0:01:11.536
+ 
+Get observables:
+dens site 1 =    0.999955166476    0.999955166476
+dens site 2 =    0.999955154364    0.999955154364
+dens site 3 =    0.999955179812    0.999955179812
+dens site 4 =    0.999955166394    0.999955166394
+dens  avg   =    0.999955166761    0.999955166761
+docc        =    0.190086848631
+ 
+ 
+Get local energy:
+Get cluster density matrix:
+Total time [h:m:s.ms]:   0:00:06.756
+Get single-particle density matrix (no print)
+  
+ Diagonalizing 4-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  5.2439935936826263
+  
+ Diagonalizing 3-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  4.7128684808449908
+  
+ Diagonalizing 2-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  3.3601288437940604
+  
+ Diagonalizing 1-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  1.9581962070377155
+
+ LOCAL-DM BENCHMARK [Mod.Phys.Lett.B.2013.27:05]
+ Semi-Analytical Estimate  |  Error
+  0.19013167744146292      |   2.7794433421490794E-013
+  0.30989073932493943      |   5.1625370645069779E-015
+  0.30989073931651251      |   5.8286708792820718E-015
+  0.19008684391708514      |   6.9388939039072284E-016
+
+Get local Matsubara Green's function (no print)
+ 
+  +ETA --> fort.6
+  10% |ETA: 0:00:00.677 @ 4 January 2023  11:07:35
+  20% |ETA: 0:00:00.584
+  30% |ETA: 0:00:00.508
+  40% |ETA: 0:00:00.865
+  50% |ETA: 0:00:00.716 @ 4 January 2023  11:07:36
+  60% |ETA: 0:00:00.575
+  70% |ETA: 0:00:00.857
+  80% |ETA: 0:00:00.562
+  90% |ETA: 0:00:00.573
+Total time [h:m:s.ms]:   0:00:00.718
+Gloc dmft_gfio: write spin diagonal elements on many files.
+chi^2|iter=    6.368022553E-02 |    20  <--  All Orbs, All Spins
+ 
+       V ||       Re(H) | Im(H)
+ 
+  0.1292 ||   -0.0312   0.0857   0.0857   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1292 ||    0.0857  -0.0312   0.0000   0.0857   |    0.0000   0.0000   0.0000   0.0000
+  0.1292 ||    0.0857   0.0000  -0.0312   0.0857   |    0.0000   0.0000   0.0000   0.0000
+  0.1292 ||    0.0000   0.0857   0.0857  -0.0312   |    0.0000   0.0000   0.0000   0.0000
+ 
+  0.1291 ||    0.0312   0.0856   0.0856   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1291 ||    0.0856   0.0312   0.0000   0.0856   |    0.0000   0.0000   0.0000   0.0000
+  0.1291 ||    0.0856   0.0000   0.0312   0.0856   |    0.0000   0.0000   0.0000   0.0000
+  0.1291 ||    0.0000   0.0856   0.0856   0.0312   |    0.0000   0.0000   0.0000   0.0000
+ 
+[1;93mmax error=[0m  1.2589833E-05       0
+[1;93m    error=[0m  4.0732457E-06       0
+[1;93mmin error=[0m  7.3264365E-07       0
+=====================================
+Total time [h:m:s.ms]:   0:07:32.146
+
+
+
+-----DMFT-loop    4 (max:  100)-----
+ 
+       V ||       Re(H) | Im(H)
+ 
+  0.1292 ||   -0.0312   0.0857   0.0857   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1292 ||    0.0857  -0.0312   0.0000   0.0857   |    0.0000   0.0000   0.0000   0.0000
+  0.1292 ||    0.0857   0.0000  -0.0312   0.0857   |    0.0000   0.0000   0.0000   0.0000
+  0.1292 ||    0.0000   0.0857   0.0857  -0.0312   |    0.0000   0.0000   0.0000   0.0000
+ 
+  0.1291 ||    0.0311   0.0856   0.0856   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1291 ||    0.0856   0.0311   0.0000   0.0856   |    0.0000   0.0000   0.0000   0.0000
+  0.1291 ||    0.0856   0.0000   0.0311   0.0856   |    0.0000   0.0000   0.0000   0.0000
+  0.1291 ||    0.0000   0.0856   0.0856   0.0311   |    0.0000   0.0000   0.0000   0.0000
+ 
+Diagonalize impurity H:
+  10% |ETA: 0:00:08.506 @ 4 January 2023  11:07:41
+  20% |ETA: 0:00:43.680
+Warning/Error in PZNAUPD, info =      1
+Maximum number of iterations reached.
+All possible eigenvalues of OP has been found. 
+IPARAM(5) returns the number of wanted converged Ritz values.
+IPARAM(5) = 1
+  30% |ETA: 0:03:57.929
+Warning/Error in PZNAUPD, info =      1
+Maximum number of iterations reached.
+All possible eigenvalues of OP has been found. 
+IPARAM(5) returns the number of wanted converged Ritz values.
+IPARAM(5) = 1
+Warning/Error in PZNAUPD, info =      1
+Maximum number of iterations reached.
+All possible eigenvalues of OP has been found. 
+IPARAM(5) returns the number of wanted converged Ritz values.
+IPARAM(5) = 1
+Warning/Error in PZNAUPD, info =      1
+Maximum number of iterations reached.
+All possible eigenvalues of OP has been found. 
+IPARAM(5) returns the number of wanted converged Ritz values.
+IPARAM(5) = 1
+  40% |ETA: 0:08:04.947
+  50% |ETA: 0:05:43.670 @ 4 January 2023  11:13:31
+  60% |ETA: 0:03:53.913
+  70% |ETA: 0:02:32.594
+  80% |ETA: 0:01:32.721
+  90% |ETA: 0:00:41.644
+ 100% |ETA: 0:00:00.000
+Total time [h:m:s.ms]:   0:06:18.524
+Get impurity Greens functions:
+ 
+  +ETA --> fort.6
+  12% |ETA: 0:00:58.919
+  25% |ETA: 0:00:52.821
+  31% |ETA: 0:00:47.735
+  43% |ETA: 0:00:39.613
+  50% |ETA: 0:00:35.548 @ 4 January 2023  11:14:33
+  62% |ETA: 0:00:26.816
+  75% |ETA: 0:00:17.549
+  81% |ETA: 0:00:13.816
+  93% |ETA: 0:00:04.547
+ 100% |ETA: 0:00:00.000
+Total time [h:m:s.ms]:   0:01:10.340
+ 
+Get observables:
+dens site 1 =    0.999959811591    0.999959811591
+dens site 2 =    0.999959802810    0.999959802810
+dens site 3 =    0.999959821020    0.999959821020
+dens site 4 =    0.999959811527    0.999959811527
+dens  avg   =    0.999959811737    0.999959811737
+docc        =    0.190090106029
+ 
+ 
+Get local energy:
+Get cluster density matrix:
+Total time [h:m:s.ms]:   0:00:06.769
+Get single-particle density matrix (no print)
+  
+ Diagonalizing 4-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  5.2440188126081937
+  
+ Diagonalizing 3-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  4.7128799017113012
+  
+ Diagonalizing 2-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  3.3601347345732204
+  
+ Diagonalizing 1-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  1.9581975279148613
+
+ LOCAL-DM BENCHMARK [Mod.Phys.Lett.B.2013.27:05]
+ Semi-Analytical Estimate  |  Error
+  0.19013029124409475      |   3.3872904481313526E-013
+  0.30988980298582436      |   2.8865798640254070E-015
+  0.30988980293496893      |   6.3282712403633923E-015
+  0.19009010283511196      |   4.9960036108132044E-016
+
+Get local Matsubara Green's function (no print)
+ 
+  +ETA --> fort.6
+  10% |ETA: 0:00:00.677 @ 4 January 2023  11:15:21
+  20% |ETA: 0:00:00.584
+  30% |ETA: 0:00:00.508
+  40% |ETA: 0:00:00.865
+  50% |ETA: 0:00:00.716 @ 4 January 2023  11:15:21
+  60% |ETA: 0:00:00.575
+  70% |ETA: 0:00:00.857
+  80% |ETA: 0:00:00.562
+  90% |ETA: 0:00:00.573
+Total time [h:m:s.ms]:   0:00:00.717
+Gloc dmft_gfio: write spin diagonal elements on many files.
+chi^2|iter=    6.368183777E-02 |    19  <--  All Orbs, All Spins
+ 
+       V ||       Re(H) | Im(H)
+ 
+  0.1292 ||   -0.0312   0.0857   0.0857   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1292 ||    0.0857  -0.0312   0.0000   0.0857   |    0.0000   0.0000   0.0000   0.0000
+  0.1292 ||    0.0857   0.0000  -0.0312   0.0857   |    0.0000   0.0000   0.0000   0.0000
+  0.1292 ||    0.0000   0.0857   0.0857  -0.0312   |    0.0000   0.0000   0.0000   0.0000
+ 
+  0.1292 ||    0.0312   0.0856   0.0856   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1292 ||    0.0856   0.0312   0.0000   0.0856   |    0.0000   0.0000   0.0000   0.0000
+  0.1292 ||    0.0856   0.0000   0.0312   0.0856   |    0.0000   0.0000   0.0000   0.0000
+  0.1292 ||    0.0000   0.0856   0.0856   0.0312   |    0.0000   0.0000   0.0000   0.0000
+ 
+[1;92mmax error=[0m  1.0912702E-05       0
+[1;92m    error=[0m  3.5401011E-06       0
+[1;92mmin error=[0m  6.3002611E-07       0
+=====================================
+Total time [h:m:s.ms]:   0:07:45.209
+
+
+Get local Realaxis Green's function (no print)
+  10% |ETA: 0:00:00.685 @ 4 January 2023  11:15:25
+  20% |ETA: 0:00:00.588
+  30% |ETA: 0:00:00.513
+  40% |ETA: 0:00:00.871
+  50% |ETA: 0:00:00.720 @ 4 January 2023  11:15:25
+  60% |ETA: 0:00:00.579
+  70% |ETA: 0:00:00.862
+  80% |ETA: 0:00:00.566
+  90% |ETA: 0:00:00.577
+Total time [h:m:s.ms]:   0:00:02.168
+Gloc dmft_gfio: write spin diagonal elements on many files.
+  
+ Luttinger invariants:
+           1           1           1   8.1673636305446879E-005
+           2           1           1   3.6175343969350955E-004
+           3           1           1   9.5982262096723655E-005
+           4           1           1   1.5690697253138095E-004
+           ilat        iorb        ispin
+ WARNING: not currently reliable for Nlat>1
+  
+(  0.000,  0.000)  ( -0.250, -0.000)  ( -0.250,  0.000)  (  0.000,  0.000)
+( -0.250,  0.000)  (  0.000,  0.000)  (  0.000,  0.000)  ( -0.250,  0.000)
+( -0.250, -0.000)  (  0.000,  0.000)  (  0.000,  0.000)  ( -0.250, -0.000)
+(  0.000,  0.000)  ( -0.250, -0.000)  ( -0.250,  0.000)  (  0.000,  0.000)
+ 
+Kinetic energy computation
+  10% |ETA: 0:00:01.562 @ 4 January 2023  11:15:27
+  20% |ETA: 0:00:01.500
+  30% |ETA: 0:00:00.875
+  40% |ETA: 0:00:00.750
+  50% |ETA: 0:00:00.625 @ 4 January 2023  11:15:28
+  60% |ETA: 0:00:00.500
+  70% |ETA: 0:00:00.750
+  80% |ETA: 0:00:00.500
+  90% |ETA: 0:00:00.500
+ 100% |ETA: 0:00:00.000
+Total time [h:m:s.ms]:   0:00:01.250

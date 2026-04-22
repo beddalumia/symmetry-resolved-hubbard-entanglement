@@ -1,0 +1,1858 @@
+---------------MPI----------------
+rank:     0 of     60 alive
+rank:     1 of     60 alive
+rank:     2 of     60 alive
+rank:     3 of     60 alive
+rank:     4 of     60 alive
+rank:     5 of     60 alive
+rank:     6 of     60 alive
+rank:     7 of     60 alive
+rank:     8 of     60 alive
+rank:     9 of     60 alive
+rank:    10 of     60 alive
+rank:    11 of     60 alive
+rank:    12 of     60 alive
+rank:    13 of     60 alive
+rank:    14 of     60 alive
+rank:    15 of     60 alive
+rank:    16 of     60 alive
+rank:    17 of     60 alive
+rank:    18 of     60 alive
+rank:    19 of     60 alive
+rank:    20 of     60 alive
+rank:    21 of     60 alive
+rank:    22 of     60 alive
+rank:    23 of     60 alive
+rank:    24 of     60 alive
+rank:    25 of     60 alive
+rank:    26 of     60 alive
+rank:    27 of     60 alive
+rank:    28 of     60 alive
+rank:    29 of     60 alive
+rank:    30 of     60 alive
+rank:    31 of     60 alive
+rank:    32 of     60 alive
+rank:    33 of     60 alive
+rank:    34 of     60 alive
+rank:    35 of     60 alive
+rank:    36 of     60 alive
+rank:    37 of     60 alive
+rank:    38 of     60 alive
+rank:    39 of     60 alive
+rank:    40 of     60 alive
+rank:    41 of     60 alive
+rank:    42 of     60 alive
+rank:    43 of     60 alive
+rank:    44 of     60 alive
+rank:    45 of     60 alive
+rank:    46 of     60 alive
+rank:    47 of     60 alive
+rank:    48 of     60 alive
+rank:    49 of     60 alive
+rank:    50 of     60 alive
+rank:    51 of     60 alive
+rank:    52 of     60 alive
+rank:    53 of     60 alive
+rank:    54 of     60 alive
+rank:    55 of     60 alive
+rank:    56 of     60 alive
+rank:    57 of     60 alive
+rank:    58 of     60 alive
+----------------------------------
+
+rank:    59 of     60 alive
+Rank 2 writing to unit: 998
+Rank 44 writing to unit: 956
+Rank 29 writing to unit: 971
+Rank 40 writing to unit: 960
+Rank 56 writing to unit: 944
+Rank 1 writing to unit: 999
+Rank 21 writing to unit: 979
+Rank 50 writing to unit: 950
+Rank 27 writing to unit: 973
+Rank 52 writing to unit: 948
+Rank 54 writing to unit: 946
+Rank 37 writing to unit: 963
+Rank 33 writing to unit: 967
+Rank 25 writing to unit: 975
+Rank 15 writing to unit: 985
+Rank 59 writing to unit: 941
+Rank 41 writing to unit: 959
+Rank 26 writing to unit: 974
+Rank 47 writing to unit: 953
+Rank 38 writing to unit: 962
+Rank 49 writing to unit: 951
+Rank 24 writing to unit: 976
+Rank 42 writing to unit: 958
+Rank 22 writing to unit: 978
+Rank 11 writing to unit: 989
+Rank 13 writing to unit: 987
+Rank 28 writing to unit: 972
+Rank 48 writing to unit: 952
+Rank 46 writing to unit: 954
+Rank 12 writing to unit: 988
+Rank 32 writing to unit: 968
+Rank 43 writing to unit: 957
+Rank 53 writing to unit: 947
+Rank 58 writing to unit: 942
+Rank 55 writing to unit: 945
+Rank 23 writing to unit: 977
+Rank 35 writing to unit: 965
+Rank 45 writing to unit: 955
+Rank 39 writing to unit: 961
+Rank 51 writing to unit: 949
+Rank 31 writing to unit: 969
+Rank 18 writing to unit: 982
+Rank 30 writing to unit: 970
+Rank 34 writing to unit: 966
+Rank 36 writing to unit: 964
+Rank 6 writing to unit: 994
+Rank 19 writing to unit: 981
+Rank 20 writing to unit: 980
+Rank 7 writing to unit: 993
+Rank 57 writing to unit: 943
+Rank 14 writing to unit: 986
+Rank 16 writing to unit: 984
+Rank 4 writing to unit: 996
+Rank 9 writing to unit: 991
+Rank 3 writing to unit: 997
+Rank 5 writing to unit: 995
+Rank 17 writing to unit: 983
+Rank 8 writing to unit: 992
+Rank 10 writing to unit: 990
+SCIFOR VERSION (GIT): ad85d7fb75a612834f17e2e2a3463a7fc79eed9f
+Timestamp: +25 October 2023   0:43:32.599
+ 
+code VERSION: c5969aa9dc5936690742f3dca3e347c903dafda9
+Timestamp: +25 October 2023   0:43:32.601
+ 
+The unique index of each site (on the cartesian plane) is as follows:
+ 
+ 3   4
+ 1   2
+ 
+ T
+Using Reciprocal Lattice vectors:
+bk_x = [  6.2832  0.0000  0.0000]
+bk_y = [  0.0000  6.2832  0.0000]
+bk_z = [  0.0000  0.0000  6.2832]
+ HWBAND=0.1000000
+INIT SOLVER FOR 
+Summary:
+--------------------------------------------
+# of levels/spin      =              12
+Total size            =              24
+# of sites            =               4
+# of impurities       =               1
+# of bath/impurity    =               2
+Number of sectors     =             169
+Largest Sector(s)     =      924       924              853776
+--------------------------------------------
+Required Lanc_nstates_total=1 => set T=0 calculation
+Lanczos ZERO temperature calculation:
+Reading bath from file hamiltonian.restart
+Looking into     91 sectors out of       169
+
+-----DMFT-loop    1 (max:  100)-----
+ 
+       V ||       Re(H) | Im(H)
+ 
+  0.1682 ||   -0.1215   0.0304   0.0304   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1682 ||    0.0304  -0.1215   0.0000   0.0304   |    0.0000   0.0000   0.0000   0.0000
+  0.1682 ||    0.0304   0.0000  -0.1215   0.0304   |    0.0000   0.0000   0.0000   0.0000
+  0.1682 ||    0.0000   0.0304   0.0304  -0.1215   |    0.0000   0.0000   0.0000   0.0000
+ 
+  0.1131 ||    0.0537   0.0062   0.0062   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1131 ||    0.0062   0.0537   0.0000   0.0062   |    0.0000   0.0000   0.0000   0.0000
+  0.1131 ||    0.0062   0.0000   0.0537   0.0062   |    0.0000   0.0000   0.0000   0.0000
+  0.1131 ||    0.0000   0.0062   0.0062   0.0537   |    0.0000   0.0000   0.0000   0.0000
+ 
+Diagonalize impurity H:
+ 
+  +ETA --> fort.6
+  10% |ETA: 0:02:19.546 @25 October 2023   0:43:53
+  20% |ETA: 0:04:19.507
+  30% |ETA: 0:05:00.586
+  40% |ETA: 0:09:56.582
+  50% |ETA: 0:07:06.833 @25 October 2023   0:50:52
+  60% |ETA: 0:05:01.588
+  70% |ETA: 0:03:24.798
+  80% |ETA: 0:02:01.949
+  90% |ETA: 0:00:54.856
+ 100% |ETA: 0:00:00.***
+Total time [h:m:s.ms]:   0:08:22.004
+Get impurity Greens functions:
+ 
+  +ETA --> fort.6
+  12% |ETA: 0:01:02.981
+  25% |ETA: 0:00:55.873
+  31% |ETA: 0:00:50.782
+  43% |ETA: 0:00:41.651
+  50% |ETA: 0:00:37.582 @25 October 2023   0:52:35
+  62% |ETA: 0:00:27.867
+  75% |ETA: 0:00:18.582
+  81% |ETA: 0:00:13.866
+  93% |ETA: 0:00:04.581
+ 100% |ETA: 0:00:00.000
+Total time [h:m:s.ms]:   0:01:14.654
+ 
+Get observables:
+dens site 1 =    0.839802252633    0.839802252633
+dens site 2 =    0.839802258115    0.839802258115
+dens site 3 =    0.839802256189    0.839802256189
+dens site 4 =    0.839802272197    0.839802272197
+dens  avg   =    0.839802259783    0.839802259783
+docc        =    0.028739698904
+ 
+ 
+Get local energy:
+Get cluster density matrix:
+Total time [h:m:s.ms]:   0:00:06.899
+Get single-particle density matrix (no print)
+  
+ Diagonalizing 4-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  4.4903610034672603
+  
+ Diagonalizing 3-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  3.9719178706194436
+  
+ Diagonalizing 2-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  2.8494891356408973
+  
+ Diagonalizing 1-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  1.6607732991770732
+
+ LOCAL-DM BENCHMARK [Mod.Phys.Lett.B.2013.27:05]
+ Semi-Analytical Estimate  |  Error
+  0.18893744652689975      |   1.3017364963729960E-014
+  0.39116142715682772      |   1.2934098236883074E-014
+  0.39116142715682606      |   1.8263168755083825E-014
+   2.8739699159446463E-002 |   7.2858385991025898E-016
+
+Get local Matsubara Green's function (no print)
+ 
+  +ETA --> fort.6
+  10% |ETA: 0:00:00.668 @25 October 2023   0:53:25
+  20% |ETA: 0:00:00.577
+  30% |ETA: 0:00:00.501
+  40% |ETA: 0:00:00.853
+  50% |ETA: 0:00:00.704 @25 October 2023   0:53:25
+  60% |ETA: 0:00:00.567
+  70% |ETA: 0:00:00.843
+  80% |ETA: 0:00:00.554
+  90% |ETA: 0:00:00.564
+Total time [h:m:s.ms]:   0:00:00.707
+Gloc dmft_gfio: write spin diagonal elements on many files.
+chi^2|iter=    1.184729045E-02 |    19  <--  All Orbs, All Spins
+ 
+       V ||       Re(H) | Im(H)
+ 
+  0.1687 ||   -0.1223   0.0305   0.0305   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1687 ||    0.0305  -0.1223   0.0000   0.0305   |    0.0000   0.0000   0.0000   0.0000
+  0.1687 ||    0.0305   0.0000  -0.1223   0.0305   |    0.0000   0.0000   0.0000   0.0000
+  0.1687 ||    0.0000   0.0305   0.0305  -0.1223   |    0.0000   0.0000   0.0000   0.0000
+ 
+  0.1118 ||    0.0546   0.0066   0.0066   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1118 ||    0.0066   0.0546   0.0000   0.0066   |    0.0000   0.0000   0.0000   0.0000
+  0.1118 ||    0.0066   0.0000   0.0546   0.0066   |    0.0000   0.0000   0.0000   0.0000
+  0.1118 ||    0.0000   0.0066   0.0066   0.0546   |    0.0000   0.0000   0.0000   0.0000
+ 
+[1;91mmax error=[0m  1.0000000E+00       0
+[1;91m    error=[0m  1.0000000E+00       0
+[1;91mmin error=[0m  1.0000000E+00       0
+=====================================
+Total time [h:m:s.ms]:   0:09:53.229
+
+
+
+-----DMFT-loop    2 (max:  100)-----
+ 
+       V ||       Re(H) | Im(H)
+ 
+  0.1687 ||   -0.1223   0.0305   0.0305   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1687 ||    0.0305  -0.1223   0.0000   0.0305   |    0.0000   0.0000   0.0000   0.0000
+  0.1687 ||    0.0305   0.0000  -0.1223   0.0305   |    0.0000   0.0000   0.0000   0.0000
+  0.1687 ||    0.0000   0.0305   0.0305  -0.1223   |    0.0000   0.0000   0.0000   0.0000
+ 
+  0.1118 ||    0.0546   0.0066   0.0066   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1118 ||    0.0066   0.0546   0.0000   0.0066   |    0.0000   0.0000   0.0000   0.0000
+  0.1118 ||    0.0066   0.0000   0.0546   0.0066   |    0.0000   0.0000   0.0000   0.0000
+  0.1118 ||    0.0000   0.0066   0.0066   0.0546   |    0.0000   0.0000   0.0000   0.0000
+ 
+Diagonalize impurity H:
+Warning/Error in PZNAUPD, info =      1
+Maximum number of iterations reached.
+All possible eigenvalues of OP has been found. 
+IPARAM(5) returns the number of wanted converged Ritz values.
+IPARAM(5) = 1
+  10% |ETA: 0:02:44.641 @25 October 2023   0:53:49
+Warning/Error in PZNAUPD, info =      1
+Maximum number of iterations reached.
+All possible eigenvalues of OP has been found. 
+IPARAM(5) returns the number of wanted converged Ritz values.
+IPARAM(5) = 1
+  20% |ETA: 0:04:47.561
+  30% |ETA: 0:05:30.645
+Warning/Error in PZNAUPD, info =      1
+Maximum number of iterations reached.
+All possible eigenvalues of OP has been found. 
+IPARAM(5) returns the number of wanted converged Ritz values.
+IPARAM(5) = 0
+  40% |ETA: 0:12:18.721
+  50% |ETA: 0:08:43.510 @25 October 2023   1:02:23
+  60% |ETA: 0:06:03.710
+Warning/Error in PZNAUPD, info =      1
+Maximum number of iterations reached.
+All possible eigenvalues of OP has been found. 
+IPARAM(5) returns the number of wanted converged Ritz values.
+IPARAM(5) = 1
+  70% |ETA: 0:04:16.500
+  80% |ETA: 0:02:31.591
+  90% |ETA: 0:01:08.533
+ 100% |ETA: 0:00:00.000
+Total time [h:m:s.ms]:   0:10:24.886
+Get impurity Greens functions:
+ 
+  +ETA --> fort.6
+  12% |ETA: 0:01:01.955
+  25% |ETA: 0:00:54.849
+  31% |ETA: 0:00:48.759
+  43% |ETA: 0:00:40.632
+  50% |ETA: 0:00:36.565 @25 October 2023   1:04:30
+  62% |ETA: 0:00:26.842
+  75% |ETA: 0:00:18.566
+  81% |ETA: 0:00:13.842
+  93% |ETA: 0:00:04.565
+ 100% |ETA: 0:00:00.000
+Total time [h:m:s.ms]:   0:01:12.582
+ 
+Get observables:
+dens site 1 =    0.840947685357    0.840947685357
+dens site 2 =    0.840947670677    0.840947670677
+dens site 3 =    0.840947670628    0.840947670628
+dens site 4 =    0.840947689765    0.840947689765
+dens  avg   =    0.840947679107    0.840947679107
+docc        =    0.028773453858
+ 
+ 
+Get local energy:
+Get cluster density matrix:
+Total time [h:m:s.ms]:   0:00:06.872
+Get single-particle density matrix (no print)
+  
+ Diagonalizing 4-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  4.4693441344878533
+  
+ Diagonalizing 3-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  3.9614497784058775
+  
+ Diagonalizing 2-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  2.8442825264410025
+  
+ Diagonalizing 1-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  1.6597275089469634
+
+ LOCAL-DM BENCHMARK [Mod.Phys.Lett.B.2013.27:05]
+ Semi-Analytical Estimate  |  Error
+  0.18782576766797943      |   8.5764728652293343E-014
+  0.39170038965345211      |   2.7700064464397656E-014
+  0.39170038965341991      |   2.2370993946196904E-014
+   2.8773453025148551E-002 |   4.8225312632155237E-016
+
+Get local Matsubara Green's function (no print)
+ 
+  +ETA --> fort.6
+  10% |ETA: 0:00:00.677 @25 October 2023   1:05:18
+  20% |ETA: 0:00:00.581
+  30% |ETA: 0:00:00.503
+  40% |ETA: 0:00:00.856
+  50% |ETA: 0:00:00.708 @25 October 2023   1:05:18
+  60% |ETA: 0:00:00.569
+  70% |ETA: 0:00:00.846
+  80% |ETA: 0:00:00.556
+  90% |ETA: 0:00:00.566
+Total time [h:m:s.ms]:   0:00:00.709
+Gloc dmft_gfio: write spin diagonal elements on many files.
+chi^2|iter=    1.299063943E-02 |    19  <--  All Orbs, All Spins
+ 
+       V ||       Re(H) | Im(H)
+ 
+  0.1679 ||   -0.1214   0.0309   0.0309   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1679 ||    0.0309  -0.1214   0.0000   0.0309   |    0.0000   0.0000   0.0000   0.0000
+  0.1679 ||    0.0309   0.0000  -0.1214   0.0309   |    0.0000   0.0000   0.0000   0.0000
+  0.1679 ||    0.0000   0.0309   0.0309  -0.1214   |    0.0000   0.0000   0.0000   0.0000
+ 
+  0.1110 ||    0.0537   0.0066   0.0066   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1110 ||    0.0066   0.0537   0.0000   0.0066   |    0.0000   0.0000   0.0000   0.0000
+  0.1110 ||    0.0066   0.0000   0.0537   0.0066   |    0.0000   0.0000   0.0000   0.0000
+  0.1110 ||    0.0000   0.0066   0.0066   0.0537   |    0.0000   0.0000   0.0000   0.0000
+ 
+[1;91mmax error=[0m  3.6595411E-03       0
+[1;91m    error=[0m  1.6766450E-03       0
+[1;91mmin error=[0m  1.5045826E-04       0
+=====================================
+Total time [h:m:s.ms]:   0:11:53.461
+
+
+
+-----DMFT-loop    3 (max:  100)-----
+ 
+       V ||       Re(H) | Im(H)
+ 
+  0.1685 ||   -0.1220   0.0306   0.0306   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1685 ||    0.0306  -0.1220   0.0000   0.0306   |    0.0000   0.0000   0.0000   0.0000
+  0.1685 ||    0.0306   0.0000  -0.1220   0.0306   |    0.0000   0.0000   0.0000   0.0000
+  0.1685 ||    0.0000   0.0306   0.0306  -0.1220   |    0.0000   0.0000   0.0000   0.0000
+ 
+  0.1116 ||    0.0543   0.0066   0.0066   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1116 ||    0.0066   0.0543   0.0000   0.0066   |    0.0000   0.0000   0.0000   0.0000
+  0.1116 ||    0.0066   0.0000   0.0543   0.0066   |    0.0000   0.0000   0.0000   0.0000
+  0.1116 ||    0.0000   0.0066   0.0066   0.0543   |    0.0000   0.0000   0.0000   0.0000
+ 
+Diagonalize impurity H:
+  10% |ETA: 0:01:54.894 @25 October 2023   1:05:36
+  20% |ETA: 0:03:01.710
+  30% |ETA: 0:04:11.982
+Warning/Error in PZNAUPD, info =      1
+Maximum number of iterations reached.
+All possible eigenvalues of OP has been found. 
+IPARAM(5) returns the number of wanted converged Ritz values.
+IPARAM(5) = 0
+  40% |ETA: 0:11:38.682
+  50% |ETA: 0:08:13.964 @25 October 2023   1:13:47
+  60% |ETA: 0:05:44.673
+Warning/Error in PZNAUPD, info =      1
+Maximum number of iterations reached.
+All possible eigenvalues of OP has been found. 
+IPARAM(5) returns the number of wanted converged Ritz values.
+IPARAM(5) = 1
+  70% |ETA: 0:04:04.955
+  80% |ETA: 0:02:24.564
+  90% |ETA: 0:01:05.510
+ 100% |ETA: 0:00:00.000
+Total time [h:m:s.ms]:   0:09:57.334
+Get impurity Greens functions:
+ 
+  +ETA --> fort.6
+  12% |ETA: 0:01:01.956
+  25% |ETA: 0:00:54.851
+  31% |ETA: 0:00:48.761
+  43% |ETA: 0:00:40.634
+  50% |ETA: 0:00:36.567 @25 October 2023   1:15:56
+  62% |ETA: 0:00:27.844
+  75% |ETA: 0:00:18.567
+  81% |ETA: 0:00:13.843
+  93% |ETA: 0:00:04.565
+ 100% |ETA: 0:00:00.000
+Total time [h:m:s.ms]:   0:01:12.577
+ 
+Get observables:
+dens site 1 =    0.840965328559    0.840965328559
+dens site 2 =    0.840965326546    0.840965326546
+dens site 3 =    0.840965326528    0.840965326528
+dens site 4 =    0.840965332159    0.840965332159
+dens  avg   =    0.840965328448    0.840965328448
+docc        =    0.028754615411
+ 
+ 
+Get local energy:
+Get cluster density matrix:
+Total time [h:m:s.ms]:   0:00:06.858
+Get single-particle density matrix (no print)
+  
+ Diagonalizing 4-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  4.4681601309400518
+  
+ Diagonalizing 3-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  3.9608234344142361
+  
+ Diagonalizing 2-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  2.8439342941707380
+  
+ Diagonalizing 1-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  1.6596178493165259
+
+ LOCAL-DM BENCHMARK [Mod.Phys.Lett.B.2013.27:05]
+ Semi-Analytical Estimate  |  Error
+  0.18778928685228158      |   9.8421271133020127E-014
+  0.39172804886829449      |   2.7811086766860171E-014
+  0.39172804886828461      |   2.6090241078691179E-014
+   2.8754615411139342E-002 |   1.9081958235744878E-016
+
+Get local Matsubara Green's function (no print)
+ 
+  +ETA --> fort.6
+  10% |ETA: 0:00:00.967 @25 October 2023   1:16:44
+  20% |ETA: 0:00:00.705
+  30% |ETA: 0:00:00.580
+  40% |ETA: 0:00:00.954
+  50% |ETA: 0:00:00.771 @25 October 2023   1:16:45
+  60% |ETA: 0:00:00.613
+  70% |ETA: 0:00:00.901
+  80% |ETA: 0:00:00.587
+  90% |ETA: 0:00:00.594
+Total time [h:m:s.ms]:   0:00:00.742
+Gloc dmft_gfio: write spin diagonal elements on many files.
+chi^2|iter=    1.290519228E-02 |    19  <--  All Orbs, All Spins
+ 
+       V ||       Re(H) | Im(H)
+ 
+  0.1680 ||   -0.1215   0.0309   0.0309   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1680 ||    0.0309  -0.1215   0.0000   0.0309   |    0.0000   0.0000   0.0000   0.0000
+  0.1680 ||    0.0309   0.0000  -0.1215   0.0309   |    0.0000   0.0000   0.0000   0.0000
+  0.1680 ||    0.0000   0.0309   0.0309  -0.1215   |    0.0000   0.0000   0.0000   0.0000
+ 
+  0.1110 ||    0.0537   0.0066   0.0066   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1110 ||    0.0066   0.0537   0.0000   0.0066   |    0.0000   0.0000   0.0000   0.0000
+  0.1110 ||    0.0066   0.0000   0.0537   0.0066   |    0.0000   0.0000   0.0000   0.0000
+  0.1110 ||    0.0000   0.0066   0.0066   0.0537   |    0.0000   0.0000   0.0000   0.0000
+ 
+[1;91mmax error=[0m  3.9721780E-04       0
+[1;91m    error=[0m  1.8915404E-04       0
+[1;91mmin error=[0m  1.8388289E-05       0
+=====================================
+Total time [h:m:s.ms]:   0:11:25.492
+
+
+
+-----DMFT-loop    4 (max:  100)-----
+ 
+       V ||       Re(H) | Im(H)
+ 
+  0.1684 ||   -0.1219   0.0307   0.0307   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1684 ||    0.0307  -0.1219   0.0000   0.0307   |    0.0000   0.0000   0.0000   0.0000
+  0.1684 ||    0.0307   0.0000  -0.1219   0.0307   |    0.0000   0.0000   0.0000   0.0000
+  0.1684 ||    0.0000   0.0307   0.0307  -0.1219   |    0.0000   0.0000   0.0000   0.0000
+ 
+  0.1114 ||    0.0542   0.0066   0.0066   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1114 ||    0.0066   0.0542   0.0000   0.0066   |    0.0000   0.0000   0.0000   0.0000
+  0.1114 ||    0.0066   0.0000   0.0542   0.0066   |    0.0000   0.0000   0.0000   0.0000
+  0.1114 ||    0.0000   0.0066   0.0066   0.0542   |    0.0000   0.0000   0.0000   0.0000
+ 
+Diagonalize impurity H:
+  10% |ETA: 0:00:57.906 @25 October 2023   1:16:55
+  20% |ETA: 0:01:28.689
+  30% |ETA: 0:03:23.793
+Warning/Error in PZNAUPD, info =      1
+Maximum number of iterations reached.
+All possible eigenvalues of OP has been found. 
+IPARAM(5) returns the number of wanted converged Ritz values.
+IPARAM(5) = 0
+  40% |ETA: 0:10:49.634
+  50% |ETA: 0:07:43.905 @25 October 2023   1:24:42
+  60% |ETA: 0:05:24.632
+Warning/Error in PZNAUPD, info =      1
+Maximum number of iterations reached.
+All possible eigenvalues of OP has been found. 
+IPARAM(5) returns the number of wanted converged Ritz values.
+IPARAM(5) = 1
+  70% |ETA: 0:03:51.902
+  80% |ETA: 0:02:16.532
+  90% |ETA: 0:01:01.962
+ 100% |ETA: 0:00:00.000
+Total time [h:m:s.ms]:   0:09:23.851
+Get impurity Greens functions:
+ 
+  +ETA --> fort.6
+  12% |ETA: 0:01:00.948
+  25% |ETA: 0:00:54.847
+  31% |ETA: 0:00:48.758
+  43% |ETA: 0:00:40.632
+  50% |ETA: 0:00:36.565 @25 October 2023   1:26:47
+  62% |ETA: 0:00:26.841
+  75% |ETA: 0:00:18.566
+  81% |ETA: 0:00:13.842
+  93% |ETA: 0:00:04.565
+ 100% |ETA: 0:00:00.000
+Total time [h:m:s.ms]:   0:01:12.631
+ 
+Get observables:
+dens site 1 =    0.840970378162    0.840970378162
+dens site 2 =    0.840970379367    0.840970379367
+dens site 3 =    0.840970379370    0.840970379370
+dens site 4 =    0.840970381098    0.840970381098
+dens  avg   =    0.840970379499    0.840970379499
+docc        =    0.028741576653
+ 
+ 
+Get local energy:
+Get cluster density matrix:
+Total time [h:m:s.ms]:   0:00:06.867
+Get single-particle density matrix (no print)
+  
+ Diagonalizing 4-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  4.4674066790767419
+  
+ Diagonalizing 3-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  3.9604356017822684
+  
+ Diagonalizing 2-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  2.8437188378465090
+  
+ Diagonalizing 1-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  1.6595495269217033
+
+ LOCAL-DM BENCHMARK [Mod.Phys.Lett.B.2013.27:05]
+ Semi-Analytical Estimate  |  Error
+  0.18777119867671030      |   7.6383344094210770E-014
+  0.39174361224229026      |   1.4488410471358293E-014
+  0.39174361224229126      |   1.7874590696465020E-014
+   2.8741576838708132E-002 |   8.4654505627668186E-016
+
+Get local Matsubara Green's function (no print)
+ 
+  +ETA --> fort.6
+  10% |ETA: 0:00:00.668 @25 October 2023   1:27:36
+  20% |ETA: 0:00:00.577
+  30% |ETA: 0:00:00.501
+  40% |ETA: 0:00:00.850
+  50% |ETA: 0:00:00.702 @25 October 2023   1:27:37
+  60% |ETA: 0:00:00.565
+  70% |ETA: 0:00:00.840
+  80% |ETA: 0:00:00.552
+  90% |ETA: 0:00:00.562
+Total time [h:m:s.ms]:   0:00:00.704
+Gloc dmft_gfio: write spin diagonal elements on many files.
+chi^2|iter=    1.284939554E-02 |    25  <--  All Orbs, All Spins
+ 
+       V ||       Re(H) | Im(H)
+ 
+  0.1680 ||   -0.1215   0.0309   0.0309   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1680 ||    0.0309  -0.1215   0.0000   0.0309   |    0.0000   0.0000   0.0000   0.0000
+  0.1680 ||    0.0309   0.0000  -0.1215   0.0309   |    0.0000   0.0000   0.0000   0.0000
+  0.1680 ||    0.0000   0.0309   0.0309  -0.1215   |    0.0000   0.0000   0.0000   0.0000
+ 
+  0.1110 ||    0.0537   0.0066   0.0066   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1110 ||    0.0066   0.0537   0.0000   0.0066   |    0.0000   0.0000   0.0000   0.0000
+  0.1110 ||    0.0066   0.0000   0.0537   0.0066   |    0.0000   0.0000   0.0000   0.0000
+  0.1110 ||    0.0000   0.0066   0.0066   0.0537   |    0.0000   0.0000   0.0000   0.0000
+ 
+[1;91mmax error=[0m  2.6781114E-04       0
+[1;91m    error=[0m  1.2764982E-04       0
+[1;91mmin error=[0m  1.2213800E-05       0
+=====================================
+Total time [h:m:s.ms]:   0:10:54.003
+
+
+
+-----DMFT-loop    5 (max:  100)-----
+ 
+       V ||       Re(H) | Im(H)
+ 
+  0.1683 ||   -0.1218   0.0307   0.0307   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1683 ||    0.0307  -0.1218   0.0000   0.0307   |    0.0000   0.0000   0.0000   0.0000
+  0.1683 ||    0.0307   0.0000  -0.1218   0.0307   |    0.0000   0.0000   0.0000   0.0000
+  0.1683 ||    0.0000   0.0307   0.0307  -0.1218   |    0.0000   0.0000   0.0000   0.0000
+ 
+  0.1113 ||    0.0541   0.0066   0.0066   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1113 ||    0.0066   0.0541   0.0000   0.0066   |    0.0000   0.0000   0.0000   0.0000
+  0.1113 ||    0.0066   0.0000   0.0541   0.0066   |    0.0000   0.0000   0.0000   0.0000
+  0.1113 ||    0.0000   0.0066   0.0066   0.0541   |    0.0000   0.0000   0.0000   0.0000
+ 
+Diagonalize impurity H:
+  10% |ETA: 0:00:32.508 @25 October 2023   1:27:45
+  20% |ETA: 0:01:07.531
+  30% |ETA: 0:03:09.740
+Warning/Error in PZNAUPD, info =      1
+Maximum number of iterations reached.
+All possible eigenvalues of OP has been found. 
+IPARAM(5) returns the number of wanted converged Ritz values.
+IPARAM(5) = 0
+  40% |ETA: 0:10:31.616
+  50% |ETA: 0:07:30.879 @25 October 2023   1:35:22
+  60% |ETA: 0:05:13.612
+Warning/Error in PZNAUPD, info =      1
+Maximum number of iterations reached.
+All possible eigenvalues of OP has been found. 
+IPARAM(5) returns the number of wanted converged Ritz values.
+IPARAM(5) = 1
+  70% |ETA: 0:03:44.875
+  80% |ETA: 0:02:12.517
+  90% |ETA: 0:01:00.937
+ 100% |ETA: 0:00:00.000
+Total time [h:m:s.ms]:   0:09:09.388
+Get impurity Greens functions:
+ 
+  +ETA --> fort.6
+  12% |ETA: 0:01:01.962
+  25% |ETA: 0:00:54.857
+  31% |ETA: 0:00:49.768
+  43% |ETA: 0:00:40.639
+  50% |ETA: 0:00:36.571 @25 October 2023   1:37:27
+  62% |ETA: 0:00:27.850
+  75% |ETA: 0:00:18.571
+  81% |ETA: 0:00:13.849
+  93% |ETA: 0:00:04.570
+ 100% |ETA: 0:00:00.000
+Total time [h:m:s.ms]:   0:01:13.165
+ 
+Get observables:
+dens site 1 =    0.840968141161    0.840968141161
+dens site 2 =    0.840967422219    0.840967422219
+dens site 3 =    0.840967390269    0.840967390269
+dens site 4 =    0.840968016603    0.840968016603
+dens  avg   =    0.840967742563    0.840967742563
+docc        =    0.028732506630
+ 
+ 
+Get local energy:
+Get cluster density matrix:
+Total time [h:m:s.ms]:   0:00:06.856
+Get single-particle density matrix (no print)
+  
+ Diagonalizing 4-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  4.4669422196471320
+  
+ Diagonalizing 3-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  3.9602058425457498
+  
+ Diagonalizing 2-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  2.8435908275926858
+  
+ Diagonalizing 1-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  1.6595078353718629
+
+ LOCAL-DM BENCHMARK [Mod.Phys.Lett.B.2013.27:05]
+ Semi-Analytical Estimate  |  Error
+  0.18776431234359736      |   2.9504176879413535E-014
+  0.39175161707603368      |   8.8817841970012523E-015
+  0.39175161707603068      |   9.6034291630076041E-015
+   2.8732453504338274E-002 |   2.2551405187698492E-016
+
+Get local Matsubara Green's function (no print)
+ 
+  +ETA --> fort.6
+  10% |ETA: 0:00:00.677 @25 October 2023   1:38:16
+  20% |ETA: 0:00:00.577
+  30% |ETA: 0:00:00.501
+  40% |ETA: 0:00:00.853
+  50% |ETA: 0:00:00.704 @25 October 2023   1:38:16
+  60% |ETA: 0:00:00.566
+  70% |ETA: 0:00:00.843
+  80% |ETA: 0:00:00.553
+  90% |ETA: 0:00:00.563
+Total time [h:m:s.ms]:   0:00:00.706
+Gloc dmft_gfio: write spin diagonal elements on many files.
+chi^2|iter=    1.281228818E-02 |    25  <--  All Orbs, All Spins
+ 
+       V ||       Re(H) | Im(H)
+ 
+  0.1681 ||   -0.1216   0.0308   0.0308   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1681 ||    0.0308  -0.1216   0.0000   0.0308   |    0.0000   0.0000   0.0000   0.0000
+  0.1681 ||    0.0308   0.0000  -0.1216   0.0308   |    0.0000   0.0000   0.0000   0.0000
+  0.1681 ||    0.0000   0.0308   0.0308  -0.1216   |    0.0000   0.0000   0.0000   0.0000
+ 
+  0.1110 ||    0.0537   0.0066   0.0066   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1110 ||    0.0066   0.0537   0.0000   0.0066   |    0.0000   0.0000   0.0000   0.0000
+  0.1110 ||    0.0066   0.0000   0.0537   0.0066   |    0.0000   0.0000   0.0000   0.0000
+  0.1110 ||    0.0000   0.0066   0.0066   0.0537   |    0.0000   0.0000   0.0000   0.0000
+ 
+[1;91mmax error=[0m  1.8355573E-04       0
+[1;91m    error=[0m  8.7371548E-05       0
+[1;91mmin error=[0m  8.1037395E-06       0
+=====================================
+Total time [h:m:s.ms]:   0:10:39.026
+
+
+
+-----DMFT-loop    6 (max:  100)-----
+ 
+       V ||       Re(H) | Im(H)
+ 
+  0.1683 ||   -0.1218   0.0307   0.0307   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1683 ||    0.0307  -0.1218   0.0000   0.0307   |    0.0000   0.0000   0.0000   0.0000
+  0.1683 ||    0.0307   0.0000  -0.1218   0.0307   |    0.0000   0.0000   0.0000   0.0000
+  0.1683 ||    0.0000   0.0307   0.0307  -0.1218   |    0.0000   0.0000   0.0000   0.0000
+ 
+  0.1112 ||    0.0540   0.0066   0.0066   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1112 ||    0.0066   0.0540   0.0000   0.0066   |    0.0000   0.0000   0.0000   0.0000
+  0.1112 ||    0.0066   0.0000   0.0540   0.0066   |    0.0000   0.0000   0.0000   0.0000
+  0.1112 ||    0.0000   0.0066   0.0066   0.0540   |    0.0000   0.0000   0.0000   0.0000
+ 
+Diagonalize impurity H:
+  10% |ETA: 0:00:59.923 @25 October 2023   1:38:28
+  20% |ETA: 0:01:20.630
+  30% |ETA: 0:03:30.821
+Warning/Error in PZNAUPD, info =      1
+Maximum number of iterations reached.
+All possible eigenvalues of OP has been found. 
+IPARAM(5) returns the number of wanted converged Ritz values.
+IPARAM(5) = 0
+  40% |ETA: 0:10:31.617
+  50% |ETA: 0:07:27.873 @25 October 2023   1:45:57
+  60% |ETA: 0:05:12.610
+Warning/Error in PZNAUPD, info =      1
+Maximum number of iterations reached.
+All possible eigenvalues of OP has been found. 
+IPARAM(5) returns the number of wanted converged Ritz values.
+IPARAM(5) = 1
+  70% |ETA: 0:03:43.872
+  80% |ETA: 0:02:11.514
+  90% |ETA: 0:00:59.932
+ 100% |ETA: 0:00:00.000
+Total time [h:m:s.ms]:   0:09:06.404
+Get impurity Greens functions:
+ 
+  +ETA --> fort.6
+  12% |ETA: 0:01:00.950
+  25% |ETA: 0:00:54.849
+  31% |ETA: 0:00:48.761
+  43% |ETA: 0:00:40.634
+  50% |ETA: 0:00:36.566 @25 October 2023   1:48:03
+  62% |ETA: 0:00:26.843
+  75% |ETA: 0:00:18.566
+  81% |ETA: 0:00:13.842
+  93% |ETA: 0:00:04.565
+ 100% |ETA: 0:00:00.000
+Total time [h:m:s.ms]:   0:01:12.654
+ 
+Get observables:
+dens site 1 =    0.840960893120    0.840960893120
+dens site 2 =    0.840960518582    0.840960518582
+dens site 3 =    0.840960492808    0.840960492808
+dens site 4 =    0.840960792590    0.840960792590
+dens  avg   =    0.840960674275    0.840960674275
+docc        =    0.028726178026
+ 
+ 
+Get local energy:
+Get cluster density matrix:
+Total time [h:m:s.ms]:   0:00:06.872
+Get single-particle density matrix (no print)
+  
+ Diagonalizing 4-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  4.4666716987215001
+  
+ Diagonalizing 3-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  3.9600799391190078
+  
+ Diagonalizing 2-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  2.8435209525873377
+  
+ Diagonalizing 1-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  1.6594850788494699
+
+ LOCAL-DM BENCHMARK [Mod.Phys.Lett.B.2013.27:05]
+ Semi-Analytical Estimate  |  Error
+  0.18776525717345210      |   6.5891736511503041E-014
+  0.39175429626653152      |   1.3489209749195652E-014
+  0.39175429626653641      |   8.1046280797636427E-015
+   2.8726150293479979E-002 |   4.4408920985006262E-016
+
+Get local Matsubara Green's function (no print)
+ 
+  +ETA --> fort.6
+  10% |ETA: 0:00:00.677 @25 October 2023   1:48:52
+  20% |ETA: 0:00:00.577
+  30% |ETA: 0:00:00.503
+  40% |ETA: 0:00:00.853
+  50% |ETA: 0:00:00.706 @25 October 2023   1:48:52
+  60% |ETA: 0:00:00.567
+  70% |ETA: 0:00:00.845
+  80% |ETA: 0:00:00.554
+  90% |ETA: 0:00:00.565
+Total time [h:m:s.ms]:   0:00:00.708
+Gloc dmft_gfio: write spin diagonal elements on many files.
+chi^2|iter=    1.278722785E-02 |    24  <--  All Orbs, All Spins
+ 
+       V ||       Re(H) | Im(H)
+ 
+  0.1681 ||   -0.1216   0.0308   0.0308   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1681 ||    0.0308  -0.1216   0.0000   0.0308   |    0.0000   0.0000   0.0000   0.0000
+  0.1681 ||    0.0308   0.0000  -0.1216   0.0308   |    0.0000   0.0000   0.0000   0.0000
+  0.1681 ||    0.0000   0.0308   0.0308  -0.1216   |    0.0000   0.0000   0.0000   0.0000
+ 
+  0.1110 ||    0.0537   0.0066   0.0066   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1110 ||    0.0066   0.0537   0.0000   0.0066   |    0.0000   0.0000   0.0000   0.0000
+  0.1110 ||    0.0066   0.0000   0.0537   0.0066   |    0.0000   0.0000   0.0000   0.0000
+  0.1110 ||    0.0000   0.0066   0.0066   0.0537   |    0.0000   0.0000   0.0000   0.0000
+ 
+[1;91mmax error=[0m  1.2711562E-04       0
+[1;91m    error=[0m  6.0536788E-05       0
+[1;91mmin error=[0m  5.5025807E-06       0
+=====================================
+Total time [h:m:s.ms]:   0:10:35.185
+
+
+
+-----DMFT-loop    7 (max:  100)-----
+ 
+       V ||       Re(H) | Im(H)
+ 
+  0.1682 ||   -0.1217   0.0308   0.0308   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1682 ||    0.0308  -0.1217   0.0000   0.0308   |    0.0000   0.0000   0.0000   0.0000
+  0.1682 ||    0.0308   0.0000  -0.1217   0.0308   |    0.0000   0.0000   0.0000   0.0000
+  0.1682 ||    0.0000   0.0308   0.0308  -0.1217   |    0.0000   0.0000   0.0000   0.0000
+ 
+  0.1112 ||    0.0539   0.0066   0.0066   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1112 ||    0.0066   0.0539   0.0000   0.0066   |    0.0000   0.0000   0.0000   0.0000
+  0.1112 ||    0.0066   0.0000   0.0539   0.0066   |    0.0000   0.0000   0.0000   0.0000
+  0.1112 ||    0.0000   0.0066   0.0066   0.0539   |    0.0000   0.0000   0.0000   0.0000
+ 
+Diagonalize impurity H:
+  10% |ETA: 0:00:48.760 @25 October 2023   1:49:02
+  20% |ETA: 0:01:25.664
+  30% |ETA: 0:03:21.788
+Warning/Error in PZNAUPD, info =      1
+Maximum number of iterations reached.
+All possible eigenvalues of OP has been found. 
+IPARAM(5) returns the number of wanted converged Ritz values.
+IPARAM(5) = 0
+  40% |ETA: 0:11:51.694
+  50% |ETA: 0:08:23.983 @25 October 2023   1:57:30
+  60% |ETA: 0:05:50.684
+Warning/Error in PZNAUPD, info =      1
+Maximum number of iterations reached.
+All possible eigenvalues of OP has been found. 
+IPARAM(5) returns the number of wanted converged Ritz values.
+IPARAM(5) = 1
+  70% |ETA: 0:04:07.968
+  80% |ETA: 0:02:26.571
+  90% |ETA: 0:01:06.516
+ 100% |ETA: 0:00:00.000
+Total time [h:m:s.ms]:   0:10:05.255
+Get impurity Greens functions:
+ 
+  +ETA --> fort.6
+  12% |ETA: 0:01:01.955
+  25% |ETA: 0:00:54.850
+  31% |ETA: 0:00:48.761
+  43% |ETA: 0:00:40.634
+  50% |ETA: 0:00:36.567 @25 October 2023   1:59:37
+  62% |ETA: 0:00:27.844
+  75% |ETA: 0:00:18.567
+  81% |ETA: 0:00:13.843
+  93% |ETA: 0:00:04.566
+ 100% |ETA: 0:00:00.000
+Total time [h:m:s.ms]:   0:01:12.663
+ 
+Get observables:
+dens site 1 =    0.840951558762    0.840951558762
+dens site 2 =    0.840951347334    0.840951347334
+dens site 3 =    0.840951326531    0.840951326531
+dens site 4 =    0.840951477586    0.840951477586
+dens  avg   =    0.840951427553    0.840951427553
+docc        =    0.028721755572
+ 
+ 
+Get local energy:
+Get cluster density matrix:
+Total time [h:m:s.ms]:   0:00:06.860
+Get single-particle density matrix (no print)
+  
+ Diagonalizing 4-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  4.4665279138352210
+  
+ Diagonalizing 3-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  3.9600208810853519
+  
+ Diagonalizing 2-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  2.8434880020974553
+  
+ Diagonalizing 1-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  1.6594736778197303
+
+ LOCAL-DM BENCHMARK [Mod.Phys.Lett.B.2013.27:05]
+ Semi-Analytical Estimate  |  Error
+  0.18777018117209210      |   6.1339822110539899E-014
+  0.39175403944674903      |   1.0658141036401503E-014
+  0.39175403944675002      |   9.9364960703951510E-015
+   2.8721739934408852E-002 |   8.1878948066105295E-016
+
+Get local Matsubara Green's function (no print)
+ 
+  +ETA --> fort.6
+  10% |ETA: 0:00:00.668 @25 October 2023   2:00:26
+  20% |ETA: 0:00:00.577
+  30% |ETA: 0:00:00.501
+  40% |ETA: 0:00:00.850
+  50% |ETA: 0:00:00.704 @25 October 2023   2:00:26
+  60% |ETA: 0:00:00.566
+  70% |ETA: 0:00:00.841
+  80% |ETA: 0:00:00.553
+  90% |ETA: 0:00:00.563
+Total time [h:m:s.ms]:   0:00:00.706
+Gloc dmft_gfio: write spin diagonal elements on many files.
+chi^2|iter=    1.277000259E-02 |    19  <--  All Orbs, All Spins
+ 
+       V ||       Re(H) | Im(H)
+ 
+  0.1681 ||   -0.1217   0.0308   0.0308   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1681 ||    0.0308  -0.1217   0.0000   0.0308   |    0.0000   0.0000   0.0000   0.0000
+  0.1681 ||    0.0308   0.0000  -0.1217   0.0308   |    0.0000   0.0000   0.0000   0.0000
+  0.1681 ||    0.0000   0.0308   0.0308  -0.1217   |    0.0000   0.0000   0.0000   0.0000
+ 
+  0.1110 ||    0.0537   0.0066   0.0066   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1110 ||    0.0066   0.0537   0.0000   0.0066   |    0.0000   0.0000   0.0000   0.0000
+  0.1110 ||    0.0066   0.0000   0.0537   0.0066   |    0.0000   0.0000   0.0000   0.0000
+  0.1110 ||    0.0000   0.0066   0.0066   0.0537   |    0.0000   0.0000   0.0000   0.0000
+ 
+[1;91mmax error=[0m  8.9250672E-05       0
+[1;91m    error=[0m  4.2506704E-05       0
+[1;91mmin error=[0m  3.7763716E-06       0
+=====================================
+Total time [h:m:s.ms]:   0:11:34.579
+
+
+
+-----DMFT-loop    8 (max:  100)-----
+ 
+       V ||       Re(H) | Im(H)
+ 
+  0.1682 ||   -0.1217   0.0308   0.0308   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1682 ||    0.0308  -0.1217   0.0000   0.0308   |    0.0000   0.0000   0.0000   0.0000
+  0.1682 ||    0.0308   0.0000  -0.1217   0.0308   |    0.0000   0.0000   0.0000   0.0000
+  0.1682 ||    0.0000   0.0308   0.0308  -0.1217   |    0.0000   0.0000   0.0000   0.0000
+ 
+  0.1111 ||    0.0539   0.0066   0.0066   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1111 ||    0.0066   0.0539   0.0000   0.0066   |    0.0000   0.0000   0.0000   0.0000
+  0.1111 ||    0.0066   0.0000   0.0539   0.0066   |    0.0000   0.0000   0.0000   0.0000
+  0.1111 ||    0.0000   0.0066   0.0066   0.0539   |    0.0000   0.0000   0.0000   0.0000
+ 
+Diagonalize impurity H:
+  10% |ETA: 0:00:28.879 @25 October 2023   2:00:34
+  20% |ETA: 0:01:10.547
+  30% |ETA: 0:03:37.848
+Warning/Error in PZNAUPD, info =      1
+Maximum number of iterations reached.
+All possible eigenvalues of OP has been found. 
+IPARAM(5) returns the number of wanted converged Ritz values.
+IPARAM(5) = 0
+  40% |ETA: 0:10:46.631
+  50% |ETA: 0:07:40.898 @25 October 2023   2:08:21
+  60% |ETA: 0:05:21.627
+Warning/Error in PZNAUPD, info =      1
+Maximum number of iterations reached.
+All possible eigenvalues of OP has been found. 
+IPARAM(5) returns the number of wanted converged Ritz values.
+IPARAM(5) = 1
+  70% |ETA: 0:03:49.895
+  80% |ETA: 0:02:15.528
+  90% |ETA: 0:01:00.951
+ 100% |ETA: 0:00:00.000
+Total time [h:m:s.ms]:   0:09:17.490
+Get impurity Greens functions:
+ 
+  +ETA --> fort.6
+  12% |ETA: 0:01:01.960
+  25% |ETA: 0:00:54.856
+  31% |ETA: 0:00:49.767
+  43% |ETA: 0:00:40.639
+  50% |ETA: 0:00:36.571 @25 October 2023   2:10:24
+  62% |ETA: 0:00:27.850
+  75% |ETA: 0:00:18.571
+  81% |ETA: 0:00:13.850
+  93% |ETA: 0:00:04.570
+ 100% |ETA: 0:00:00.000
+Total time [h:m:s.ms]:   0:01:13.212
+ 
+Get observables:
+dens site 1 =    0.840941468781    0.840941468781
+dens site 2 =    0.840941372926    0.840941372926
+dens site 3 =    0.840941356136    0.840941356136
+dens site 4 =    0.840941403234    0.840941403234
+dens  avg   =    0.840941400269    0.840941400269
+docc        =    0.028718665753
+ 
+ 
+Get local energy:
+Get cluster density matrix:
+Total time [h:m:s.ms]:   0:00:06.868
+Get single-particle density matrix (no print)
+  
+ Diagonalizing 4-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  4.4664659516450183
+  
+ Diagonalizing 3-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  3.9600037804490902
+  
+ Diagonalizing 2-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  2.8434782279182151
+  
+ Diagonalizing 1-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  1.6594694965890666
+
+ LOCAL-DM BENCHMARK [Mod.Phys.Lett.B.2013.27:05]
+ Semi-Analytical Estimate  |  Error
+  0.18777718960891213      |   5.2929882699004338E-014
+  0.39175207600079254      |   1.0658141036401503E-014
+  0.39175207600078865      |   4.9404924595819466E-015
+   2.8718658389506737E-002 |   7.4246164771807344E-016
+
+Get local Matsubara Green's function (no print)
+ 
+  +ETA --> fort.6
+  10% |ETA: 0:00:00.677 @25 October 2023   2:11:13
+  20% |ETA: 0:00:00.577
+  30% |ETA: 0:00:00.503
+  40% |ETA: 0:00:00.853
+  50% |ETA: 0:00:00.706 @25 October 2023   2:11:13
+  60% |ETA: 0:00:00.567
+  70% |ETA: 0:00:00.843
+  80% |ETA: 0:00:00.554
+  90% |ETA: 0:00:00.564
+Total time [h:m:s.ms]:   0:00:00.707
+Gloc dmft_gfio: write spin diagonal elements on many files.
+chi^2|iter=    1.275794636E-02 |    19  <--  All Orbs, All Spins
+ 
+       V ||       Re(H) | Im(H)
+ 
+  0.1681 ||   -0.1217   0.0308   0.0308   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1681 ||    0.0308  -0.1217   0.0000   0.0308   |    0.0000   0.0000   0.0000   0.0000
+  0.1681 ||    0.0308   0.0000  -0.1217   0.0308   |    0.0000   0.0000   0.0000   0.0000
+  0.1681 ||    0.0000   0.0308   0.0308  -0.1217   |    0.0000   0.0000   0.0000   0.0000
+ 
+  0.1110 ||    0.0537   0.0066   0.0066   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1110 ||    0.0066   0.0537   0.0000   0.0066   |    0.0000   0.0000   0.0000   0.0000
+  0.1110 ||    0.0066   0.0000   0.0537   0.0066   |    0.0000   0.0000   0.0000   0.0000
+  0.1110 ||    0.0000   0.0066   0.0066   0.0537   |    0.0000   0.0000   0.0000   0.0000
+ 
+[1;91mmax error=[0m  6.3548746E-05       0
+[1;91m    error=[0m  3.0244660E-05       0
+[1;91mmin error=[0m  2.6212215E-06       0
+=====================================
+Total time [h:m:s.ms]:   0:10:47.124
+
+
+
+-----DMFT-loop    9 (max:  100)-----
+ 
+       V ||       Re(H) | Im(H)
+ 
+  0.1682 ||   -0.1217   0.0308   0.0308   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1682 ||    0.0308  -0.1217   0.0000   0.0308   |    0.0000   0.0000   0.0000   0.0000
+  0.1682 ||    0.0308   0.0000  -0.1217   0.0308   |    0.0000   0.0000   0.0000   0.0000
+  0.1682 ||    0.0000   0.0308   0.0308  -0.1217   |    0.0000   0.0000   0.0000   0.0000
+ 
+  0.1111 ||    0.0538   0.0066   0.0066   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1111 ||    0.0066   0.0538   0.0000   0.0066   |    0.0000   0.0000   0.0000   0.0000
+  0.1111 ||    0.0066   0.0000   0.0538   0.0066   |    0.0000   0.0000   0.0000   0.0000
+  0.1111 ||    0.0000   0.0066   0.0066   0.0538   |    0.0000   0.0000   0.0000   0.0000
+ 
+Diagonalize impurity H:
+  10% |ETA: 0:00:35.558 @25 October 2023   2:11:22
+  20% |ETA: 0:00:58.918
+  30% |ETA: 0:03:00.706
+Warning/Error in PZNAUPD, info =      1
+Maximum number of iterations reached.
+All possible eigenvalues of OP has been found. 
+IPARAM(5) returns the number of wanted converged Ritz values.
+IPARAM(5) = 0
+  40% |ETA: 0:10:49.634
+  50% |ETA: 0:07:41.901 @25 October 2023   2:19:09
+  60% |ETA: 0:05:23.631
+Warning/Error in PZNAUPD, info =      1
+Maximum number of iterations reached.
+All possible eigenvalues of OP has been found. 
+IPARAM(5) returns the number of wanted converged Ritz values.
+IPARAM(5) = 1
+  70% |ETA: 0:03:50.900
+  80% |ETA: 0:02:16.532
+  90% |ETA: 0:01:01.964
+ 100% |ETA: 0:00:00.000
+Total time [h:m:s.ms]:   0:09:25.017
+Get impurity Greens functions:
+ 
+  +ETA --> fort.6
+  12% |ETA: 0:01:01.958
+  25% |ETA: 0:00:54.855
+  31% |ETA: 0:00:49.765
+  43% |ETA: 0:00:40.637
+  50% |ETA: 0:00:36.570 @25 October 2023   2:21:19
+  62% |ETA: 0:00:27.848
+  75% |ETA: 0:00:18.570
+  81% |ETA: 0:00:13.848
+  93% |ETA: 0:00:04.569
+ 100% |ETA: 0:00:00.000
+Total time [h:m:s.ms]:   0:01:13.055
+ 
+Get observables:
+dens site 1 =    0.840931517382    0.840931517382
+dens site 2 =    0.840931477237    0.840931477237
+dens site 3 =    0.840931463683    0.840931463683
+dens site 4 =    0.840931464440    0.840931464440
+dens  avg   =    0.840931480686    0.840931480686
+docc        =    0.028716512255
+ 
+ 
+Get local energy:
+Get cluster density matrix:
+Total time [h:m:s.ms]:   0:00:06.877
+Get single-particle density matrix (no print)
+  
+ Diagonalizing 4-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  4.4664550531043998
+  
+ Diagonalizing 3-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  3.9600119099963909
+  
+ Diagonalizing 2-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  2.8434823639755620
+  
+ Diagonalizing 1-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  1.6594696698951314
+
+ LOCAL-DM BENCHMARK [Mod.Phys.Lett.B.2013.27:05]
+ Semi-Analytical Estimate  |  Error
+  0.18778499147872213      |   4.4686476741162551E-015
+  0.39174924983031517      |   2.4924506902834764E-014
+  0.39174924983031073      |   2.4924506902834764E-014
+   2.8716508860651958E-002 |   3.9204750557075840E-016
+
+Get local Matsubara Green's function (no print)
+ 
+  +ETA --> fort.6
+  10% |ETA: 0:00:00.668 @25 October 2023   2:22:08
+  20% |ETA: 0:00:00.573
+  30% |ETA: 0:00:00.501
+  40% |ETA: 0:00:00.850
+  50% |ETA: 0:00:00.704 @25 October 2023   2:22:08
+  60% |ETA: 0:00:00.566
+  70% |ETA: 0:00:00.843
+  80% |ETA: 0:00:00.554
+  90% |ETA: 0:00:00.564
+Total time [h:m:s.ms]:   0:00:00.707
+Gloc dmft_gfio: write spin diagonal elements on many files.
+chi^2|iter=    1.274937254E-02 |    17  <--  All Orbs, All Spins
+ 
+       V ||       Re(H) | Im(H)
+ 
+  0.1682 ||   -0.1217   0.0308   0.0308   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1682 ||    0.0308  -0.1217   0.0000   0.0308   |    0.0000   0.0000   0.0000   0.0000
+  0.1682 ||    0.0308   0.0000  -0.1217   0.0308   |    0.0000   0.0000   0.0000   0.0000
+  0.1682 ||    0.0000   0.0308   0.0308  -0.1217   |    0.0000   0.0000   0.0000   0.0000
+ 
+  0.1110 ||    0.0537   0.0066   0.0066   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1110 ||    0.0066   0.0537   0.0000   0.0066   |    0.0000   0.0000   0.0000   0.0000
+  0.1110 ||    0.0066   0.0000   0.0537   0.0066   |    0.0000   0.0000   0.0000   0.0000
+  0.1110 ||    0.0000   0.0066   0.0066   0.0537   |    0.0000   0.0000   0.0000   0.0000
+ 
+[1;91mmax error=[0m  4.5776252E-05       0
+[1;91m    error=[0m  2.1774290E-05       0
+[1;91mmin error=[0m  1.8527924E-06       0
+=====================================
+Total time [h:m:s.ms]:   0:10:54.897
+
+
+
+-----DMFT-loop   10 (max:  100)-----
+ 
+       V ||       Re(H) | Im(H)
+ 
+  0.1682 ||   -0.1217   0.0308   0.0308   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1682 ||    0.0308  -0.1217   0.0000   0.0308   |    0.0000   0.0000   0.0000   0.0000
+  0.1682 ||    0.0308   0.0000  -0.1217   0.0308   |    0.0000   0.0000   0.0000   0.0000
+  0.1682 ||    0.0000   0.0308   0.0308  -0.1217   |    0.0000   0.0000   0.0000   0.0000
+ 
+  0.1111 ||    0.0538   0.0066   0.0066   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1111 ||    0.0066   0.0538   0.0000   0.0066   |    0.0000   0.0000   0.0000   0.0000
+  0.1111 ||    0.0066   0.0000   0.0538   0.0066   |    0.0000   0.0000   0.0000   0.0000
+  0.1111 ||    0.0000   0.0066   0.0066   0.0538   |    0.0000   0.0000   0.0000   0.0000
+ 
+Diagonalize impurity H:
+  10% |ETA: 0:00:44.687 @25 October 2023   2:22:18
+  20% |ETA: 0:01:01.960
+  30% |ETA: 0:03:18.775
+Warning/Error in PZNAUPD, info =      1
+Maximum number of iterations reached.
+All possible eigenvalues of OP has been found. 
+IPARAM(5) returns the number of wanted converged Ritz values.
+IPARAM(5) = 0
+  40% |ETA: 0:10:38.623
+  50% |ETA: 0:07:36.891 @25 October 2023   2:29:59
+  60% |ETA: 0:05:18.622
+Warning/Error in PZNAUPD, info =      1
+Maximum number of iterations reached.
+All possible eigenvalues of OP has been found. 
+IPARAM(5) returns the number of wanted converged Ritz values.
+IPARAM(5) = 1
+  70% |ETA: 0:03:47.888
+  80% |ETA: 0:02:14.524
+  90% |ETA: 0:01:00.947
+ 100% |ETA: 0:00:00.000
+Total time [h:m:s.ms]:   0:09:14.792
+Get impurity Greens functions:
+ 
+  +ETA --> fort.6
+  12% |ETA: 0:01:00.952
+  25% |ETA: 0:00:54.846
+  31% |ETA: 0:00:48.758
+  43% |ETA: 0:00:40.631
+  50% |ETA: 0:00:36.564 @25 October 2023   2:32:03
+  62% |ETA: 0:00:26.840
+  75% |ETA: 0:00:18.565
+  81% |ETA: 0:00:13.840
+  93% |ETA: 0:00:04.564
+ 100% |ETA: 0:00:00.000
+Total time [h:m:s.ms]:   0:01:12.447
+ 
+Get observables:
+dens site 1 =    0.840922200095    0.840922200095
+dens site 2 =    0.840922183461    0.840922183461
+dens site 3 =    0.840922172509    0.840922172509
+dens site 4 =    0.840922157303    0.840922157303
+dens  avg   =    0.840922178342    0.840922178342
+docc        =    0.028715018042
+ 
+ 
+Get local energy:
+Get cluster density matrix:
+Total time [h:m:s.ms]:   0:00:06.881
+Get single-particle density matrix (no print)
+  
+ Diagonalizing 4-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  4.4664746077907536
+  
+ Diagonalizing 3-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  3.9600342201574446
+  
+ Diagonalizing 2-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  2.8434943176830800
+  
+ Diagonalizing 1-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  1.6594723437252776
+
+ LOCAL-DM BENCHMARK [Mod.Phys.Lett.B.2013.27:05]
+ Semi-Analytical Estimate  |  Error
+  0.18779281625245373      |   7.2719608112947753E-015
+  0.39174608370016856      |   1.6819878823071122E-014
+  0.39174608370017899      |   8.1046280797636427E-015
+   2.8715016347198728E-002 |   5.8633653488016080E-016
+
+Get local Matsubara Green's function (no print)
+ 
+  +ETA --> fort.6
+  10% |ETA: 0:00:00.677 @25 October 2023   2:32:52
+  20% |ETA: 0:00:00.577
+  30% |ETA: 0:00:00.501
+  40% |ETA: 0:00:00.853
+  50% |ETA: 0:00:00.704 @25 October 2023   2:32:52
+  60% |ETA: 0:00:00.567
+  70% |ETA: 0:00:00.843
+  80% |ETA: 0:00:00.554
+  90% |ETA: 0:00:00.564
+Total time [h:m:s.ms]:   0:00:00.707
+Gloc dmft_gfio: write spin diagonal elements on many files.
+chi^2|iter=    1.274317767E-02 |    18  <--  All Orbs, All Spins
+ 
+       V ||       Re(H) | Im(H)
+ 
+  0.1682 ||   -0.1217   0.0308   0.0308   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1682 ||    0.0308  -0.1217   0.0000   0.0308   |    0.0000   0.0000   0.0000   0.0000
+  0.1682 ||    0.0308   0.0000  -0.1217   0.0308   |    0.0000   0.0000   0.0000   0.0000
+  0.1682 ||    0.0000   0.0308   0.0308  -0.1217   |    0.0000   0.0000   0.0000   0.0000
+ 
+  0.1110 ||    0.0537   0.0066   0.0066   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1110 ||    0.0066   0.0537   0.0000   0.0066   |    0.0000   0.0000   0.0000   0.0000
+  0.1110 ||    0.0066   0.0000   0.0537   0.0066   |    0.0000   0.0000   0.0000   0.0000
+  0.1110 ||    0.0000   0.0066   0.0066   0.0537   |    0.0000   0.0000   0.0000   0.0000
+ 
+[1;91mmax error=[0m  3.3359003E-05       0
+[1;91m    error=[0m  1.5859135E-05       0
+[1;91mmin error=[0m  1.3365557E-06       0
+=====================================
+Total time [h:m:s.ms]:   0:10:43.316
+
+
+
+-----DMFT-loop   11 (max:  100)-----
+ 
+       V ||       Re(H) | Im(H)
+ 
+  0.1682 ||   -0.1217   0.0308   0.0308   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1682 ||    0.0308  -0.1217   0.0000   0.0308   |    0.0000   0.0000   0.0000   0.0000
+  0.1682 ||    0.0308   0.0000  -0.1217   0.0308   |    0.0000   0.0000   0.0000   0.0000
+  0.1682 ||    0.0000   0.0308   0.0308  -0.1217   |    0.0000   0.0000   0.0000   0.0000
+ 
+  0.1110 ||    0.0538   0.0066   0.0066   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1110 ||    0.0066   0.0538   0.0000   0.0066   |    0.0000   0.0000   0.0000   0.0000
+  0.1110 ||    0.0066   0.0000   0.0538   0.0066   |    0.0000   0.0000   0.0000   0.0000
+  0.1110 ||    0.0000   0.0066   0.0066   0.0538   |    0.0000   0.0000   0.0000   0.0000
+ 
+Diagonalize impurity H:
+  10% |ETA: 0:00:33.522 @25 October 2023   2:33:00
+  20% |ETA: 0:01:02.974
+  30% |ETA: 0:03:23.794
+Warning/Error in PZNAUPD, info =      1
+Maximum number of iterations reached.
+All possible eigenvalues of OP has been found. 
+IPARAM(5) returns the number of wanted converged Ritz values.
+IPARAM(5) = 0
+  40% |ETA: 0:11:04.649
+  50% |ETA: 0:07:52.922 @25 October 2023   2:40:58
+  60% |ETA: 0:05:29.643
+Warning/Error in PZNAUPD, info =      1
+Maximum number of iterations reached.
+All possible eigenvalues of OP has been found. 
+IPARAM(5) returns the number of wanted converged Ritz values.
+IPARAM(5) = 1
+  70% |ETA: 0:03:54.915
+  80% |ETA: 0:02:18.540
+  90% |ETA: 0:01:02.979
+ 100% |ETA: 0:00:00.000
+Total time [h:m:s.ms]:   0:09:33.751
+Get impurity Greens functions:
+ 
+  +ETA --> fort.6
+  12% |ETA: 0:01:00.949
+  25% |ETA: 0:00:54.847
+  31% |ETA: 0:00:48.758
+  43% |ETA: 0:00:40.631
+  50% |ETA: 0:00:36.564 @25 October 2023   2:43:05
+  62% |ETA: 0:00:26.840
+  75% |ETA: 0:00:18.565
+  81% |ETA: 0:00:13.840
+  93% |ETA: 0:00:04.563
+ 100% |ETA: 0:00:00.000
+Total time [h:m:s.ms]:   0:01:12.339
+ 
+Get observables:
+dens site 1 =    0.840913773893    0.840913773893
+dens site 2 =    0.840913765803    0.840913765803
+dens site 3 =    0.840913756959    0.840913756959
+dens site 4 =    0.840913739320    0.840913739320
+dens  avg   =    0.840913758994    0.840913758994
+docc        =    0.028713988540
+ 
+ 
+Get local energy:
+Get cluster density matrix:
+Total time [h:m:s.ms]:   0:00:06.883
+Get single-particle density matrix (no print)
+  
+ Diagonalizing 4-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  4.4665109254668183
+  
+ Diagonalizing 3-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  3.9600635213668669
+  
+ Diagonalizing 2-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  2.8435101319086709
+  
+ Diagonalizing 1-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  1.6594763115946491
+
+ LOCAL-DM BENCHMARK [Mod.Phys.Lett.B.2013.27:05]
+ Semi-Analytical Estimate  |  Error
+  0.18780021360631879      |   3.5776936968545670E-014
+  0.39174289944718249      |   1.1102230246251565E-015
+  0.39174289944716173      |   6.4392935428259079E-015
+   2.8713987499336981E-002 |   8.3266726846886741E-016
+
+Get local Matsubara Green's function (no print)
+ 
+  +ETA --> fort.6
+  10% |ETA: 0:00:00.668 @25 October 2023   2:43:54
+  20% |ETA: 0:00:00.577
+  30% |ETA: 0:00:00.501
+  40% |ETA: 0:00:00.853
+  50% |ETA: 0:00:00.704 @25 October 2023   2:43:55
+  60% |ETA: 0:00:00.567
+  70% |ETA: 0:00:00.843
+  80% |ETA: 0:00:00.554
+  90% |ETA: 0:00:00.564
+Total time [h:m:s.ms]:   0:00:00.707
+Gloc dmft_gfio: write spin diagonal elements on many files.
+chi^2|iter=    1.273863572E-02 |    15  <--  All Orbs, All Spins
+ 
+       V ||       Re(H) | Im(H)
+ 
+  0.1682 ||   -0.1217   0.0308   0.0308   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1682 ||    0.0308  -0.1217   0.0000   0.0308   |    0.0000   0.0000   0.0000   0.0000
+  0.1682 ||    0.0308   0.0000  -0.1217   0.0308   |    0.0000   0.0000   0.0000   0.0000
+  0.1682 ||    0.0000   0.0308   0.0308  -0.1217   |    0.0000   0.0000   0.0000   0.0000
+ 
+  0.1110 ||    0.0537   0.0066   0.0066   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1110 ||    0.0066   0.0537   0.0000   0.0066   |    0.0000   0.0000   0.0000   0.0000
+  0.1110 ||    0.0066   0.0000   0.0537   0.0066   |    0.0000   0.0000   0.0000   0.0000
+  0.1110 ||    0.0000   0.0066   0.0066   0.0537   |    0.0000   0.0000   0.0000   0.0000
+ 
+[1;91mmax error=[0m  2.4571112E-05       0
+[1;91m    error=[0m  1.1677103E-05       0
+[1;91mmin error=[0m  9.8700467E-07       0
+=====================================
+Total time [h:m:s.ms]:   0:11:03.235
+
+
+
+-----DMFT-loop   12 (max:  100)-----
+ 
+       V ||       Re(H) | Im(H)
+ 
+  0.1682 ||   -0.1217   0.0308   0.0308   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1682 ||    0.0308  -0.1217   0.0000   0.0308   |    0.0000   0.0000   0.0000   0.0000
+  0.1682 ||    0.0308   0.0000  -0.1217   0.0308   |    0.0000   0.0000   0.0000   0.0000
+  0.1682 ||    0.0000   0.0308   0.0308  -0.1217   |    0.0000   0.0000   0.0000   0.0000
+ 
+  0.1110 ||    0.0538   0.0066   0.0066   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1110 ||    0.0066   0.0538   0.0000   0.0066   |    0.0000   0.0000   0.0000   0.0000
+  0.1110 ||    0.0066   0.0000   0.0538   0.0066   |    0.0000   0.0000   0.0000   0.0000
+  0.1110 ||    0.0000   0.0066   0.0066   0.0538   |    0.0000   0.0000   0.0000   0.0000
+ 
+Diagonalize impurity H:
+  10% |ETA: 0:00:19.612 @25 October 2023   2:44:01
+  20% |ETA: 0:01:04.500
+  30% |ETA: 0:03:10.745
+Warning/Error in PZNAUPD, info =      1
+Maximum number of iterations reached.
+All possible eigenvalues of OP has been found. 
+IPARAM(5) returns the number of wanted converged Ritz values.
+IPARAM(5) = 0
+  40% |ETA: 0:10:52.637
+  50% |ETA: 0:07:44.906 @25 October 2023   2:51:53
+  60% |ETA: 0:05:24.634
+Warning/Error in PZNAUPD, info =      1
+Maximum number of iterations reached.
+All possible eigenvalues of OP has been found. 
+IPARAM(5) returns the number of wanted converged Ritz values.
+IPARAM(5) = 1
+  70% |ETA: 0:03:51.903
+  80% |ETA: 0:02:16.532
+  90% |ETA: 0:01:01.964
+ 100% |ETA: 0:00:00.000
+Total time [h:m:s.ms]:   0:09:24.913
+Get impurity Greens functions:
+ 
+  +ETA --> fort.6
+  12% |ETA: 0:01:01.953
+  25% |ETA: 0:00:54.851
+  31% |ETA: 0:00:48.762
+  43% |ETA: 0:00:40.635
+  50% |ETA: 0:00:36.567 @25 October 2023   2:54:00
+  62% |ETA: 0:00:26.843
+  75% |ETA: 0:00:18.566
+  81% |ETA: 0:00:13.842
+  93% |ETA: 0:00:04.565
+ 100% |ETA: 0:00:00.000
+Total time [h:m:s.ms]:   0:01:12.605
+ 
+Get observables:
+dens site 1 =    0.840906341272    0.840906341272
+dens site 2 =    0.840906336664    0.840906336664
+dens site 3 =    0.840906329519    0.840906329519
+dens site 4 =    0.840906313327    0.840906313327
+dens  avg   =    0.840906330196    0.840906330196
+docc        =    0.028713286386
+ 
+ 
+Get local energy:
+Get cluster density matrix:
+Total time [h:m:s.ms]:   0:00:06.899
+Get single-particle density matrix (no print)
+  
+ Diagonalizing 4-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  4.4665550770087901
+  
+ Diagonalizing 3-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  3.9600952471129589
+  
+ Diagonalizing 2-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  2.8435272972057311
+  
+ Diagonalizing 1-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  1.6594808047097829
+
+ LOCAL-DM BENCHMARK [Mod.Phys.Lett.B.2013.27:05]
+ Semi-Analytical Estimate  |  Error
+  0.18780694437334239      |   4.7212234122184782E-014
+  0.39173988499058515      |   5.5511151231257827E-016
+  0.39173988499059981      |   7.2164496600635175E-016
+   2.8713285645472642E-002 |   1.8735013540549517E-016
+
+Get local Matsubara Green's function (no print)
+ 
+  +ETA --> fort.6
+  10% |ETA: 0:00:00.668 @25 October 2023   2:54:49
+  20% |ETA: 0:00:00.577
+  30% |ETA: 0:00:00.503
+  40% |ETA: 0:00:00.856
+  50% |ETA: 0:00:00.708 @25 October 2023   2:54:49
+  60% |ETA: 0:00:00.569
+  70% |ETA: 0:00:00.846
+  80% |ETA: 0:00:00.556
+  90% |ETA: 0:00:00.567
+Total time [h:m:s.ms]:   0:00:00.710
+Gloc dmft_gfio: write spin diagonal elements on many files.
+chi^2|iter=    1.273526131E-02 |    14  <--  All Orbs, All Spins
+ 
+       V ||       Re(H) | Im(H)
+ 
+  0.1682 ||   -0.1217   0.0308   0.0308   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1682 ||    0.0308  -0.1217   0.0000   0.0308   |    0.0000   0.0000   0.0000   0.0000
+  0.1682 ||    0.0308   0.0000  -0.1217   0.0308   |    0.0000   0.0000   0.0000   0.0000
+  0.1682 ||    0.0000   0.0308   0.0308  -0.1217   |    0.0000   0.0000   0.0000   0.0000
+ 
+  0.1110 ||    0.0537   0.0066   0.0066   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1110 ||    0.0066   0.0537   0.0000   0.0066   |    0.0000   0.0000   0.0000   0.0000
+  0.1110 ||    0.0066   0.0000   0.0537   0.0066   |    0.0000   0.0000   0.0000   0.0000
+  0.1110 ||    0.0000   0.0066   0.0066   0.0537   |    0.0000   0.0000   0.0000   0.0000
+ 
+[1;93mmax error=[0m  1.8275412E-05       0
+[1;93m    error=[0m  8.6850272E-06       0
+[1;93mmin error=[0m  7.4673216E-07       0
+=====================================
+Total time [h:m:s.ms]:   0:10:54.234
+
+
+
+-----DMFT-loop   13 (max:  100)-----
+ 
+       V ||       Re(H) | Im(H)
+ 
+  0.1682 ||   -0.1217   0.0308   0.0308   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1682 ||    0.0308  -0.1217   0.0000   0.0308   |    0.0000   0.0000   0.0000   0.0000
+  0.1682 ||    0.0308   0.0000  -0.1217   0.0308   |    0.0000   0.0000   0.0000   0.0000
+  0.1682 ||    0.0000   0.0308   0.0308  -0.1217   |    0.0000   0.0000   0.0000   0.0000
+ 
+  0.1110 ||    0.0538   0.0066   0.0066   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1110 ||    0.0066   0.0538   0.0000   0.0066   |    0.0000   0.0000   0.0000   0.0000
+  0.1110 ||    0.0066   0.0000   0.0538   0.0066   |    0.0000   0.0000   0.0000   0.0000
+  0.1110 ||    0.0000   0.0066   0.0066   0.0538   |    0.0000   0.0000   0.0000   0.0000
+ 
+Diagonalize impurity H:
+  10% |ETA: 0:00:36.568 @25 October 2023   2:54:57
+  20% |ETA: 0:01:04.502
+  30% |ETA: 0:03:11.749
+Warning/Error in PZNAUPD, info =      1
+Maximum number of iterations reached.
+All possible eigenvalues of OP has been found. 
+IPARAM(5) returns the number of wanted converged Ritz values.
+IPARAM(5) = 0
+  40% |ETA: 0:11:20.664
+  50% |ETA: 0:08:02.941 @25 October 2023   3:03:06
+  60% |ETA: 0:05:35.656
+Warning/Error in PZNAUPD, info =      1
+Maximum number of iterations reached.
+All possible eigenvalues of OP has been found. 
+IPARAM(5) returns the number of wanted converged Ritz values.
+IPARAM(5) = 1
+  70% |ETA: 0:03:58.931
+  80% |ETA: 0:02:20.550
+  90% |ETA: 0:01:04.500
+ 100% |ETA: 0:00:00.000
+Total time [h:m:s.ms]:   0:09:46.435
+Get impurity Greens functions:
+ 
+  +ETA --> fort.6
+  12% |ETA: 0:01:01.953
+  25% |ETA: 0:00:54.851
+  31% |ETA: 0:00:48.762
+  43% |ETA: 0:00:40.634
+  50% |ETA: 0:00:36.566 @25 October 2023   3:05:16
+  62% |ETA: 0:00:26.843
+  75% |ETA: 0:00:18.566
+  81% |ETA: 0:00:13.842
+  93% |ETA: 0:00:04.565
+ 100% |ETA: 0:00:00.000
+Total time [h:m:s.ms]:   0:01:12.549
+ 
+Get observables:
+dens site 1 =    0.840899909512    0.840899909512
+dens site 2 =    0.840899906244    0.840899906244
+dens site 3 =    0.840899900474    0.840899900474
+dens site 4 =    0.840899886936    0.840899886936
+dens  avg   =    0.840899900792    0.840899900792
+docc        =    0.028712814287
+ 
+ 
+Get local energy:
+Get cluster density matrix:
+Total time [h:m:s.ms]:   0:00:06.893
+Get single-particle density matrix (no print)
+  
+ Diagonalizing 4-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  4.4666014011298421
+  
+ Diagonalizing 3-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  3.9601266070122252
+  
+ Diagonalizing 2-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  2.8435442806859168
+  
+ Diagonalizing 1-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  1.6594853464900727
+
+ LOCAL-DM BENCHMARK [Mod.Phys.Lett.B.2013.27:05]
+ Semi-Analytical Estimate  |  Error
+  0.18781290418410609      |   6.3865579491562130E-014
+  0.39173714105963053      |   1.2045919817182948E-014
+  0.39173714105966240      |   1.0658141036401503E-014
+   2.8712813696600923E-002 |   2.3245294578089215E-016
+
+Get local Matsubara Green's function (no print)
+ 
+  +ETA --> fort.6
+  10% |ETA: 0:00:00.668 @25 October 2023   3:06:04
+  20% |ETA: 0:00:00.577
+  30% |ETA: 0:00:00.501
+  40% |ETA: 0:00:00.853
+  50% |ETA: 0:00:00.706 @25 October 2023   3:06:05
+  60% |ETA: 0:00:00.567
+  70% |ETA: 0:00:00.843
+  80% |ETA: 0:00:00.554
+  90% |ETA: 0:00:00.564
+Total time [h:m:s.ms]:   0:00:00.707
+Gloc dmft_gfio: write spin diagonal elements on many files.
+chi^2|iter=    1.273272656E-02 |    14  <--  All Orbs, All Spins
+ 
+       V ||       Re(H) | Im(H)
+ 
+  0.1682 ||   -0.1217   0.0308   0.0308   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1682 ||    0.0308  -0.1217   0.0000   0.0308   |    0.0000   0.0000   0.0000   0.0000
+  0.1682 ||    0.0308   0.0000  -0.1217   0.0308   |    0.0000   0.0000   0.0000   0.0000
+  0.1682 ||    0.0000   0.0308   0.0308  -0.1217   |    0.0000   0.0000   0.0000   0.0000
+ 
+  0.1110 ||    0.0537   0.0066   0.0066   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1110 ||    0.0066   0.0537   0.0000   0.0066   |    0.0000   0.0000   0.0000   0.0000
+  0.1110 ||    0.0066   0.0000   0.0537   0.0066   |    0.0000   0.0000   0.0000   0.0000
+  0.1110 ||    0.0000   0.0066   0.0066   0.0537   |    0.0000   0.0000   0.0000   0.0000
+ 
+[1;92mmax error=[0m  1.3706966E-05       0
+[1;92m    error=[0m  6.5170566E-06       0
+[1;92mmin error=[0m  5.7729359E-07       0
+=====================================
+Total time [h:m:s.ms]:   0:11:14.548
+
+
+Get local Realaxis Green's function (no print)
+  10% |ETA: 0:00:00.677 @25 October 2023   3:06:08
+  20% |ETA: 0:00:00.584
+  30% |ETA: 0:00:00.510
+  40% |ETA: 0:00:00.877
+  50% |ETA: 0:00:00.731 @25 October 2023   3:06:08
+  60% |ETA: 0:00:00.591
+  70% |ETA: 0:00:00.885
+  80% |ETA: 0:00:00.583
+  90% |ETA: 0:00:00.597
+Total time [h:m:s.ms]:   0:00:02.028
+Gloc dmft_gfio: write spin diagonal elements on many files.
+  
+ Luttinger invariants:
+           1           1           1   2.6969506564475254     
+           2           1           1   1.9684034435000326     
+           3           1           1   1.9793687829040745     
+           4           1           1   2.6796985882286686     
+           ilat        iorb        ispin
+ WARNING: not currently reliable for Nlat>1
+  
+(  0.000,  0.000)  ( -0.250, -0.000)  ( -0.250,  0.000)  (  0.000,  0.000)
+( -0.250,  0.000)  (  0.000,  0.000)  (  0.000,  0.000)  ( -0.250,  0.000)
+( -0.250, -0.000)  (  0.000,  0.000)  (  0.000,  0.000)  ( -0.250, -0.000)
+(  0.000,  0.000)  ( -0.250, -0.000)  ( -0.250,  0.000)  (  0.000,  0.000)
+ 
+Kinetic energy computation
+  10% |ETA: 0:00:01.571 @25 October 2023   3:06:10
+  20% |ETA: 0:00:01.505
+  30% |ETA: 0:00:00.886
+  40% |ETA: 0:00:00.759
+  50% |ETA: 0:00:00.633 @25 October 2023   3:06:10
+  60% |ETA: 0:00:00.506
+  70% |ETA: 0:00:00.759
+  80% |ETA: 0:00:00.506
+  90% |ETA: 0:00:00.506
+ 100% |ETA: 0:00:00.000
+Total time [h:m:s.ms]:   0:00:01.266

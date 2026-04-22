@@ -1,0 +1,3026 @@
+---------------MPI----------------
+rank:     0 of     60 alive
+rank:     1 of     60 alive
+rank:     2 of     60 alive
+rank:     3 of     60 alive
+rank:     4 of     60 alive
+rank:     5 of     60 alive
+rank:     6 of     60 alive
+rank:     7 of     60 alive
+rank:     8 of     60 alive
+rank:     9 of     60 alive
+rank:    10 of     60 alive
+rank:    11 of     60 alive
+rank:    12 of     60 alive
+rank:    13 of     60 alive
+rank:    14 of     60 alive
+rank:    15 of     60 alive
+rank:    16 of     60 alive
+rank:    17 of     60 alive
+rank:    18 of     60 alive
+rank:    19 of     60 alive
+rank:    20 of     60 alive
+rank:    21 of     60 alive
+rank:    22 of     60 alive
+rank:    23 of     60 alive
+rank:    24 of     60 alive
+rank:    25 of     60 alive
+rank:    26 of     60 alive
+rank:    27 of     60 alive
+rank:    28 of     60 alive
+rank:    29 of     60 alive
+rank:    30 of     60 alive
+rank:    31 of     60 alive
+rank:    32 of     60 alive
+rank:    33 of     60 alive
+rank:    34 of     60 alive
+rank:    35 of     60 alive
+rank:    36 of     60 alive
+rank:    37 of     60 alive
+rank:    38 of     60 alive
+rank:    39 of     60 alive
+rank:    40 of     60 alive
+rank:    41 of     60 alive
+rank:    42 of     60 alive
+rank:    43 of     60 alive
+rank:    44 of     60 alive
+rank:    45 of     60 alive
+rank:    46 of     60 alive
+rank:    47 of     60 alive
+rank:    48 of     60 alive
+rank:    49 of     60 alive
+rank:    50 of     60 alive
+rank:    51 of     60 alive
+rank:    52 of     60 alive
+rank:    53 of     60 alive
+rank:    54 of     60 alive
+rank:    55 of     60 alive
+rank:    56 of     60 alive
+rank:    57 of     60 alive
+rank:    58 of     60 alive
+----------------------------------
+
+rank:    59 of     60 alive
+Rank 22 writing to unit: 978
+Rank 31 writing to unit: 969
+Rank 58 writing to unit: 942
+Rank 32 writing to unit: 968
+Rank 40 writing to unit: 960
+Rank 7 writing to unit: 993
+Rank 30 writing to unit: 970
+Rank 44 writing to unit: 956
+Rank 17 writing to unit: 983
+Rank 34 writing to unit: 966
+Rank 39 writing to unit: 961
+Rank 42 writing to unit: 958
+Rank 19 writing to unit: 981
+Rank 36 writing to unit: 964
+Rank 11 writing to unit: 989
+Rank 56 writing to unit: 944
+Rank 54 writing to unit: 946
+Rank 14 writing to unit: 986
+Rank 18 writing to unit: 982
+Rank 5 writing to unit: 995
+Rank 2 writing to unit: 998
+Rank 16 writing to unit: 984
+Rank 23 writing to unit: 977
+Rank 25 writing to unit: 975
+Rank 3 writing to unit: 997
+Rank 15 writing to unit: 985
+Rank 13 writing to unit: 987
+Rank 26 writing to unit: 974
+Rank 1 writing to unit: 999
+Rank 35 writing to unit: 965
+Rank 29 writing to unit: 971
+Rank 20 writing to unit: 980
+Rank 37 writing to unit: 963
+Rank 21 writing to unit: 979
+Rank 12 writing to unit: 988
+Rank 38 writing to unit: 962
+Rank 4 writing to unit: 996
+Rank 24 writing to unit: 976
+Rank 28 writing to unit: 972
+Rank 9 writing to unit: 991
+Rank 10 writing to unit: 990
+Rank 6 writing to unit: 994
+Rank 51 writing to unit: 949
+Rank 33 writing to unit: 967
+Rank 8 writing to unit: 992
+Rank 27 writing to unit: 973
+Rank 41 writing to unit: 959
+Rank 53 writing to unit: 947
+Rank 59 writing to unit: 941
+Rank 52 writing to unit: 948
+Rank 46 writing to unit: 954
+Rank 48 writing to unit: 952
+Rank 50 writing to unit: 950
+Rank 43 writing to unit: 957
+Rank 49 writing to unit: 951
+Rank 57 writing to unit: 943
+Rank 55 writing to unit: 945
+Rank 47 writing to unit: 953
+Rank 45 writing to unit: 955
+SCIFOR VERSION (GIT): ad85d7fb75a612834f17e2e2a3463a7fc79eed9f
+Timestamp: +26 October 2023  21:52:33.156
+ 
+code VERSION: c5969aa9dc5936690742f3dca3e347c903dafda9
+Timestamp: +26 October 2023  21:52:33.158
+ 
+The unique index of each site (on the cartesian plane) is as follows:
+ 
+ 3   4
+ 1   2
+ 
+ T
+Using Reciprocal Lattice vectors:
+bk_x = [  6.2832  0.0000  0.0000]
+bk_y = [  0.0000  6.2832  0.0000]
+bk_z = [  0.0000  0.0000  6.2832]
+ HWBAND=0.1000000
+INIT SOLVER FOR 
+Summary:
+--------------------------------------------
+# of levels/spin      =              12
+Total size            =              24
+# of sites            =               4
+# of impurities       =               1
+# of bath/impurity    =               2
+Number of sectors     =             169
+Largest Sector(s)     =      924       924              853776
+--------------------------------------------
+Required Lanc_nstates_total=1 => set T=0 calculation
+Lanczos ZERO temperature calculation:
+Reading bath from file hamiltonian.restart
+Looking into     91 sectors out of       169
+
+-----DMFT-loop    1 (max:  100)-----
+ 
+       V ||       Re(H) | Im(H)
+ 
+  0.1743 ||   -0.1371   0.0313   0.0313   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1743 ||    0.0313  -0.1371   0.0000   0.0313   |    0.0000   0.0000   0.0000   0.0000
+  0.1743 ||    0.0313   0.0000  -0.1371   0.0313   |    0.0000   0.0000   0.0000   0.0000
+  0.1743 ||    0.0000   0.0313   0.0313  -0.1371   |    0.0000   0.0000   0.0000   0.0000
+ 
+  0.0908 ||    0.0570   0.0093   0.0093   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.0908 ||    0.0093   0.0570   0.0000   0.0093   |    0.0000   0.0000   0.0000   0.0000
+  0.0908 ||    0.0093   0.0000   0.0570   0.0093   |    0.0000   0.0000   0.0000   0.0000
+  0.0908 ||    0.0000   0.0093   0.0093   0.0570   |    0.0000   0.0000   0.0000   0.0000
+ 
+Diagonalize impurity H:
+ 
+  +ETA --> fort.6
+  10% |ETA: 0:00:10.682 @26 October 2023  21:52:37
+  20% |ETA: 0:00:26.832
+  30% |ETA: 0:01:11.560
+  40% |ETA: 0:02:23.560
+  50% |ETA: 0:01:56.910 @26 October 2023  21:54:35
+  60% |ETA: 0:01:26.679
+  70% |ETA: 0:00:59.925
+  80% |ETA: 0:00:35.552
+  90% |ETA: 0:00:16.503
+ 100% |ETA: 0:00:00.000
+Total time [h:m:s.ms]:   0:02:29.224
+Get impurity Greens functions:
+ 
+  +ETA --> fort.6
+  12% |ETA: 0:01:02.980
+  25% |ETA: 0:00:55.873
+  31% |ETA: 0:00:50.781
+  43% |ETA: 0:00:41.651
+  50% |ETA: 0:00:37.582 @26 October 2023  21:55:42
+  62% |ETA: 0:00:27.866
+  75% |ETA: 0:00:18.582
+  81% |ETA: 0:00:13.866
+  93% |ETA: 0:00:04.580
+ 100% |ETA: 0:00:00.000
+Total time [h:m:s.ms]:   0:01:14.577
+ 
+Get observables:
+dens site 1 =    0.918737162289    0.918737162289
+dens site 2 =    0.918737162289    0.918737162289
+dens site 3 =    0.918737162289    0.918737162289
+dens site 4 =    0.918737162289    0.918737162289
+dens  avg   =    0.918737162289    0.918737162289
+docc        =    0.032775215653
+ 
+ 
+Get local energy:
+Get cluster density matrix:
+Total time [h:m:s.ms]:   0:00:06.870
+Get single-particle density matrix (no print)
+  
+ Diagonalizing 4-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  3.4631247261385019
+  
+ Diagonalizing 3-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  3.3610261389284624
+  
+ Diagonalizing 2-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  2.5249815768514616
+  
+ Diagonalizing 1-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  1.5674603535042468
+
+ LOCAL-DM BENCHMARK [Mod.Phys.Lett.B.2013.27:05]
+ Semi-Analytical Estimate  |  Error
+  0.11403805336398062      |   1.4249712521063884E-013
+  0.42659336549163729      |   8.1212814251330201E-014
+  0.42659336549163696      |   8.0657702739017623E-014
+   3.2775215652745077E-002 |   1.2351231148954867E-015
+
+Get local Matsubara Green's function (no print)
+ 
+  +ETA --> fort.6
+  10% |ETA: 0:00:00.721 @26 October 2023  21:56:32
+  20% |ETA: 0:00:00.623
+  30% |ETA: 0:00:00.543
+  40% |ETA: 0:00:00.921
+  50% |ETA: 0:00:00.763 @26 October 2023  21:56:32
+  60% |ETA: 0:00:00.614
+  70% |ETA: 0:00:00.913
+  80% |ETA: 0:00:00.599
+  90% |ETA: 0:00:00.610
+Total time [h:m:s.ms]:   0:00:00.765
+Gloc dmft_gfio: write spin diagonal elements on many files.
+chi^2|iter=    6.075208445E-03 |    21  <--  All Orbs, All Spins
+ 
+       V ||       Re(H) | Im(H)
+ 
+  0.1748 ||   -0.1405   0.0314   0.0314   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1748 ||    0.0314  -0.1405   0.0000   0.0314   |    0.0000   0.0000   0.0000   0.0000
+  0.1748 ||    0.0314   0.0000  -0.1405   0.0314   |    0.0000   0.0000   0.0000   0.0000
+  0.1748 ||    0.0000   0.0314   0.0314  -0.1405   |    0.0000   0.0000   0.0000   0.0000
+ 
+  0.0894 ||    0.0589   0.0091   0.0091   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.0894 ||    0.0091   0.0589   0.0000   0.0091   |    0.0000   0.0000   0.0000   0.0000
+  0.0894 ||    0.0091   0.0000   0.0589   0.0091   |    0.0000   0.0000   0.0000   0.0000
+  0.0894 ||    0.0000   0.0091   0.0091   0.0589   |    0.0000   0.0000   0.0000   0.0000
+ 
+[1;91mmax error=[0m  1.0000000E+00       0
+[1;91m    error=[0m  1.0000000E+00       0
+[1;91mmin error=[0m  1.0000000E+00       0
+=====================================
+Total time [h:m:s.ms]:   0:04:00.109
+
+
+
+-----DMFT-loop    2 (max:  100)-----
+ 
+       V ||       Re(H) | Im(H)
+ 
+  0.1748 ||   -0.1405   0.0314   0.0314   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1748 ||    0.0314  -0.1405   0.0000   0.0314   |    0.0000   0.0000   0.0000   0.0000
+  0.1748 ||    0.0314   0.0000  -0.1405   0.0314   |    0.0000   0.0000   0.0000   0.0000
+  0.1748 ||    0.0000   0.0314   0.0314  -0.1405   |    0.0000   0.0000   0.0000   0.0000
+ 
+  0.0894 ||    0.0589   0.0091   0.0091   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.0894 ||    0.0091   0.0589   0.0000   0.0091   |    0.0000   0.0000   0.0000   0.0000
+  0.0894 ||    0.0091   0.0000   0.0589   0.0091   |    0.0000   0.0000   0.0000   0.0000
+  0.0894 ||    0.0000   0.0091   0.0091   0.0589   |    0.0000   0.0000   0.0000   0.0000
+ 
+Diagonalize impurity H:
+  10% |ETA: 0:00:09.589 @26 October 2023  21:56:37
+  20% |ETA: 0:00:25.795
+  30% |ETA: 0:01:24.662
+  40% |ETA: 0:02:47.655
+  50% |ETA: 0:02:12.517 @26 October 2023  21:58:51
+  60% |ETA: 0:01:37.757
+  70% |ETA: 0:01:06.516
+  80% |ETA: 0:00:39.615
+  90% |ETA: 0:00:17.559
+ 100% |ETA: 0:00:00.000
+Total time [h:m:s.ms]:   0:02:45.683
+Get impurity Greens functions:
+ 
+  +ETA --> fort.6
+  12% |ETA: 0:01:01.965
+  25% |ETA: 0:00:55.861
+  31% |ETA: 0:00:49.771
+  43% |ETA: 0:00:41.642
+  50% |ETA: 0:00:36.574 @26 October 2023  21:59:58
+  62% |ETA: 0:00:27.855
+  75% |ETA: 0:00:18.575
+  81% |ETA: 0:00:13.855
+  93% |ETA: 0:00:04.574
+ 100% |ETA: 0:00:00.000
+Total time [h:m:s.ms]:   0:01:13.709
+ 
+Get observables:
+dens site 1 =    0.922361427569    0.922361427569
+dens site 2 =    0.922361427569    0.922361427569
+dens site 3 =    0.922361427569    0.922361427569
+dens site 4 =    0.922361427568    0.922361427568
+dens  avg   =    0.922361427569    0.922361427569
+docc        =    0.032838651340
+ 
+ 
+Get local energy:
+Get cluster density matrix:
+Total time [h:m:s.ms]:   0:00:06.900
+Get single-particle density matrix (no print)
+  
+ Diagonalizing 4-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  3.3645681921876216
+  
+ Diagonalizing 3-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  3.3056261774876754
+  
+ Diagonalizing 2-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  2.4975761517281989
+  
+ Diagonalizing 1-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  1.5608262442747551
+
+ LOCAL-DM BENCHMARK [Mod.Phys.Lett.B.2013.27:05]
+ Semi-Analytical Estimate  |  Error
+  0.11047722377144809      |   1.9179102750399579E-014
+  0.42834206244426387      |   1.5598633495983449E-014
+  0.42834206244425543      |   1.8707257964933888E-014
+   3.2838651340032658E-002 |   9.8532293435482643E-016
+
+Get local Matsubara Green's function (no print)
+ 
+  +ETA --> fort.6
+  10% |ETA: 0:00:00.721 @26 October 2023  22:00:47
+  20% |ETA: 0:00:00.623
+  30% |ETA: 0:00:00.541
+  40% |ETA: 0:00:00.921
+  50% |ETA: 0:00:00.761 @26 October 2023  22:00:48
+  60% |ETA: 0:00:00.613
+  70% |ETA: 0:00:00.913
+  80% |ETA: 0:00:00.599
+  90% |ETA: 0:00:00.610
+Total time [h:m:s.ms]:   0:00:00.764
+Gloc dmft_gfio: write spin diagonal elements on many files.
+chi^2|iter=    5.848883327E-03 |    24  <--  All Orbs, All Spins
+ 
+       V ||       Re(H) | Im(H)
+ 
+  0.1757 ||   -0.1410   0.0313   0.0313   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1757 ||    0.0313  -0.1410   0.0000   0.0313   |    0.0000   0.0000   0.0000   0.0000
+  0.1757 ||    0.0313   0.0000  -0.1410   0.0313   |    0.0000   0.0000   0.0000   0.0000
+  0.1757 ||    0.0000   0.0313   0.0313  -0.1410   |    0.0000   0.0000   0.0000   0.0000
+ 
+  0.0879 ||    0.0600   0.0095   0.0095   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.0879 ||    0.0095   0.0600   0.0000   0.0095   |    0.0000   0.0000   0.0000   0.0000
+  0.0879 ||    0.0095   0.0000   0.0600   0.0095   |    0.0000   0.0000   0.0000   0.0000
+  0.0879 ||    0.0000   0.0095   0.0095   0.0600   |    0.0000   0.0000   0.0000   0.0000
+ 
+[1;91mmax error=[0m  5.2622570E-03       0
+[1;91m    error=[0m  2.8315723E-03       0
+[1;91mmin error=[0m  5.4231780E-04       0
+=====================================
+Total time [h:m:s.ms]:   0:04:16.147
+
+
+
+-----DMFT-loop    3 (max:  100)-----
+ 
+       V ||       Re(H) | Im(H)
+ 
+  0.1750 ||   -0.1407   0.0314   0.0314   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1750 ||    0.0314  -0.1407   0.0000   0.0314   |    0.0000   0.0000   0.0000   0.0000
+  0.1750 ||    0.0314   0.0000  -0.1407   0.0314   |    0.0000   0.0000   0.0000   0.0000
+  0.1750 ||    0.0000   0.0314   0.0314  -0.1407   |    0.0000   0.0000   0.0000   0.0000
+ 
+  0.0890 ||    0.0592   0.0092   0.0092   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.0890 ||    0.0092   0.0592   0.0000   0.0092   |    0.0000   0.0000   0.0000   0.0000
+  0.0890 ||    0.0092   0.0000   0.0592   0.0092   |    0.0000   0.0000   0.0000   0.0000
+  0.0890 ||    0.0000   0.0092   0.0092   0.0592   |    0.0000   0.0000   0.0000   0.0000
+ 
+Diagonalize impurity H:
+  10% |ETA: 0:00:11.691 @26 October 2023  22:00:53
+  20% |ETA: 0:00:28.880
+  30% |ETA: 0:01:23.651
+  40% |ETA: 0:03:10.744
+  50% |ETA: 0:02:25.568 @26 October 2023  22:03:21
+  60% |ETA: 0:01:46.835
+  70% |ETA: 0:01:12.566
+  80% |ETA: 0:00:43.682
+  90% |ETA: 0:00:19.619
+ 100% |ETA: 0:00:00.000
+Total time [h:m:s.ms]:   0:03:03.046
+Get impurity Greens functions:
+ 
+  +ETA --> fort.6
+  12% |ETA: 0:01:00.946
+  25% |ETA: 0:00:54.843
+  31% |ETA: 0:00:48.755
+  43% |ETA: 0:00:40.628
+  50% |ETA: 0:00:35.562 @26 October 2023  22:04:31
+  62% |ETA: 0:00:26.836
+  75% |ETA: 0:00:17.562
+  81% |ETA: 0:00:13.835
+  93% |ETA: 0:00:04.560
+ 100% |ETA: 0:00:00.000
+Total time [h:m:s.ms]:   0:01:11.963
+ 
+Get observables:
+dens site 1 =    0.922713927779    0.922713927779
+dens site 2 =    0.922713927779    0.922713927779
+dens site 3 =    0.922713927779    0.922713927779
+dens site 4 =    0.922713927779    0.922713927779
+dens  avg   =    0.922713927779    0.922713927779
+docc        =    0.032862695118
+ 
+ 
+Get local energy:
+Get cluster density matrix:
+Total time [h:m:s.ms]:   0:00:06.880
+Get single-particle density matrix (no print)
+  
+ Diagonalizing 4-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  3.3572327063635994
+  
+ Diagonalizing 3-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  3.3015888994349858
+  
+ Diagonalizing 2-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  2.4955020542091035
+  
+ Diagonalizing 1-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  1.5602724007264956
+
+ LOCAL-DM BENCHMARK [Mod.Phys.Lett.B.2013.27:05]
+ Semi-Analytical Estimate  |  Error
+  0.11014876733877269      |   1.6958656701149266E-014
+  0.42849426877158647      |   2.4258373088059670E-014
+  0.42849426877158558      |   1.9539925233402755E-014
+   3.2862695118055313E-002 |   8.6042284408449632E-016
+
+Get local Matsubara Green's function (no print)
+ 
+  +ETA --> fort.6
+  10% |ETA: 0:00:00.721 @26 October 2023  22:05:19
+  20% |ETA: 0:00:00.620
+  30% |ETA: 0:00:00.541
+  40% |ETA: 0:00:00.921
+  50% |ETA: 0:00:00.761 @26 October 2023  22:05:20
+  60% |ETA: 0:00:00.613
+  70% |ETA: 0:00:00.911
+  80% |ETA: 0:00:00.598
+  90% |ETA: 0:00:00.609
+Total time [h:m:s.ms]:   0:00:00.763
+Gloc dmft_gfio: write spin diagonal elements on many files.
+chi^2|iter=    5.902354647E-03 |    21  <--  All Orbs, All Spins
+ 
+       V ||       Re(H) | Im(H)
+ 
+  0.1756 ||   -0.1406   0.0313   0.0313   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1756 ||    0.0313  -0.1406   0.0000   0.0313   |    0.0000   0.0000   0.0000   0.0000
+  0.1756 ||    0.0313   0.0000  -0.1406   0.0313   |    0.0000   0.0000   0.0000   0.0000
+  0.1756 ||    0.0000   0.0313   0.0313  -0.1406   |    0.0000   0.0000   0.0000   0.0000
+ 
+  0.0876 ||    0.0597   0.0096   0.0096   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.0876 ||    0.0096   0.0597   0.0000   0.0096   |    0.0000   0.0000   0.0000   0.0000
+  0.0876 ||    0.0096   0.0000   0.0597   0.0096   |    0.0000   0.0000   0.0000   0.0000
+  0.0876 ||    0.0000   0.0096   0.0096   0.0597   |    0.0000   0.0000   0.0000   0.0000
+ 
+[1;91mmax error=[0m  8.8282257E-04       0
+[1;91m    error=[0m  4.6768732E-04       0
+[1;91mmin error=[0m  6.8358299E-05       0
+=====================================
+Total time [h:m:s.ms]:   0:04:31.102
+
+
+
+-----DMFT-loop    4 (max:  100)-----
+ 
+       V ||       Re(H) | Im(H)
+ 
+  0.1752 ||   -0.1407   0.0314   0.0314   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1752 ||    0.0314  -0.1407   0.0000   0.0314   |    0.0000   0.0000   0.0000   0.0000
+  0.1752 ||    0.0314   0.0000  -0.1407   0.0314   |    0.0000   0.0000   0.0000   0.0000
+  0.1752 ||    0.0000   0.0314   0.0314  -0.1407   |    0.0000   0.0000   0.0000   0.0000
+ 
+  0.0887 ||    0.0593   0.0093   0.0093   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.0887 ||    0.0093   0.0593   0.0000   0.0093   |    0.0000   0.0000   0.0000   0.0000
+  0.0887 ||    0.0093   0.0000   0.0593   0.0093   |    0.0000   0.0000   0.0000   0.0000
+  0.0887 ||    0.0000   0.0093   0.0093   0.0593   |    0.0000   0.0000   0.0000   0.0000
+ 
+Diagonalize impurity H:
+  10% |ETA: 0:00:13.861 @26 October 2023  22:05:25
+  20% |ETA: 0:00:31.977
+  30% |ETA: 0:01:19.624
+  40% |ETA: 0:02:53.677
+  50% |ETA: 0:02:16.532 @26 October 2023  22:07:42
+  60% |ETA: 0:01:40.784
+  70% |ETA: 0:01:08.531
+  80% |ETA: 0:00:40.632
+  90% |ETA: 0:00:18.574
+ 100% |ETA: 0:00:00.000
+Total time [h:m:s.ms]:   0:02:49.956
+Get impurity Greens functions:
+ 
+  +ETA --> fort.6
+  12% |ETA: 0:01:00.949
+  25% |ETA: 0:00:54.846
+  31% |ETA: 0:00:48.758
+  43% |ETA: 0:00:40.631
+  50% |ETA: 0:00:36.565 @26 October 2023  22:08:49
+  62% |ETA: 0:00:26.841
+  75% |ETA: 0:00:18.565
+  81% |ETA: 0:00:13.841
+  93% |ETA: 0:00:04.564
+ 100% |ETA: 0:00:00.000
+Total time [h:m:s.ms]:   0:01:12.489
+ 
+Get observables:
+dens site 1 =    0.922965962530    0.922965962530
+dens site 2 =    0.922965962530    0.922965962530
+dens site 3 =    0.922965962530    0.922965962530
+dens site 4 =    0.922965962530    0.922965962530
+dens  avg   =    0.922965962530    0.922965962530
+docc        =    0.032878212015
+ 
+ 
+Get local energy:
+Get cluster density matrix:
+Total time [h:m:s.ms]:   0:00:06.891
+Get single-particle density matrix (no print)
+  
+ Diagonalizing 4-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  3.3522648887186861
+  
+ Diagonalizing 3-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  3.2988561352436561
+  
+ Diagonalizing 2-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  2.4940671134843786
+  
+ Diagonalizing 1-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  1.5598659409699387
+
+ LOCAL-DM BENCHMARK [Mod.Phys.Lett.B.2013.27:05]
+ Semi-Analytical Estimate  |  Error
+  0.10991224948419553      |   1.9628743075372768E-013
+  0.42860476925063828      |   1.1091128016005314E-013
+  0.42860476925064517      |   1.1191048088221578E-013
+   3.2878212014520958E-002 |   1.4224732503009818E-015
+
+Get local Matsubara Green's function (no print)
+ 
+  +ETA --> fort.6
+  10% |ETA: 0:00:00.721 @26 October 2023  22:09:38
+  20% |ETA: 0:00:00.620
+  30% |ETA: 0:00:00.541
+  40% |ETA: 0:00:00.921
+  50% |ETA: 0:00:00.761 @26 October 2023  22:09:39
+  60% |ETA: 0:00:00.613
+  70% |ETA: 0:00:00.911
+  80% |ETA: 0:00:00.599
+  90% |ETA: 0:00:00.609
+Total time [h:m:s.ms]:   0:00:00.764
+Gloc dmft_gfio: write spin diagonal elements on many files.
+chi^2|iter=    5.951597181E-03 |    17  <--  All Orbs, All Spins
+ 
+       V ||       Re(H) | Im(H)
+ 
+  0.1755 ||   -0.1403   0.0314   0.0314   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1755 ||    0.0314  -0.1403   0.0000   0.0314   |    0.0000   0.0000   0.0000   0.0000
+  0.1755 ||    0.0314   0.0000  -0.1403   0.0314   |    0.0000   0.0000   0.0000   0.0000
+  0.1755 ||    0.0000   0.0314   0.0314  -0.1403   |    0.0000   0.0000   0.0000   0.0000
+ 
+  0.0874 ||    0.0594   0.0096   0.0096   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.0874 ||    0.0096   0.0594   0.0000   0.0096   |    0.0000   0.0000   0.0000   0.0000
+  0.0874 ||    0.0096   0.0000   0.0594   0.0096   |    0.0000   0.0000   0.0000   0.0000
+  0.0874 ||    0.0000   0.0096   0.0096   0.0594   |    0.0000   0.0000   0.0000   0.0000
+ 
+[1;91mmax error=[0m  7.2188876E-04       0
+[1;91m    error=[0m  3.8352302E-04       0
+[1;91mmin error=[0m  5.4143530E-05       0
+=====================================
+Total time [h:m:s.ms]:   0:04:19.389
+
+
+
+-----DMFT-loop    5 (max:  100)-----
+ 
+       V ||       Re(H) | Im(H)
+ 
+  0.1753 ||   -0.1406   0.0314   0.0314   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1753 ||    0.0314  -0.1406   0.0000   0.0314   |    0.0000   0.0000   0.0000   0.0000
+  0.1753 ||    0.0314   0.0000  -0.1406   0.0314   |    0.0000   0.0000   0.0000   0.0000
+  0.1753 ||    0.0000   0.0314   0.0314  -0.1406   |    0.0000   0.0000   0.0000   0.0000
+ 
+  0.0883 ||    0.0593   0.0094   0.0094   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.0883 ||    0.0094   0.0593   0.0000   0.0094   |    0.0000   0.0000   0.0000   0.0000
+  0.0883 ||    0.0094   0.0000   0.0593   0.0094   |    0.0000   0.0000   0.0000   0.0000
+  0.0883 ||    0.0000   0.0094   0.0094   0.0593   |    0.0000   0.0000   0.0000   0.0000
+ 
+Diagonalize impurity H:
+  10% |ETA: 0:00:15.968 @26 October 2023  22:09:44
+  20% |ETA: 0:00:33.523
+  30% |ETA: 0:01:23.648
+  40% |ETA: 0:02:08.501
+  50% |ETA: 0:01:48.843 @26 October 2023  22:11:33
+  60% |ETA: 0:01:22.644
+  70% |ETA: 0:00:56.884
+  80% |ETA: 0:00:33.528
+  90% |ETA: 0:00:15.965
+ 100% |ETA: 0:00:00.000
+Total time [h:m:s.ms]:   0:02:23.226
+Get impurity Greens functions:
+ 
+  +ETA --> fort.6
+  12% |ETA: 0:01:02.975
+  25% |ETA: 0:00:55.870
+  31% |ETA: 0:00:49.779
+  43% |ETA: 0:00:41.649
+  50% |ETA: 0:00:37.581 @26 October 2023  22:12:43
+  62% |ETA: 0:00:27.865
+  75% |ETA: 0:00:18.581
+  81% |ETA: 0:00:13.864
+  93% |ETA: 0:00:04.580
+ 100% |ETA: 0:00:00.000
+Total time [h:m:s.ms]:   0:01:14.464
+ 
+Get observables:
+dens site 1 =    0.923134833802    0.923134833802
+dens site 2 =    0.923134833802    0.923134833802
+dens site 3 =    0.923134833802    0.923134833802
+dens site 4 =    0.923134833802    0.923134833802
+dens  avg   =    0.923134833802    0.923134833802
+docc        =    0.032887133690
+ 
+ 
+Get local energy:
+Get cluster density matrix:
+Total time [h:m:s.ms]:   0:00:06.882
+Get single-particle density matrix (no print)
+  
+ Diagonalizing 4-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  3.3492065432509617
+  
+ Diagonalizing 3-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  3.2971795853890198
+  
+ Diagonalizing 2-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  2.4931550202308737
+  
+ Diagonalizing 1-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  1.5595847735307165
+
+ LOCAL-DM BENCHMARK [Mod.Phys.Lett.B.2013.27:05]
+ Semi-Analytical Estimate  |  Error
+  0.10975229988703075      |   6.0798588386035135E-014
+  0.42868028321172869      |   3.9412917374193057E-014
+  0.42868028321171836      |   3.9579450827886831E-014
+   3.2887133689522258E-002 |   2.7755575615628914E-017
+
+Get local Matsubara Green's function (no print)
+ 
+  +ETA --> fort.6
+  10% |ETA: 0:00:00.729 @26 October 2023  22:13:32
+  20% |ETA: 0:00:00.623
+  30% |ETA: 0:00:00.543
+  40% |ETA: 0:00:00.921
+  50% |ETA: 0:00:00.763 @26 October 2023  22:13:33
+  60% |ETA: 0:00:00.614
+  70% |ETA: 0:00:00.913
+  80% |ETA: 0:00:00.600
+  90% |ETA: 0:00:00.610
+Total time [h:m:s.ms]:   0:00:00.765
+Gloc dmft_gfio: write spin diagonal elements on many files.
+chi^2|iter=    5.995304735E-03 |    19  <--  All Orbs, All Spins
+ 
+       V ||       Re(H) | Im(H)
+ 
+  0.1754 ||   -0.1400   0.0314   0.0314   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1754 ||    0.0314  -0.1400   0.0000   0.0314   |    0.0000   0.0000   0.0000   0.0000
+  0.1754 ||    0.0314   0.0000  -0.1400   0.0314   |    0.0000   0.0000   0.0000   0.0000
+  0.1754 ||    0.0000   0.0314   0.0314  -0.1400   |    0.0000   0.0000   0.0000   0.0000
+ 
+  0.0872 ||    0.0591   0.0096   0.0096   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.0872 ||    0.0096   0.0591   0.0000   0.0096   |    0.0000   0.0000   0.0000   0.0000
+  0.0872 ||    0.0096   0.0000   0.0591   0.0096   |    0.0000   0.0000   0.0000   0.0000
+  0.0872 ||    0.0000   0.0096   0.0096   0.0591   |    0.0000   0.0000   0.0000   0.0000
+ 
+[1;91mmax error=[0m  5.7939070E-04       0
+[1;91m    error=[0m  3.0874637E-04       0
+[1;91mmin error=[0m  4.2513948E-05       0
+=====================================
+Total time [h:m:s.ms]:   0:03:54.056
+
+
+
+-----DMFT-loop    6 (max:  100)-----
+ 
+       V ||       Re(H) | Im(H)
+ 
+  0.1753 ||   -0.1404   0.0314   0.0314   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1753 ||    0.0314  -0.1404   0.0000   0.0314   |    0.0000   0.0000   0.0000   0.0000
+  0.1753 ||    0.0314   0.0000  -0.1404   0.0314   |    0.0000   0.0000   0.0000   0.0000
+  0.1753 ||    0.0000   0.0314   0.0314  -0.1404   |    0.0000   0.0000   0.0000   0.0000
+ 
+  0.0881 ||    0.0593   0.0095   0.0095   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.0881 ||    0.0095   0.0593   0.0000   0.0095   |    0.0000   0.0000   0.0000   0.0000
+  0.0881 ||    0.0095   0.0000   0.0593   0.0095   |    0.0000   0.0000   0.0000   0.0000
+  0.0881 ||    0.0000   0.0095   0.0095   0.0593   |    0.0000   0.0000   0.0000   0.0000
+ 
+Diagonalize impurity H:
+  10% |ETA: 0:00:13.857 @26 October 2023  22:13:38
+  20% |ETA: 0:00:31.992
+  30% |ETA: 0:01:23.655
+  40% |ETA: 0:02:06.989
+  50% |ETA: 0:01:42.797 @26 October 2023  22:15:21
+  60% |ETA: 0:01:18.616
+  70% |ETA: 0:00:54.846
+  80% |ETA: 0:00:32.507
+  90% |ETA: 0:00:14.925
+ 100% |ETA: 0:00:00.000
+Total time [h:m:s.ms]:   0:02:17.397
+Get impurity Greens functions:
+ 
+  +ETA --> fort.6
+  12% |ETA: 0:01:01.964
+  25% |ETA: 0:00:55.859
+  31% |ETA: 0:00:49.769
+  43% |ETA: 0:00:41.641
+  50% |ETA: 0:00:36.573 @26 October 2023  22:16:31
+  62% |ETA: 0:00:27.854
+  75% |ETA: 0:00:18.574
+  81% |ETA: 0:00:13.855
+  93% |ETA: 0:00:04.574
+ 100% |ETA: 0:00:00.000
+Total time [h:m:s.ms]:   0:01:13.718
+ 
+Get observables:
+dens site 1 =    0.923236985582    0.923236985582
+dens site 2 =    0.923236985582    0.923236985582
+dens site 3 =    0.923236985582    0.923236985582
+dens site 4 =    0.923236985582    0.923236985582
+dens  avg   =    0.923236985582    0.923236985582
+docc        =    0.032891132042
+ 
+ 
+Get local energy:
+Get cluster density matrix:
+Total time [h:m:s.ms]:   0:00:06.878
+Get single-particle density matrix (no print)
+  
+ Diagonalizing 4-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  3.3476381648589228
+  
+ Diagonalizing 3-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  3.2963295308642531
+  
+ Diagonalizing 2-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  2.4926566596686697
+  
+ Diagonalizing 1-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  1.5594065781346389
+
+ LOCAL-DM BENCHMARK [Mod.Phys.Lett.B.2013.27:05]
+ Semi-Analytical Estimate  |  Error
+  0.10965414645972141      |   1.6947554470903015E-013
+  0.42872736074919893      |   1.0230705171920818E-013
+  0.42872736074919726      |   1.0108580639212050E-013
+   3.2891132041882508E-002 |   4.9266146717741321E-016
+
+Get local Matsubara Green's function (no print)
+ 
+  +ETA --> fort.6
+  10% |ETA: 0:00:00.729 @26 October 2023  22:17:20
+  20% |ETA: 0:00:00.623
+  30% |ETA: 0:00:00.543
+  40% |ETA: 0:00:00.921
+  50% |ETA: 0:00:00.761 @26 October 2023  22:17:20
+  60% |ETA: 0:00:00.613
+  70% |ETA: 0:00:00.911
+  80% |ETA: 0:00:00.598
+  90% |ETA: 0:00:00.609
+Total time [h:m:s.ms]:   0:00:00.763
+Gloc dmft_gfio: write spin diagonal elements on many files.
+chi^2|iter=    6.032826825E-03 |    25  <--  All Orbs, All Spins
+ 
+       V ||       Re(H) | Im(H)
+ 
+  0.1753 ||   -0.1398   0.0314   0.0314   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1753 ||    0.0314  -0.1398   0.0000   0.0314   |    0.0000   0.0000   0.0000   0.0000
+  0.1753 ||    0.0314   0.0000  -0.1398   0.0314   |    0.0000   0.0000   0.0000   0.0000
+  0.1753 ||    0.0000   0.0314   0.0314  -0.1398   |    0.0000   0.0000   0.0000   0.0000
+ 
+  0.0871 ||    0.0588   0.0096   0.0096   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.0871 ||    0.0096   0.0588   0.0000   0.0096   |    0.0000   0.0000   0.0000   0.0000
+  0.0871 ||    0.0096   0.0000   0.0588   0.0096   |    0.0000   0.0000   0.0000   0.0000
+  0.0871 ||    0.0000   0.0096   0.0096   0.0588   |    0.0000   0.0000   0.0000   0.0000
+ 
+[1;91mmax error=[0m  4.5613314E-04       0
+[1;91m    error=[0m  2.4380967E-04       0
+[1;91mmin error=[0m  3.3200257E-05       0
+=====================================
+Total time [h:m:s.ms]:   0:03:48.599
+
+
+
+-----DMFT-loop    7 (max:  100)-----
+ 
+       V ||       Re(H) | Im(H)
+ 
+  0.1753 ||   -0.1403   0.0314   0.0314   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1753 ||    0.0314  -0.1403   0.0000   0.0314   |    0.0000   0.0000   0.0000   0.0000
+  0.1753 ||    0.0314   0.0000  -0.1403   0.0314   |    0.0000   0.0000   0.0000   0.0000
+  0.1753 ||    0.0000   0.0314   0.0314  -0.1403   |    0.0000   0.0000   0.0000   0.0000
+ 
+  0.0878 ||    0.0592   0.0095   0.0095   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.0878 ||    0.0095   0.0592   0.0000   0.0095   |    0.0000   0.0000   0.0000   0.0000
+  0.0878 ||    0.0095   0.0000   0.0592   0.0095   |    0.0000   0.0000   0.0000   0.0000
+  0.0878 ||    0.0000   0.0095   0.0095   0.0592   |    0.0000   0.0000   0.0000   0.0000
+ 
+Diagonalize impurity H:
+  10% |ETA: 0:00:08.519 @26 October 2023  22:17:26
+  20% |ETA: 0:00:25.794
+  30% |ETA: 0:01:27.683
+  40% |ETA: 0:02:12.519
+  50% |ETA: 0:01:45.822 @26 October 2023  22:19:13
+  60% |ETA: 0:01:19.618
+  70% |ETA: 0:00:54.850
+  80% |ETA: 0:00:32.508
+  90% |ETA: 0:00:14.928
+ 100% |ETA: 0:00:00.000
+Total time [h:m:s.ms]:   0:02:17.750
+Get impurity Greens functions:
+ 
+  +ETA --> fort.6
+  12% |ETA: 0:01:00.938
+  25% |ETA: 0:00:53.839
+  31% |ETA: 0:00:48.751
+  43% |ETA: 0:00:40.626
+  50% |ETA: 0:00:35.560 @26 October 2023  22:20:19
+  62% |ETA: 0:00:26.833
+  75% |ETA: 0:00:17.560
+  81% |ETA: 0:00:13.833
+  93% |ETA: 0:00:04.559
+ 100% |ETA: 0:00:00.000
+Total time [h:m:s.ms]:   0:01:11.787
+ 
+Get observables:
+dens site 1 =    0.923287458070    0.923287458070
+dens site 2 =    0.923287458070    0.923287458070
+dens site 3 =    0.923287458070    0.923287458070
+dens site 4 =    0.923287458070    0.923287458070
+dens  avg   =    0.923287458070    0.923287458070
+docc        =    0.032891610686
+ 
+ 
+Get local energy:
+Get cluster density matrix:
+Total time [h:m:s.ms]:   0:00:06.884
+Get single-particle density matrix (no print)
+  
+ Diagonalizing 4-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  3.3471871854088251
+  
+ Diagonalizing 3-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  3.2961004254377158
+  
+ Diagonalizing 2-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  2.4924732187740917
+  
+ Diagonalizing 1-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  1.5593099897598681
+
+ LOCAL-DM BENCHMARK [Mod.Phys.Lett.B.2013.27:05]
+ Semi-Analytical Estimate  |  Error
+  0.10960415261508497      |   4.9474313534858538E-014
+  0.42875211834970789      |   1.7374990335383700E-014
+  0.42875211834970456      |   1.4765966227514582E-014
+   3.2891610685502483E-002 |   1.7971735211119721E-015
+
+Get local Matsubara Green's function (no print)
+ 
+  +ETA --> fort.6
+  10% |ETA: 0:00:00.729 @26 October 2023  22:21:07
+  20% |ETA: 0:00:00.627
+  30% |ETA: 0:00:00.543
+  40% |ETA: 0:00:00.924
+  50% |ETA: 0:00:00.763 @26 October 2023  22:21:08
+  60% |ETA: 0:00:00.614
+  70% |ETA: 0:00:00.914
+  80% |ETA: 0:00:00.600
+  90% |ETA: 0:00:00.611
+Total time [h:m:s.ms]:   0:00:00.765
+Gloc dmft_gfio: write spin diagonal elements on many files.
+chi^2|iter=    6.064020654E-03 |    21  <--  All Orbs, All Spins
+ 
+       V ||       Re(H) | Im(H)
+ 
+  0.1753 ||   -0.1396   0.0314   0.0314   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1753 ||    0.0314  -0.1396   0.0000   0.0314   |    0.0000   0.0000   0.0000   0.0000
+  0.1753 ||    0.0314   0.0000  -0.1396   0.0314   |    0.0000   0.0000   0.0000   0.0000
+  0.1753 ||    0.0000   0.0314   0.0314  -0.1396   |    0.0000   0.0000   0.0000   0.0000
+ 
+  0.0870 ||    0.0586   0.0096   0.0096   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.0870 ||    0.0096   0.0586   0.0000   0.0096   |    0.0000   0.0000   0.0000   0.0000
+  0.0870 ||    0.0096   0.0000   0.0586   0.0096   |    0.0000   0.0000   0.0000   0.0000
+  0.0870 ||    0.0000   0.0096   0.0096   0.0586   |    0.0000   0.0000   0.0000   0.0000
+ 
+[1;91mmax error=[0m  3.5218308E-04       0
+[1;91m    error=[0m  1.8880945E-04       0
+[1;91mmin error=[0m  2.5916560E-05       0
+=====================================
+Total time [h:m:s.ms]:   0:03:45.780
+
+
+
+-----DMFT-loop    8 (max:  100)-----
+ 
+       V ||       Re(H) | Im(H)
+ 
+  0.1753 ||   -0.1401   0.0314   0.0314   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1753 ||    0.0314  -0.1401   0.0000   0.0314   |    0.0000   0.0000   0.0000   0.0000
+  0.1753 ||    0.0314   0.0000  -0.1401   0.0314   |    0.0000   0.0000   0.0000   0.0000
+  0.1753 ||    0.0000   0.0314   0.0314  -0.1401   |    0.0000   0.0000   0.0000   0.0000
+ 
+  0.0876 ||    0.0590   0.0095   0.0095   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.0876 ||    0.0095   0.0590   0.0000   0.0095   |    0.0000   0.0000   0.0000   0.0000
+  0.0876 ||    0.0095   0.0000   0.0590   0.0095   |    0.0000   0.0000   0.0000   0.0000
+  0.0876 ||    0.0000   0.0095   0.0095   0.0590   |    0.0000   0.0000   0.0000   0.0000
+ 
+Diagonalize impurity H:
+  10% |ETA: 0:00:15.993 @26 October 2023  22:21:13
+  20% |ETA: 0:00:29.908
+  30% |ETA: 0:01:23.652
+  40% |ETA: 0:01:59.935
+  50% |ETA: 0:01:40.788 @26 October 2023  22:22:54
+  60% |ETA: 0:01:18.613
+  70% |ETA: 0:00:54.844
+  80% |ETA: 0:00:32.504
+  90% |ETA: 0:00:14.920
+ 100% |ETA: 0:00:00.000
+Total time [h:m:s.ms]:   0:02:16.647
+Get impurity Greens functions:
+ 
+  +ETA --> fort.6
+  12% |ETA: 0:01:00.940
+  25% |ETA: 0:00:53.840
+  31% |ETA: 0:00:48.751
+  43% |ETA: 0:00:40.626
+  50% |ETA: 0:00:35.560 @26 October 2023  22:24:03
+  62% |ETA: 0:00:26.834
+  75% |ETA: 0:00:17.560
+  81% |ETA: 0:00:13.833
+  93% |ETA: 0:00:04.559
+ 100% |ETA: 0:00:00.000
+Total time [h:m:s.ms]:   0:01:11.818
+ 
+Get observables:
+dens site 1 =    0.923299513163    0.923299513163
+dens site 2 =    0.923299513163    0.923299513163
+dens site 3 =    0.923299513163    0.923299513163
+dens site 4 =    0.923299513163    0.923299513163
+dens  avg   =    0.923299513163    0.923299513163
+docc        =    0.032889713688
+ 
+ 
+Get local energy:
+Get cluster density matrix:
+Total time [h:m:s.ms]:   0:00:06.876
+Get single-particle density matrix (no print)
+  
+ Diagonalizing 4-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  3.3475334624542401
+  
+ Diagonalizing 3-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  3.2963147133060491
+  
+ Diagonalizing 2-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  2.4925184079683778
+  
+ Diagonalizing 1-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  1.5592755055426810
+
+ LOCAL-DM BENCHMARK [Mod.Phys.Lett.B.2013.27:05]
+ Semi-Analytical Estimate  |  Error
+  0.10959020052521226      |   6.8348104953486200E-014
+  0.42876004289330777      |   4.6018744370712739E-014
+  0.42876004289330821      |   4.6573855883025317E-014
+   3.2889713688171805E-002 |   2.8588242884097781E-015
+
+Get local Matsubara Green's function (no print)
+ 
+  +ETA --> fort.6
+  10% |ETA: 0:00:00.729 @26 October 2023  22:24:52
+  20% |ETA: 0:00:00.623
+  30% |ETA: 0:00:00.543
+  40% |ETA: 0:00:00.921
+  50% |ETA: 0:00:00.763 @26 October 2023  22:24:52
+  60% |ETA: 0:00:00.613
+  70% |ETA: 0:00:00.913
+  80% |ETA: 0:00:00.599
+  90% |ETA: 0:00:00.610
+Total time [h:m:s.ms]:   0:00:00.764
+Gloc dmft_gfio: write spin diagonal elements on many files.
+chi^2|iter=    6.089121558E-03 |    21  <--  All Orbs, All Spins
+ 
+       V ||       Re(H) | Im(H)
+ 
+  0.1752 ||   -0.1395   0.0314   0.0314   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1752 ||    0.0314  -0.1395   0.0000   0.0314   |    0.0000   0.0000   0.0000   0.0000
+  0.1752 ||    0.0314   0.0000  -0.1395   0.0314   |    0.0000   0.0000   0.0000   0.0000
+  0.1752 ||    0.0000   0.0314   0.0314  -0.1395   |    0.0000   0.0000   0.0000   0.0000
+ 
+  0.0870 ||    0.0584   0.0096   0.0096   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.0870 ||    0.0096   0.0584   0.0000   0.0096   |    0.0000   0.0000   0.0000   0.0000
+  0.0870 ||    0.0096   0.0000   0.0584   0.0096   |    0.0000   0.0000   0.0000   0.0000
+  0.0870 ||    0.0000   0.0096   0.0096   0.0584   |    0.0000   0.0000   0.0000   0.0000
+ 
+[1;91mmax error=[0m  2.6740909E-04       0
+[1;91m    error=[0m  1.4369212E-04       0
+[1;91mmin error=[0m  2.0314541E-05       0
+=====================================
+Total time [h:m:s.ms]:   0:03:44.435
+
+
+
+-----DMFT-loop    9 (max:  100)-----
+ 
+       V ||       Re(H) | Im(H)
+ 
+  0.1753 ||   -0.1400   0.0314   0.0314   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1753 ||    0.0314  -0.1400   0.0000   0.0314   |    0.0000   0.0000   0.0000   0.0000
+  0.1753 ||    0.0314   0.0000  -0.1400   0.0314   |    0.0000   0.0000   0.0000   0.0000
+  0.1753 ||    0.0000   0.0314   0.0314  -0.1400   |    0.0000   0.0000   0.0000   0.0000
+ 
+  0.0875 ||    0.0589   0.0096   0.0096   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.0875 ||    0.0096   0.0589   0.0000   0.0096   |    0.0000   0.0000   0.0000   0.0000
+  0.0875 ||    0.0096   0.0000   0.0589   0.0096   |    0.0000   0.0000   0.0000   0.0000
+  0.0875 ||    0.0000   0.0096   0.0096   0.0589   |    0.0000   0.0000   0.0000   0.0000
+ 
+Diagonalize impurity H:
+  10% |ETA: 0:00:15.966 @26 October 2023  22:24:57
+  20% |ETA: 0:00:32.505
+  30% |ETA: 0:01:24.656
+  40% |ETA: 0:02:02.958
+  50% |ETA: 0:01:43.812 @26 October 2023  22:26:42
+  60% |ETA: 0:01:20.628
+  70% |ETA: 0:00:55.869
+  80% |ETA: 0:00:33.519
+  90% |ETA: 0:00:15.947
+ 100% |ETA: 0:00:00.000
+Total time [h:m:s.ms]:   0:02:20.579
+Get impurity Greens functions:
+ 
+  +ETA --> fort.6
+  12% |ETA: 0:01:02.969
+  25% |ETA: 0:00:55.865
+  31% |ETA: 0:00:49.775
+  43% |ETA: 0:00:41.645
+  50% |ETA: 0:00:36.576 @26 October 2023  22:27:53
+  62% |ETA: 0:00:27.858
+  75% |ETA: 0:00:18.577
+  81% |ETA: 0:00:13.857
+  93% |ETA: 0:00:04.575
+ 100% |ETA: 0:00:00.000
+Total time [h:m:s.ms]:   0:01:13.869
+ 
+Get observables:
+dens site 1 =    0.923284433803    0.923284433803
+dens site 2 =    0.923284433803    0.923284433803
+dens site 3 =    0.923284433803    0.923284433803
+dens site 4 =    0.923284433803    0.923284433803
+dens  avg   =    0.923284433803    0.923284433803
+docc        =    0.032886345381
+ 
+ 
+Get local energy:
+Get cluster density matrix:
+Total time [h:m:s.ms]:   0:00:06.881
+Get single-particle density matrix (no print)
+  
+ Diagonalizing 4-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  3.3484113764911223
+  
+ Diagonalizing 3-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  3.2968245413182489
+  
+ Diagonalizing 2-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  2.4927196194097894
+  
+ Diagonalizing 1-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  1.5592860745206225
+
+ LOCAL-DM BENCHMARK [Mod.Phys.Lett.B.2013.27:05]
+ Semi-Analytical Estimate  |  Error
+  0.10960191157755295      |   1.1762812945903534E-013
+  0.42875587152094685      |   6.6613381477509392E-014
+  0.42875587152093775      |   7.0887740122316245E-014
+   3.2886345380562503E-002 |   2.0816681711721685E-015
+
+Get local Matsubara Green's function (no print)
+ 
+  +ETA --> fort.6
+  10% |ETA: 0:00:00.729 @26 October 2023  22:28:42
+  20% |ETA: 0:00:00.623
+  30% |ETA: 0:00:00.543
+  40% |ETA: 0:00:00.924
+  50% |ETA: 0:00:00.763 @26 October 2023  22:28:42
+  60% |ETA: 0:00:00.614
+  70% |ETA: 0:00:00.913
+  80% |ETA: 0:00:00.600
+  90% |ETA: 0:00:00.611
+Total time [h:m:s.ms]:   0:00:00.765
+Gloc dmft_gfio: write spin diagonal elements on many files.
+chi^2|iter=    6.108627852E-03 |    16  <--  All Orbs, All Spins
+ 
+       V ||       Re(H) | Im(H)
+ 
+  0.1752 ||   -0.1394   0.0315   0.0315   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1752 ||    0.0315  -0.1394   0.0000   0.0315   |    0.0000   0.0000   0.0000   0.0000
+  0.1752 ||    0.0315   0.0000  -0.1394   0.0315   |    0.0000   0.0000   0.0000   0.0000
+  0.1752 ||    0.0000   0.0315   0.0315  -0.1394   |    0.0000   0.0000   0.0000   0.0000
+ 
+  0.0870 ||    0.0583   0.0096   0.0096   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.0870 ||    0.0096   0.0583   0.0000   0.0096   |    0.0000   0.0000   0.0000   0.0000
+  0.0870 ||    0.0096   0.0000   0.0583   0.0096   |    0.0000   0.0000   0.0000   0.0000
+  0.0870 ||    0.0000   0.0096   0.0096   0.0583   |    0.0000   0.0000   0.0000   0.0000
+ 
+[1;91mmax error=[0m  2.0253524E-04       0
+[1;91m    error=[0m  1.0874932E-04       0
+[1;91mmin error=[0m  1.6297925E-05       0
+=====================================
+Total time [h:m:s.ms]:   0:03:50.975
+
+
+
+-----DMFT-loop   10 (max:  100)-----
+ 
+       V ||       Re(H) | Im(H)
+ 
+  0.1753 ||   -0.1398   0.0314   0.0314   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1753 ||    0.0314  -0.1398   0.0000   0.0314   |    0.0000   0.0000   0.0000   0.0000
+  0.1753 ||    0.0314   0.0000  -0.1398   0.0314   |    0.0000   0.0000   0.0000   0.0000
+  0.1753 ||    0.0000   0.0314   0.0314  -0.1398   |    0.0000   0.0000   0.0000   0.0000
+ 
+  0.0873 ||    0.0587   0.0096   0.0096   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.0873 ||    0.0096   0.0587   0.0000   0.0096   |    0.0000   0.0000   0.0000   0.0000
+  0.0873 ||    0.0096   0.0000   0.0587   0.0096   |    0.0000   0.0000   0.0000   0.0000
+  0.0873 ||    0.0000   0.0096   0.0096   0.0587   |    0.0000   0.0000   0.0000   0.0000
+ 
+Diagonalize impurity H:
+  10% |ETA: 0:00:09.604 @26 October 2023  22:28:48
+  20% |ETA: 0:00:28.898
+  30% |ETA: 0:01:22.642
+  40% |ETA: 0:01:58.923
+  50% |ETA: 0:01:38.769 @26 October 2023  22:30:27
+  60% |ETA: 0:01:16.598
+  70% |ETA: 0:00:53.829
+  80% |ETA: 0:00:31.993
+  90% |ETA: 0:00:14.908
+ 100% |ETA: 0:00:00.000
+Total time [h:m:s.ms]:   0:02:14.911
+Get impurity Greens functions:
+ 
+  +ETA --> fort.6
+  12% |ETA: 0:01:00.951
+  25% |ETA: 0:00:54.848
+  31% |ETA: 0:00:48.759
+  43% |ETA: 0:00:40.632
+  50% |ETA: 0:00:36.565 @26 October 2023  22:31:37
+  62% |ETA: 0:00:26.841
+  75% |ETA: 0:00:18.565
+  81% |ETA: 0:00:13.840
+  93% |ETA: 0:00:04.563
+ 100% |ETA: 0:00:00.000
+Total time [h:m:s.ms]:   0:01:12.379
+ 
+Get observables:
+dens site 1 =    0.923251483274    0.923251483274
+dens site 2 =    0.923251483274    0.923251483274
+dens site 3 =    0.923251483274    0.923251483274
+dens site 4 =    0.923251483274    0.923251483274
+dens  avg   =    0.923251483274    0.923251483274
+docc        =    0.032882196777
+ 
+ 
+Get local energy:
+Get cluster density matrix:
+Total time [h:m:s.ms]:   0:00:06.876
+Get single-particle density matrix (no print)
+  
+ Diagonalizing 4-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  3.3496085555543615
+  
+ Diagonalizing 3-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  3.2975114094143452
+  
+ Diagonalizing 2-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  2.4930180335653005
+  
+ Diagonalizing 1-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  1.5593273781085888
+
+ LOCAL-DM BENCHMARK [Mod.Phys.Lett.B.2013.27:05]
+ Semi-Analytical Estimate  |  Error
+  0.10963071350369918      |   7.4718009557273035E-014
+  0.42874354485949867      |   4.7961634663806763E-014
+  0.42874354485950489      |   4.4853010194856324E-014
+   3.2882196777297257E-002 |   1.0408340855860843E-015
+
+Get local Matsubara Green's function (no print)
+ 
+  +ETA --> fort.6
+  10% |ETA: 0:00:00.721 @26 October 2023  22:32:26
+  20% |ETA: 0:00:00.623
+  30% |ETA: 0:00:00.543
+  40% |ETA: 0:00:00.921
+  50% |ETA: 0:00:00.763 @26 October 2023  22:32:26
+  60% |ETA: 0:00:00.613
+  70% |ETA: 0:00:00.913
+  80% |ETA: 0:00:00.599
+  90% |ETA: 0:00:00.610
+Total time [h:m:s.ms]:   0:00:00.765
+Gloc dmft_gfio: write spin diagonal elements on many files.
+chi^2|iter=    6.123199844E-03 |    18  <--  All Orbs, All Spins
+ 
+       V ||       Re(H) | Im(H)
+ 
+  0.1751 ||   -0.1394   0.0315   0.0315   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1751 ||    0.0315  -0.1394   0.0000   0.0315   |    0.0000   0.0000   0.0000   0.0000
+  0.1751 ||    0.0315   0.0000  -0.1394   0.0315   |    0.0000   0.0000   0.0000   0.0000
+  0.1751 ||    0.0000   0.0315   0.0315  -0.1394   |    0.0000   0.0000   0.0000   0.0000
+ 
+  0.0869 ||    0.0582   0.0096   0.0096   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.0869 ||    0.0096   0.0582   0.0000   0.0096   |    0.0000   0.0000   0.0000   0.0000
+  0.0869 ||    0.0096   0.0000   0.0582   0.0096   |    0.0000   0.0000   0.0000   0.0000
+  0.0869 ||    0.0000   0.0096   0.0096   0.0582   |    0.0000   0.0000   0.0000   0.0000
+ 
+[1;91mmax error=[0m  1.5622305E-04       0
+[1;91m    error=[0m  8.3451262E-05       0
+[1;91mmin error=[0m  1.3355470E-05       0
+=====================================
+Total time [h:m:s.ms]:   0:03:43.958
+
+
+
+-----DMFT-loop   11 (max:  100)-----
+ 
+       V ||       Re(H) | Im(H)
+ 
+  0.1752 ||   -0.1397   0.0314   0.0314   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1752 ||    0.0314  -0.1397   0.0000   0.0314   |    0.0000   0.0000   0.0000   0.0000
+  0.1752 ||    0.0314   0.0000  -0.1397   0.0314   |    0.0000   0.0000   0.0000   0.0000
+  0.1752 ||    0.0000   0.0314   0.0314  -0.1397   |    0.0000   0.0000   0.0000   0.0000
+ 
+  0.0872 ||    0.0586   0.0096   0.0096   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.0872 ||    0.0096   0.0586   0.0000   0.0096   |    0.0000   0.0000   0.0000   0.0000
+  0.0872 ||    0.0096   0.0000   0.0586   0.0096   |    0.0000   0.0000   0.0000   0.0000
+  0.0872 ||    0.0000   0.0096   0.0096   0.0586   |    0.0000   0.0000   0.0000   0.0000
+ 
+Diagonalize impurity H:
+  10% |ETA: 0:00:10.656 @26 October 2023  22:32:32
+  20% |ETA: 0:00:29.907
+  30% |ETA: 0:01:21.633
+  40% |ETA: 0:01:53.884
+  50% |ETA: 0:01:33.730 @26 October 2023  22:34:06
+  60% |ETA: 0:01:13.574
+  70% |ETA: 0:00:51.798
+  80% |ETA: 0:00:30.955
+  90% |ETA: 0:00:13.872
+ 100% |ETA: 0:00:00.000
+Total time [h:m:s.ms]:   0:02:09.600
+Get impurity Greens functions:
+ 
+  +ETA --> fort.6
+  12% |ETA: 0:01:01.962
+  25% |ETA: 0:00:54.858
+  31% |ETA: 0:00:49.769
+  43% |ETA: 0:00:41.640
+  50% |ETA: 0:00:36.573 @26 October 2023  22:35:17
+  62% |ETA: 0:00:27.853
+  75% |ETA: 0:00:18.573
+  81% |ETA: 0:00:13.852
+  93% |ETA: 0:00:04.572
+ 100% |ETA: 0:00:00.000
+Total time [h:m:s.ms]:   0:01:13.438
+ 
+Get observables:
+dens site 1 =    0.923207997383    0.923207997383
+dens site 2 =    0.923207997383    0.923207997383
+dens site 3 =    0.923207997383    0.923207997383
+dens site 4 =    0.923207997383    0.923207997383
+dens  avg   =    0.923207997383    0.923207997383
+docc        =    0.032877775429
+ 
+ 
+Get local energy:
+Get cluster density matrix:
+Total time [h:m:s.ms]:   0:00:06.884
+Get single-particle density matrix (no print)
+  
+ Diagonalizing 4-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  3.3509617690790297
+  
+ Diagonalizing 3-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  3.2982840993740696
+  
+ Diagonalizing 2-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  2.4933678344771883
+  
+ Diagonalizing 1-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  1.5593878447388554
+
+ LOCAL-DM BENCHMARK [Mod.Phys.Lett.B.2013.27:05]
+ Semi-Analytical Estimate  |  Error
+  0.10966977804622008      |   1.9831358777366859E-014
+  0.42872622326246396      |   1.8152146452621309E-014
+  0.42872622326247062      |   2.2426505097428162E-014
+   3.2877775428845339E-002 |   1.1102230246251565E-016
+
+Get local Matsubara Green's function (no print)
+ 
+  +ETA --> fort.6
+  10% |ETA: 0:00:00.729 @26 October 2023  22:36:06
+  20% |ETA: 0:00:00.623
+  30% |ETA: 0:00:00.543
+  40% |ETA: 0:00:00.924
+  50% |ETA: 0:00:00.763 @26 October 2023  22:36:06
+  60% |ETA: 0:00:00.614
+  70% |ETA: 0:00:00.914
+  80% |ETA: 0:00:00.600
+  90% |ETA: 0:00:00.611
+Total time [h:m:s.ms]:   0:00:00.766
+Gloc dmft_gfio: write spin diagonal elements on many files.
+chi^2|iter=    6.133575211E-03 |    16  <--  All Orbs, All Spins
+ 
+       V ||       Re(H) | Im(H)
+ 
+  0.1751 ||   -0.1394   0.0315   0.0315   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1751 ||    0.0315  -0.1394   0.0000   0.0315   |    0.0000   0.0000   0.0000   0.0000
+  0.1751 ||    0.0315   0.0000  -0.1394   0.0315   |    0.0000   0.0000   0.0000   0.0000
+  0.1751 ||    0.0000   0.0315   0.0315  -0.1394   |    0.0000   0.0000   0.0000   0.0000
+ 
+  0.0869 ||    0.0581   0.0096   0.0096   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.0869 ||    0.0096   0.0581   0.0000   0.0096   |    0.0000   0.0000   0.0000   0.0000
+  0.0869 ||    0.0096   0.0000   0.0581   0.0096   |    0.0000   0.0000   0.0000   0.0000
+  0.0869 ||    0.0000   0.0096   0.0096   0.0581   |    0.0000   0.0000   0.0000   0.0000
+ 
+[1;91mmax error=[0m  1.2107328E-04       0
+[1;91m    error=[0m  6.4319861E-05       0
+[1;91mmin error=[0m  1.1021275E-05       0
+=====================================
+Total time [h:m:s.ms]:   0:03:39.608
+
+
+
+-----DMFT-loop   12 (max:  100)-----
+ 
+       V ||       Re(H) | Im(H)
+ 
+  0.1752 ||   -0.1396   0.0314   0.0314   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1752 ||    0.0314  -0.1396   0.0000   0.0314   |    0.0000   0.0000   0.0000   0.0000
+  0.1752 ||    0.0314   0.0000  -0.1396   0.0314   |    0.0000   0.0000   0.0000   0.0000
+  0.1752 ||    0.0000   0.0314   0.0314  -0.1396   |    0.0000   0.0000   0.0000   0.0000
+ 
+  0.0872 ||    0.0585   0.0096   0.0096   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.0872 ||    0.0096   0.0585   0.0000   0.0096   |    0.0000   0.0000   0.0000   0.0000
+  0.0872 ||    0.0096   0.0000   0.0585   0.0096   |    0.0000   0.0000   0.0000   0.0000
+  0.0872 ||    0.0000   0.0096   0.0096   0.0585   |    0.0000   0.0000   0.0000   0.0000
+ 
+Diagonalize impurity H:
+  10% |ETA: 0:00:11.701 @26 October 2023  22:36:11
+  20% |ETA: 0:00:27.866
+  30% |ETA: 0:01:24.657
+  40% |ETA: 0:01:57.920
+  50% |ETA: 0:01:39.781 @26 October 2023  22:37:52
+  60% |ETA: 0:01:18.612
+  70% |ETA: 0:00:54.845
+  80% |ETA: 0:00:33.517
+  90% |ETA: 0:00:15.945
+ 100% |ETA: 0:00:00.000
+Total time [h:m:s.ms]:   0:02:20.263
+Get impurity Greens functions:
+ 
+  +ETA --> fort.6
+  12% |ETA: 0:01:00.950
+  25% |ETA: 0:00:54.848
+  31% |ETA: 0:00:48.758
+  43% |ETA: 0:00:40.632
+  50% |ETA: 0:00:36.565 @26 October 2023  22:39:06
+  62% |ETA: 0:00:26.842
+  75% |ETA: 0:00:18.565
+  81% |ETA: 0:00:13.841
+  93% |ETA: 0:00:04.564
+ 100% |ETA: 0:00:00.000
+Total time [h:m:s.ms]:   0:01:12.454
+ 
+Get observables:
+dens site 1 =    0.923159564951    0.923159564951
+dens site 2 =    0.923159564951    0.923159564951
+dens site 3 =    0.923159564951    0.923159564951
+dens site 4 =    0.923159564951    0.923159564951
+dens  avg   =    0.923159564951    0.923159564951
+docc        =    0.032873436064
+ 
+ 
+Get local energy:
+Get cluster density matrix:
+Total time [h:m:s.ms]:   0:00:06.895
+Get single-particle density matrix (no print)
+  
+ Diagonalizing 4-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  3.3523510454629375
+  
+ Diagonalizing 3-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  3.2990755148618698
+  
+ Diagonalizing 2-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  2.4937348433546069
+  
+ Diagonalizing 1-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  1.5594584796587727
+
+ LOCAL-DM BENCHMARK [Mod.Phys.Lett.B.2013.27:05]
+ Semi-Analytical Estimate  |  Error
+  0.10971387111275344      |   1.3115897257165443E-013
+  0.42870634641157768      |   7.5273121069585613E-014
+  0.42870634641158090      |   7.7826634026223473E-014
+   3.2873436064087984E-002 |   8.6736173798840355E-016
+
+Get local Matsubara Green's function (no print)
+ 
+  +ETA --> fort.6
+  10% |ETA: 0:00:00.729 @26 October 2023  22:39:55
+  20% |ETA: 0:00:00.623
+  30% |ETA: 0:00:00.543
+  40% |ETA: 0:00:00.921
+  50% |ETA: 0:00:00.761 @26 October 2023  22:39:55
+  60% |ETA: 0:00:00.613
+  70% |ETA: 0:00:00.911
+  80% |ETA: 0:00:00.599
+  90% |ETA: 0:00:00.609
+Total time [h:m:s.ms]:   0:00:00.764
+Gloc dmft_gfio: write spin diagonal elements on many files.
+chi^2|iter=    6.140502408E-03 |    18  <--  All Orbs, All Spins
+ 
+       V ||       Re(H) | Im(H)
+ 
+  0.1751 ||   -0.1394   0.0315   0.0315   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1751 ||    0.0315  -0.1394   0.0000   0.0315   |    0.0000   0.0000   0.0000   0.0000
+  0.1751 ||    0.0315   0.0000  -0.1394   0.0315   |    0.0000   0.0000   0.0000   0.0000
+  0.1751 ||    0.0000   0.0315   0.0315  -0.1394   |    0.0000   0.0000   0.0000   0.0000
+ 
+  0.0869 ||    0.0580   0.0096   0.0096   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.0869 ||    0.0096   0.0580   0.0000   0.0096   |    0.0000   0.0000   0.0000   0.0000
+  0.0869 ||    0.0096   0.0000   0.0580   0.0096   |    0.0000   0.0000   0.0000   0.0000
+  0.0869 ||    0.0000   0.0096   0.0096   0.0580   |    0.0000   0.0000   0.0000   0.0000
+ 
+[1;91mmax error=[0m  9.4821775E-05       0
+[1;91m    error=[0m  5.0293922E-05       0
+[1;91mmin error=[0m  9.2509694E-06       0
+=====================================
+Total time [h:m:s.ms]:   0:03:49.090
+
+
+
+-----DMFT-loop   13 (max:  100)-----
+ 
+       V ||       Re(H) | Im(H)
+ 
+  0.1752 ||   -0.1396   0.0314   0.0314   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1752 ||    0.0314  -0.1396   0.0000   0.0314   |    0.0000   0.0000   0.0000   0.0000
+  0.1752 ||    0.0314   0.0000  -0.1396   0.0314   |    0.0000   0.0000   0.0000   0.0000
+  0.1752 ||    0.0000   0.0314   0.0314  -0.1396   |    0.0000   0.0000   0.0000   0.0000
+ 
+  0.0871 ||    0.0584   0.0096   0.0096   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.0871 ||    0.0096   0.0584   0.0000   0.0096   |    0.0000   0.0000   0.0000   0.0000
+  0.0871 ||    0.0096   0.0000   0.0584   0.0096   |    0.0000   0.0000   0.0000   0.0000
+  0.0871 ||    0.0000   0.0096   0.0096   0.0584   |    0.0000   0.0000   0.0000   0.0000
+ 
+Diagonalize impurity H:
+  10% |ETA: 0:00:12.778 @26 October 2023  22:40:01
+  20% |ETA: 0:00:28.905
+  30% |ETA: 0:01:24.659
+  40% |ETA: 0:02:00.939
+  50% |ETA: 0:01:42.802 @26 October 2023  22:41:44
+  60% |ETA: 0:01:18.616
+  70% |ETA: 0:00:54.854
+  80% |ETA: 0:00:34.532
+  90% |ETA: 0:00:15.972
+ 100% |ETA: 0:00:00.000
+Total time [h:m:s.ms]:   0:02:24.173
+Get impurity Greens functions:
+ 
+  +ETA --> fort.6
+  12% |ETA: 0:01:00.952
+  25% |ETA: 0:00:54.850
+  31% |ETA: 0:00:48.761
+  43% |ETA: 0:00:40.634
+  50% |ETA: 0:00:36.567 @26 October 2023  22:43:00
+  62% |ETA: 0:00:27.844
+  75% |ETA: 0:00:18.567
+  81% |ETA: 0:00:13.844
+  93% |ETA: 0:00:04.566
+ 100% |ETA: 0:00:00.000
+Total time [h:m:s.ms]:   0:01:12.701
+ 
+Get observables:
+dens site 1 =    0.923110260021    0.923110260021
+dens site 2 =    0.923110260021    0.923110260021
+dens site 3 =    0.923110260021    0.923110260021
+dens site 4 =    0.923110260021    0.923110260021
+dens  avg   =    0.923110260021    0.923110260021
+docc        =    0.032869410167
+ 
+ 
+Get local energy:
+Get cluster density matrix:
+Total time [h:m:s.ms]:   0:00:06.883
+Get single-particle density matrix (no print)
+  
+ Diagonalizing 4-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  3.3536928943987467
+  
+ Diagonalizing 3-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  3.2998389577020695
+  
+ Diagonalizing 2-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  2.4940948300256869
+  
+ Diagonalizing 1-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  1.5595325780801068
+
+ LOCAL-DM BENCHMARK [Mod.Phys.Lett.B.2013.27:05]
+ Semi-Analytical Estimate  |  Error
+  0.10975915014561326      |   1.4750700660925986E-013
+  0.42868571984392417      |   9.0649709960644032E-014
+  0.42868571984392573      |   8.7319040886768562E-014
+   3.2869410166536814E-002 |   1.6583956430338276E-015
+
+Get local Matsubara Green's function (no print)
+ 
+  +ETA --> fort.6
+  10% |ETA: 0:00:00.729 @26 October 2023  22:43:48
+  20% |ETA: 0:00:00.623
+  30% |ETA: 0:00:00.543
+  40% |ETA: 0:00:00.924
+  50% |ETA: 0:00:00.763 @26 October 2023  22:43:48
+  60% |ETA: 0:00:00.614
+  70% |ETA: 0:00:00.913
+  80% |ETA: 0:00:00.600
+  90% |ETA: 0:00:00.611
+Total time [h:m:s.ms]:   0:00:00.765
+Gloc dmft_gfio: write spin diagonal elements on many files.
+chi^2|iter=    6.144692347E-03 |    19  <--  All Orbs, All Spins
+ 
+       V ||       Re(H) | Im(H)
+ 
+  0.1751 ||   -0.1394   0.0315   0.0315   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1751 ||    0.0315  -0.1394   0.0000   0.0315   |    0.0000   0.0000   0.0000   0.0000
+  0.1751 ||    0.0315   0.0000  -0.1394   0.0315   |    0.0000   0.0000   0.0000   0.0000
+  0.1751 ||    0.0000   0.0315   0.0315  -0.1394   |    0.0000   0.0000   0.0000   0.0000
+ 
+  0.0870 ||    0.0580   0.0096   0.0096   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.0870 ||    0.0096   0.0580   0.0000   0.0096   |    0.0000   0.0000   0.0000   0.0000
+  0.0870 ||    0.0096   0.0000   0.0580   0.0096   |    0.0000   0.0000   0.0000   0.0000
+  0.0870 ||    0.0000   0.0096   0.0096   0.0580   |    0.0000   0.0000   0.0000   0.0000
+ 
+[1;91mmax error=[0m  7.7615251E-05       0
+[1;91m    error=[0m  4.1649120E-05       0
+[1;91mmin error=[0m  7.9859839E-06       0
+=====================================
+Total time [h:m:s.ms]:   0:03:53.450
+
+
+
+-----DMFT-loop   14 (max:  100)-----
+ 
+       V ||       Re(H) | Im(H)
+ 
+  0.1751 ||   -0.1395   0.0315   0.0315   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1751 ||    0.0315  -0.1395   0.0000   0.0315   |    0.0000   0.0000   0.0000   0.0000
+  0.1751 ||    0.0315   0.0000  -0.1395   0.0315   |    0.0000   0.0000   0.0000   0.0000
+  0.1751 ||    0.0000   0.0315   0.0315  -0.1395   |    0.0000   0.0000   0.0000   0.0000
+ 
+  0.0871 ||    0.0583   0.0096   0.0096   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.0871 ||    0.0096   0.0583   0.0000   0.0096   |    0.0000   0.0000   0.0000   0.0000
+  0.0871 ||    0.0096   0.0000   0.0583   0.0096   |    0.0000   0.0000   0.0000   0.0000
+  0.0871 ||    0.0000   0.0096   0.0096   0.0583   |    0.0000   0.0000   0.0000   0.0000
+ 
+Diagonalize impurity H:
+  10% |ETA: 0:00:09.567 @26 October 2023  22:43:54
+  20% |ETA: 0:00:33.516
+  30% |ETA: 0:01:26.677
+  40% |ETA: 0:02:05.982
+  50% |ETA: 0:01:44.815 @26 October 2023  22:45:39
+  60% |ETA: 0:01:21.637
+  70% |ETA: 0:00:56.878
+  80% |ETA: 0:00:35.556
+  90% |ETA: 0:00:16.507
+ 100% |ETA: 0:00:00.000
+Total time [h:m:s.ms]:   0:02:30.372
+Get impurity Greens functions:
+ 
+  +ETA --> fort.6
+  12% |ETA: 0:01:01.962
+  25% |ETA: 0:00:54.857
+  31% |ETA: 0:00:49.768
+  43% |ETA: 0:00:40.639
+  50% |ETA: 0:00:36.572 @26 October 2023  22:46:59
+  62% |ETA: 0:00:27.852
+  75% |ETA: 0:00:18.572
+  81% |ETA: 0:00:13.852
+  93% |ETA: 0:00:04.571
+ 100% |ETA: 0:00:00.000
+Total time [h:m:s.ms]:   0:01:13.391
+ 
+Get observables:
+dens site 1 =    0.923062899380    0.923062899380
+dens site 2 =    0.923062899380    0.923062899380
+dens site 3 =    0.923062899380    0.923062899380
+dens site 4 =    0.923062899380    0.923062899380
+dens  avg   =    0.923062899380    0.923062899380
+docc        =    0.032865833276
+ 
+ 
+Get local energy:
+Get cluster density matrix:
+Total time [h:m:s.ms]:   0:00:06.895
+Get single-particle density matrix (no print)
+  
+ Diagonalizing 4-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  3.3549332682490238
+  
+ Diagonalizing 3-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  3.3005442149372164
+  
+ Diagonalizing 2-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  2.4944316897848475
+  
+ Diagonalizing 1-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  1.5596053715202975
+
+ LOCAL-DM BENCHMARK [Mod.Phys.Lett.B.2013.27:05]
+ Semi-Analytical Estimate  |  Error
+  0.10980293389602963      |   1.5368262218373729E-013
+  0.42866561641411199      |   8.5709217501062085E-014
+  0.42866561641411211      |   8.7818641247849882E-014
+   3.2865833275746270E-002 |   1.7971735211119721E-015
+
+Get local Matsubara Green's function (no print)
+ 
+  +ETA --> fort.6
+  10% |ETA: 0:00:00.729 @26 October 2023  22:47:49
+  20% |ETA: 0:00:00.623
+  30% |ETA: 0:00:00.543
+  40% |ETA: 0:00:00.921
+  50% |ETA: 0:00:00.763 @26 October 2023  22:47:49
+  60% |ETA: 0:00:00.614
+  70% |ETA: 0:00:00.913
+  80% |ETA: 0:00:00.600
+  90% |ETA: 0:00:00.611
+Total time [h:m:s.ms]:   0:00:00.765
+Gloc dmft_gfio: write spin diagonal elements on many files.
+chi^2|iter=    6.146787262E-03 |    17  <--  All Orbs, All Spins
+ 
+       V ||       Re(H) | Im(H)
+ 
+  0.1751 ||   -0.1394   0.0315   0.0315   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1751 ||    0.0315  -0.1394   0.0000   0.0315   |    0.0000   0.0000   0.0000   0.0000
+  0.1751 ||    0.0315   0.0000  -0.1394   0.0315   |    0.0000   0.0000   0.0000   0.0000
+  0.1751 ||    0.0000   0.0315   0.0315  -0.1394   |    0.0000   0.0000   0.0000   0.0000
+ 
+  0.0870 ||    0.0579   0.0096   0.0096   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.0870 ||    0.0096   0.0579   0.0000   0.0096   |    0.0000   0.0000   0.0000   0.0000
+  0.0870 ||    0.0096   0.0000   0.0579   0.0096   |    0.0000   0.0000   0.0000   0.0000
+  0.0870 ||    0.0000   0.0096   0.0096   0.0579   |    0.0000   0.0000   0.0000   0.0000
+ 
+[1;91mmax error=[0m  6.7856215E-05       0
+[1;91m    error=[0m  3.6703101E-05       0
+[1;91mmin error=[0m  7.0289115E-06       0
+=====================================
+Total time [h:m:s.ms]:   0:04:**.902
+
+
+
+-----DMFT-loop   15 (max:  100)-----
+ 
+       V ||       Re(H) | Im(H)
+ 
+  0.1751 ||   -0.1395   0.0315   0.0315   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1751 ||    0.0315  -0.1395   0.0000   0.0315   |    0.0000   0.0000   0.0000   0.0000
+  0.1751 ||    0.0315   0.0000  -0.1395   0.0315   |    0.0000   0.0000   0.0000   0.0000
+  0.1751 ||    0.0000   0.0315   0.0315  -0.1395   |    0.0000   0.0000   0.0000   0.0000
+ 
+  0.0870 ||    0.0582   0.0096   0.0096   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.0870 ||    0.0096   0.0582   0.0000   0.0096   |    0.0000   0.0000   0.0000   0.0000
+  0.0870 ||    0.0096   0.0000   0.0582   0.0096   |    0.0000   0.0000   0.0000   0.0000
+  0.0870 ||    0.0000   0.0096   0.0096   0.0582   |    0.0000   0.0000   0.0000   0.0000
+ 
+Diagonalize impurity H:
+  10% |ETA: 0:00:11.734 @26 October 2023  22:47:54
+  20% |ETA: 0:00:27.859
+  30% |ETA: 0:01:26.672
+  40% |ETA: 0:01:59.933
+  50% |ETA: 0:01:42.799 @26 October 2023  22:49:37
+  60% |ETA: 0:01:18.615
+  70% |ETA: 0:00:54.853
+  80% |ETA: 0:00:32.510
+  90% |ETA: 0:00:14.932
+ 100% |ETA: 0:00:00.000
+Total time [h:m:s.ms]:   0:02:18.308
+Get impurity Greens functions:
+ 
+  +ETA --> fort.6
+  12% |ETA: 0:01:01.961
+  25% |ETA: 0:00:54.858
+  31% |ETA: 0:00:49.768
+  43% |ETA: 0:00:40.639
+  50% |ETA: 0:00:36.571 @26 October 2023  22:50:47
+  62% |ETA: 0:00:27.850
+  75% |ETA: 0:00:18.571
+  81% |ETA: 0:00:13.850
+  93% |ETA: 0:00:04.570
+ 100% |ETA: 0:00:00.000
+Total time [h:m:s.ms]:   0:01:13.218
+ 
+Get observables:
+dens site 1 =    0.923019289223    0.923019289223
+dens site 2 =    0.923019289223    0.923019289223
+dens site 3 =    0.923019289223    0.923019289223
+dens site 4 =    0.923019289223    0.923019289223
+dens  avg   =    0.923019289223    0.923019289223
+docc        =    0.032862768921
+ 
+ 
+Get local energy:
+Get cluster density matrix:
+Total time [h:m:s.ms]:   0:00:06.881
+Get single-particle density matrix (no print)
+  
+ Diagonalizing 4-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  3.3560410821599769
+  
+ Diagonalizing 3-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  3.3011739436547343
+  
+ Diagonalizing 2-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  2.4947357332668583
+  
+ Diagonalizing 1-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  1.5596736752209006
+
+ LOCAL-DM BENCHMARK [Mod.Phys.Lett.B.2013.27:05]
+ Semi-Analytical Estimate  |  Error
+  0.10984347969820209      |   5.6954441163270531E-014
+  0.42864687569036131      |   3.8857805861880479E-014
+  0.42864687569036541      |   3.7914116290949096E-014
+   3.2862768921071220E-002 |   5.9674487573602164E-016
+
+Get local Matsubara Green's function (no print)
+ 
+  +ETA --> fort.6
+  10% |ETA: 0:00:00.729 @26 October 2023  22:51:36
+  20% |ETA: 0:00:00.623
+  30% |ETA: 0:00:00.543
+  40% |ETA: 0:00:00.924
+  50% |ETA: 0:00:00.763 @26 October 2023  22:51:36
+  60% |ETA: 0:00:00.614
+  70% |ETA: 0:00:00.913
+  80% |ETA: 0:00:00.600
+  90% |ETA: 0:00:00.611
+Total time [h:m:s.ms]:   0:00:00.765
+Gloc dmft_gfio: write spin diagonal elements on many files.
+chi^2|iter=    6.147343643E-03 |    17  <--  All Orbs, All Spins
+ 
+       V ||       Re(H) | Im(H)
+ 
+  0.1751 ||   -0.1394   0.0315   0.0315   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1751 ||    0.0315  -0.1394   0.0000   0.0315   |    0.0000   0.0000   0.0000   0.0000
+  0.1751 ||    0.0315   0.0000  -0.1394   0.0315   |    0.0000   0.0000   0.0000   0.0000
+  0.1751 ||    0.0000   0.0315   0.0315  -0.1394   |    0.0000   0.0000   0.0000   0.0000
+ 
+  0.0870 ||    0.0579   0.0095   0.0095   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.0870 ||    0.0095   0.0579   0.0000   0.0095   |    0.0000   0.0000   0.0000   0.0000
+  0.0870 ||    0.0095   0.0000   0.0579   0.0095   |    0.0000   0.0000   0.0000   0.0000
+  0.0870 ||    0.0000   0.0095   0.0095   0.0579   |    0.0000   0.0000   0.0000   0.0000
+ 
+[1;91mmax error=[0m  6.0384513E-05       0
+[1;91m    error=[0m  3.2823436E-05       0
+[1;91mmin error=[0m  6.1949053E-06       0
+=====================================
+Total time [h:m:s.ms]:   0:03:47.185
+
+
+
+-----DMFT-loop   16 (max:  100)-----
+ 
+       V ||       Re(H) | Im(H)
+ 
+  0.1751 ||   -0.1395   0.0315   0.0315   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1751 ||    0.0315  -0.1395   0.0000   0.0315   |    0.0000   0.0000   0.0000   0.0000
+  0.1751 ||    0.0315   0.0000  -0.1395   0.0315   |    0.0000   0.0000   0.0000   0.0000
+  0.1751 ||    0.0000   0.0315   0.0315  -0.1395   |    0.0000   0.0000   0.0000   0.0000
+ 
+  0.0870 ||    0.0581   0.0096   0.0096   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.0870 ||    0.0096   0.0581   0.0000   0.0096   |    0.0000   0.0000   0.0000   0.0000
+  0.0870 ||    0.0096   0.0000   0.0581   0.0096   |    0.0000   0.0000   0.0000   0.0000
+  0.0870 ||    0.0000   0.0096   0.0096   0.0581   |    0.0000   0.0000   0.0000   0.0000
+ 
+Diagonalize impurity H:
+  10% |ETA: 0:00:11.709 @26 October 2023  22:51:41
+  20% |ETA: 0:00:29.923
+  30% |ETA: 0:01:19.619
+  40% |ETA: 0:01:55.904
+  50% |ETA: 0:01:39.780 @26 October 2023  22:53:22
+  60% |ETA: 0:01:17.602
+  70% |ETA: 0:00:53.834
+  80% |ETA: 0:00:31.997
+  90% |ETA: 0:00:14.911
+ 100% |ETA: 0:00:00.000
+Total time [h:m:s.ms]:   0:02:15.254
+Get impurity Greens functions:
+ 
+  +ETA --> fort.6
+  12% |ETA: 0:01:01.954
+  25% |ETA: 0:00:54.852
+  31% |ETA: 0:00:48.763
+  43% |ETA: 0:00:40.636
+  50% |ETA: 0:00:36.568 @26 October 2023  22:54:31
+  62% |ETA: 0:00:27.846
+  75% |ETA: 0:00:18.569
+  81% |ETA: 0:00:13.846
+  93% |ETA: 0:00:04.568
+ 100% |ETA: 0:00:00.000
+Total time [h:m:s.ms]:   0:01:13.000
+ 
+Get observables:
+dens site 1 =    0.922980453584    0.922980453584
+dens site 2 =    0.922980453584    0.922980453584
+dens site 3 =    0.922980453584    0.922980453584
+dens site 4 =    0.922980453584    0.922980453584
+dens  avg   =    0.922980453584    0.922980453584
+docc        =    0.032860228942
+ 
+ 
+Get local energy:
+Get cluster density matrix:
+Total time [h:m:s.ms]:   0:00:06.883
+Get single-particle density matrix (no print)
+  
+ Diagonalizing 4-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  3.3570024235851603
+  
+ Diagonalizing 3-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  3.3017204300742486
+  
+ Diagonalizing 2-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  2.4950021327053293
+  
+ Diagonalizing 1-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  1.5597355512090025
+
+ LOCAL-DM BENCHMARK [Mod.Phys.Lett.B.2013.27:05]
+ Semi-Analytical Estimate  |  Error
+  0.10987977535822996      |   7.7438055967604669E-015
+  0.42862999784991346      |   1.4210854715202004E-014
+  0.42862999784991268      |   1.5765166949677223E-014
+   3.2860228941943910E-002 |   5.7592819402429996E-016
+
+Get local Matsubara Green's function (no print)
+ 
+  +ETA --> fort.6
+  10% |ETA: 0:00:00.729 @26 October 2023  22:55:20
+  20% |ETA: 0:00:00.623
+  30% |ETA: 0:00:00.543
+  40% |ETA: 0:00:00.924
+  50% |ETA: 0:00:00.763 @26 October 2023  22:55:20
+  60% |ETA: 0:00:00.614
+  70% |ETA: 0:00:00.913
+  80% |ETA: 0:00:00.600
+  90% |ETA: 0:00:00.611
+Total time [h:m:s.ms]:   0:00:00.765
+Gloc dmft_gfio: write spin diagonal elements on many files.
+chi^2|iter=    6.146826188E-03 |    17  <--  All Orbs, All Spins
+ 
+       V ||       Re(H) | Im(H)
+ 
+  0.1751 ||   -0.1394   0.0315   0.0315   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1751 ||    0.0315  -0.1394   0.0000   0.0315   |    0.0000   0.0000   0.0000   0.0000
+  0.1751 ||    0.0315   0.0000  -0.1394   0.0315   |    0.0000   0.0000   0.0000   0.0000
+  0.1751 ||    0.0000   0.0315   0.0315  -0.1394   |    0.0000   0.0000   0.0000   0.0000
+ 
+  0.0870 ||    0.0579   0.0095   0.0095   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.0870 ||    0.0095   0.0579   0.0000   0.0095   |    0.0000   0.0000   0.0000   0.0000
+  0.0870 ||    0.0095   0.0000   0.0579   0.0095   |    0.0000   0.0000   0.0000   0.0000
+  0.0870 ||    0.0000   0.0095   0.0095   0.0579   |    0.0000   0.0000   0.0000   0.0000
+ 
+[1;91mmax error=[0m  5.3725518E-05       0
+[1;91m    error=[0m  2.9280297E-05       0
+[1;91mmin error=[0m  5.4125269E-06       0
+=====================================
+Total time [h:m:s.ms]:   0:03:44.607
+
+
+
+-----DMFT-loop   17 (max:  100)-----
+ 
+       V ||       Re(H) | Im(H)
+ 
+  0.1751 ||   -0.1394   0.0315   0.0315   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1751 ||    0.0315  -0.1394   0.0000   0.0315   |    0.0000   0.0000   0.0000   0.0000
+  0.1751 ||    0.0315   0.0000  -0.1394   0.0315   |    0.0000   0.0000   0.0000   0.0000
+  0.1751 ||    0.0000   0.0315   0.0315  -0.1394   |    0.0000   0.0000   0.0000   0.0000
+ 
+  0.0870 ||    0.0581   0.0096   0.0096   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.0870 ||    0.0096   0.0581   0.0000   0.0096   |    0.0000   0.0000   0.0000   0.0000
+  0.0870 ||    0.0096   0.0000   0.0581   0.0096   |    0.0000   0.0000   0.0000   0.0000
+  0.0870 ||    0.0000   0.0096   0.0096   0.0581   |    0.0000   0.0000   0.0000   0.0000
+ 
+Diagonalize impurity H:
+  10% |ETA: 0:00:09.613 @26 October 2023  22:55:25
+  20% |ETA: 0:00:27.870
+  30% |ETA: 0:01:24.661
+  40% |ETA: 0:02:04.973
+  50% |ETA: 0:01:45.826 @26 October 2023  22:57:12
+  60% |ETA: 0:01:20.628
+  70% |ETA: 0:00:55.868
+  80% |ETA: 0:00:33.521
+  90% |ETA: 0:00:15.952
+ 100% |ETA: 0:00:00.000
+Total time [h:m:s.ms]:   0:02:21.316
+Get impurity Greens functions:
+ 
+  +ETA --> fort.6
+  12% |ETA: 0:01:01.957
+  25% |ETA: 0:00:54.855
+  31% |ETA: 0:00:48.765
+  43% |ETA: 0:00:40.637
+  50% |ETA: 0:00:36.570 @26 October 2023  22:58:22
+  62% |ETA: 0:00:27.848
+  75% |ETA: 0:00:18.569
+  81% |ETA: 0:00:13.847
+  93% |ETA: 0:00:04.568
+ 100% |ETA: 0:00:00.000
+Total time [h:m:s.ms]:   0:01:12.978
+ 
+Get observables:
+dens site 1 =    0.922946834085    0.922946834085
+dens site 2 =    0.922946834085    0.922946834085
+dens site 3 =    0.922946834085    0.922946834085
+dens site 4 =    0.922946834085    0.922946834085
+dens  avg   =    0.922946834085    0.922946834085
+docc        =    0.032858190162
+ 
+ 
+Get local energy:
+Get cluster density matrix:
+Total time [h:m:s.ms]:   0:00:06.886
+Get single-particle density matrix (no print)
+  
+ Diagonalizing 4-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  3.3578156545648064
+  
+ Diagonalizing 3-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  3.3021828438467056
+  
+ Diagonalizing 2-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  2.4952295905878454
+  
+ Diagonalizing 1-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  1.5597900079439517
+
+ LOCAL-DM BENCHMARK [Mod.Phys.Lett.B.2013.27:05]
+ Semi-Analytical Estimate  |  Error
+  0.10991135607690081      |   7.4884543010966809E-014
+  0.42861522688041298      |   2.9254376698872875E-014
+  0.42861522688040810      |   2.6978419498391304E-014
+   3.2858190162278124E-002 |   2.0886070650760757E-015
+
+Get local Matsubara Green's function (no print)
+ 
+  +ETA --> fort.6
+  10% |ETA: 0:00:00.721 @26 October 2023  22:59:11
+  20% |ETA: 0:00:00.623
+  30% |ETA: 0:00:00.543
+  40% |ETA: 0:00:00.921
+  50% |ETA: 0:00:00.761 @26 October 2023  22:59:11
+  60% |ETA: 0:00:00.613
+  70% |ETA: 0:00:00.913
+  80% |ETA: 0:00:00.599
+  90% |ETA: 0:00:00.610
+Total time [h:m:s.ms]:   0:00:00.764
+Gloc dmft_gfio: write spin diagonal elements on many files.
+chi^2|iter=    6.145609888E-03 |    15  <--  All Orbs, All Spins
+ 
+       V ||       Re(H) | Im(H)
+ 
+  0.1751 ||   -0.1394   0.0315   0.0315   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1751 ||    0.0315  -0.1394   0.0000   0.0315   |    0.0000   0.0000   0.0000   0.0000
+  0.1751 ||    0.0315   0.0000  -0.1394   0.0315   |    0.0000   0.0000   0.0000   0.0000
+  0.1751 ||    0.0000   0.0315   0.0315  -0.1394   |    0.0000   0.0000   0.0000   0.0000
+ 
+  0.0870 ||    0.0579   0.0095   0.0095   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.0870 ||    0.0095   0.0579   0.0000   0.0095   |    0.0000   0.0000   0.0000   0.0000
+  0.0870 ||    0.0095   0.0000   0.0579   0.0095   |    0.0000   0.0000   0.0000   0.0000
+  0.0870 ||    0.0000   0.0095   0.0095   0.0579   |    0.0000   0.0000   0.0000   0.0000
+ 
+[1;91mmax error=[0m  4.7475793E-05       0
+[1;91m    error=[0m  2.5889905E-05       0
+[1;91mmin error=[0m  4.6686360E-06       0
+=====================================
+Total time [h:m:s.ms]:   0:03:49.862
+
+
+
+-----DMFT-loop   18 (max:  100)-----
+ 
+       V ||       Re(H) | Im(H)
+ 
+  0.1751 ||   -0.1394   0.0315   0.0315   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1751 ||    0.0315  -0.1394   0.0000   0.0315   |    0.0000   0.0000   0.0000   0.0000
+  0.1751 ||    0.0315   0.0000  -0.1394   0.0315   |    0.0000   0.0000   0.0000   0.0000
+  0.1751 ||    0.0000   0.0315   0.0315  -0.1394   |    0.0000   0.0000   0.0000   0.0000
+ 
+  0.0870 ||    0.0580   0.0096   0.0096   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.0870 ||    0.0096   0.0580   0.0000   0.0096   |    0.0000   0.0000   0.0000   0.0000
+  0.0870 ||    0.0096   0.0000   0.0580   0.0096   |    0.0000   0.0000   0.0000   0.0000
+  0.0870 ||    0.0000   0.0096   0.0096   0.0580   |    0.0000   0.0000   0.0000   0.0000
+ 
+Diagonalize impurity H:
+  10% |ETA: 0:00:24.760 @26 October 2023  22:59:17
+  20% |ETA: 0:00:41.642
+  30% |ETA: 0:01:31.711
+  40% |ETA: 0:02:06.989
+  50% |ETA: 0:01:48.845 @26 October 2023  23:01:05
+  60% |ETA: 0:01:22.641
+  70% |ETA: 0:00:56.888
+  80% |ETA: 0:00:34.531
+  90% |ETA: 0:00:15.970
+ 100% |ETA: 0:00:00.000
+Total time [h:m:s.ms]:   0:02:23.958
+Get impurity Greens functions:
+ 
+  +ETA --> fort.6
+  12% |ETA: 0:01:01.962
+  25% |ETA: 0:00:54.859
+  31% |ETA: 0:00:49.769
+  43% |ETA: 0:00:41.640
+  50% |ETA: 0:00:36.572 @26 October 2023  23:02:15
+  62% |ETA: 0:00:27.853
+  75% |ETA: 0:00:18.573
+  81% |ETA: 0:00:13.852
+  93% |ETA: 0:00:04.571
+ 100% |ETA: 0:00:00.000
+Total time [h:m:s.ms]:   0:01:13.406
+ 
+Get observables:
+dens site 1 =    0.922918455691    0.922918455691
+dens site 2 =    0.922918455691    0.922918455691
+dens site 3 =    0.922918455691    0.922918455691
+dens site 4 =    0.922918455691    0.922918455691
+dens  avg   =    0.922918455691    0.922918455691
+docc        =    0.032856607506
+ 
+ 
+Get local energy:
+Get cluster density matrix:
+Total time [h:m:s.ms]:   0:00:06.888
+Get single-particle density matrix (no print)
+  
+ Diagonalizing 4-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  3.3584874699950413
+  
+ Diagonalizing 3-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  3.3025650278733867
+  
+ Diagonalizing 2-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  2.4954192567087623
+  
+ Diagonalizing 1-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  1.5598367475505039
+
+ LOCAL-DM BENCHMARK [Mod.Phys.Lett.B.2013.27:05]
+ Semi-Analytical Estimate  |  Error
+  0.10993815181499982      |   9.4368957093138306E-014
+  0.42860262033927438      |   5.5511151231257827E-014
+  0.42860262033927382      |   6.0562665993302289E-014
+   3.2856607506451960E-002 |   1.3808398868775384E-015
+
+Get local Matsubara Green's function (no print)
+ 
+  +ETA --> fort.6
+  10% |ETA: 0:00:00.729 @26 October 2023  23:03:04
+  20% |ETA: 0:00:00.623
+  30% |ETA: 0:00:00.543
+  40% |ETA: 0:00:00.924
+  50% |ETA: 0:00:00.763 @26 October 2023  23:03:04
+  60% |ETA: 0:00:00.614
+  70% |ETA: 0:00:00.914
+  80% |ETA: 0:00:00.600
+  90% |ETA: 0:00:00.611
+Total time [h:m:s.ms]:   0:00:00.765
+Gloc dmft_gfio: write spin diagonal elements on many files.
+chi^2|iter=    6.143987183E-03 |    16  <--  All Orbs, All Spins
+ 
+       V ||       Re(H) | Im(H)
+ 
+  0.1751 ||   -0.1394   0.0315   0.0315   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1751 ||    0.0315  -0.1394   0.0000   0.0315   |    0.0000   0.0000   0.0000   0.0000
+  0.1751 ||    0.0315   0.0000  -0.1394   0.0315   |    0.0000   0.0000   0.0000   0.0000
+  0.1751 ||    0.0000   0.0315   0.0315  -0.1394   |    0.0000   0.0000   0.0000   0.0000
+ 
+  0.0870 ||    0.0579   0.0095   0.0095   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.0870 ||    0.0095   0.0579   0.0000   0.0095   |    0.0000   0.0000   0.0000   0.0000
+  0.0870 ||    0.0095   0.0000   0.0579   0.0095   |    0.0000   0.0000   0.0000   0.0000
+  0.0870 ||    0.0000   0.0095   0.0095   0.0579   |    0.0000   0.0000   0.0000   0.0000
+ 
+[1;91mmax error=[0m  4.1594018E-05       0
+[1;91m    error=[0m  2.2650938E-05       0
+[1;91mmin error=[0m  3.9696909E-06       0
+=====================================
+Total time [h:m:s.ms]:   0:03:53.782
+
+
+
+-----DMFT-loop   19 (max:  100)-----
+ 
+       V ||       Re(H) | Im(H)
+ 
+  0.1751 ||   -0.1394   0.0315   0.0315   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1751 ||    0.0315  -0.1394   0.0000   0.0315   |    0.0000   0.0000   0.0000   0.0000
+  0.1751 ||    0.0315   0.0000  -0.1394   0.0315   |    0.0000   0.0000   0.0000   0.0000
+  0.1751 ||    0.0000   0.0315   0.0315  -0.1394   |    0.0000   0.0000   0.0000   0.0000
+ 
+  0.0870 ||    0.0580   0.0095   0.0095   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.0870 ||    0.0095   0.0580   0.0000   0.0095   |    0.0000   0.0000   0.0000   0.0000
+  0.0870 ||    0.0095   0.0000   0.0580   0.0095   |    0.0000   0.0000   0.0000   0.0000
+  0.0870 ||    0.0000   0.0095   0.0095   0.0580   |    0.0000   0.0000   0.0000   0.0000
+ 
+Diagonalize impurity H:
+  10% |ETA: 0:00:11.706 @26 October 2023  23:03:09
+  20% |ETA: 0:00:28.905
+  30% |ETA: 0:01:26.675
+  40% |ETA: 0:02:23.559
+  50% |ETA: 0:01:58.926 @26 October 2023  23:05:09
+  60% |ETA: 0:01:28.694
+  70% |ETA: 0:01:00.951
+  80% |ETA: 0:00:36.567
+  90% |ETA: 0:00:16.516
+ 100% |ETA: 0:00:00.000
+Total time [h:m:s.ms]:   0:02:33.050
+Get impurity Greens functions:
+ 
+  +ETA --> fort.6
+  12% |ETA: 0:01:01.954
+  25% |ETA: 0:00:54.850
+  31% |ETA: 0:00:48.761
+  43% |ETA: 0:00:40.634
+  50% |ETA: 0:00:36.567 @26 October 2023  23:06:17
+  62% |ETA: 0:00:27.844
+  75% |ETA: 0:00:18.567
+  81% |ETA: 0:00:13.844
+  93% |ETA: 0:00:04.566
+ 100% |ETA: 0:00:00.000
+Total time [h:m:s.ms]:   0:01:12.709
+ 
+Get observables:
+dens site 1 =    0.922895065721    0.922895065721
+dens site 2 =    0.922895065721    0.922895065721
+dens site 3 =    0.922895065721    0.922895065721
+dens site 4 =    0.922895065721    0.922895065721
+dens  avg   =    0.922895065721    0.922895065721
+docc        =    0.032855424167
+ 
+ 
+Get local energy:
+Get cluster density matrix:
+Total time [h:m:s.ms]:   0:00:06.886
+Get single-particle density matrix (no print)
+  
+ Diagonalizing 4-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  3.3590296740592058
+  
+ Diagonalizing 3-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  3.3028736887045715
+  
+ Diagonalizing 2-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  2.4955738323975312
+  
+ Diagonalizing 1-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  1.5598759496601913
+
+ LOCAL-DM BENCHMARK [Mod.Phys.Lett.B.2013.27:05]
+ Semi-Analytical Estimate  |  Error
+  0.10996035844633686      |   2.7311486405778851E-014
+  0.42859210869310815      |   2.6922908347160046E-014
+  0.42859210869310527      |   3.0087043967341742E-014
+   3.2855424167449666E-002 |   1.0408340855860843E-015
+
+Get local Matsubara Green's function (no print)
+ 
+  +ETA --> fort.6
+  10% |ETA: 0:00:00.729 @26 October 2023  23:07:06
+  20% |ETA: 0:00:00.623
+  30% |ETA: 0:00:00.543
+  40% |ETA: 0:00:00.924
+  50% |ETA: 0:00:00.763 @26 October 2023  23:07:06
+  60% |ETA: 0:00:00.614
+  70% |ETA: 0:00:00.914
+  80% |ETA: 0:00:00.600
+  90% |ETA: 0:00:00.611
+Total time [h:m:s.ms]:   0:00:00.765
+Gloc dmft_gfio: write spin diagonal elements on many files.
+chi^2|iter=    6.142177631E-03 |    17  <--  All Orbs, All Spins
+ 
+       V ||       Re(H) | Im(H)
+ 
+  0.1751 ||   -0.1395   0.0315   0.0315   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1751 ||    0.0315  -0.1395   0.0000   0.0315   |    0.0000   0.0000   0.0000   0.0000
+  0.1751 ||    0.0315   0.0000  -0.1395   0.0315   |    0.0000   0.0000   0.0000   0.0000
+  0.1751 ||    0.0000   0.0315   0.0315  -0.1395   |    0.0000   0.0000   0.0000   0.0000
+ 
+  0.0871 ||    0.0579   0.0095   0.0095   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.0871 ||    0.0095   0.0579   0.0000   0.0095   |    0.0000   0.0000   0.0000   0.0000
+  0.0871 ||    0.0095   0.0000   0.0579   0.0095   |    0.0000   0.0000   0.0000   0.0000
+  0.0871 ||    0.0000   0.0095   0.0095   0.0579   |    0.0000   0.0000   0.0000   0.0000
+ 
+[1;91mmax error=[0m  3.6241366E-05       0
+[1;91m    error=[0m  1.9643703E-05       0
+[1;91mmin error=[0m  3.3255775E-06       0
+=====================================
+Total time [h:m:s.ms]:   0:04:02.185
+
+
+
+-----DMFT-loop   20 (max:  100)-----
+ 
+       V ||       Re(H) | Im(H)
+ 
+  0.1751 ||   -0.1394   0.0315   0.0315   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1751 ||    0.0315  -0.1394   0.0000   0.0315   |    0.0000   0.0000   0.0000   0.0000
+  0.1751 ||    0.0315   0.0000  -0.1394   0.0315   |    0.0000   0.0000   0.0000   0.0000
+  0.1751 ||    0.0000   0.0315   0.0315  -0.1394   |    0.0000   0.0000   0.0000   0.0000
+ 
+  0.0870 ||    0.0580   0.0095   0.0095   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.0870 ||    0.0095   0.0580   0.0000   0.0095   |    0.0000   0.0000   0.0000   0.0000
+  0.0870 ||    0.0095   0.0000   0.0580   0.0095   |    0.0000   0.0000   0.0000   0.0000
+  0.0870 ||    0.0000   0.0095   0.0095   0.0580   |    0.0000   0.0000   0.0000   0.0000
+ 
+Diagonalize impurity H:
+  10% |ETA: 0:00:12.765 @26 October 2023  23:07:11
+  20% |ETA: 0:00:33.517
+  30% |ETA: 0:01:26.676
+  40% |ETA: 0:02:20.547
+  50% |ETA: 0:01:55.900 @26 October 2023  23:09:08
+  60% |ETA: 0:01:26.679
+  70% |ETA: 0:00:59.930
+  80% |ETA: 0:00:35.555
+  90% |ETA: 0:00:16.506
+ 100% |ETA: 0:00:00.000
+Total time [h:m:s.ms]:   0:02:30.026
+Get impurity Greens functions:
+ 
+  +ETA --> fort.6
+  12% |ETA: 0:01:00.944
+  25% |ETA: 0:00:53.843
+  31% |ETA: 0:00:48.754
+  43% |ETA: 0:00:40.628
+  50% |ETA: 0:00:35.562 @26 October 2023  23:10:16
+  62% |ETA: 0:00:26.836
+  75% |ETA: 0:00:17.562
+  81% |ETA: 0:00:13.835
+  93% |ETA: 0:00:04.561
+ 100% |ETA: 0:00:00.000
+Total time [h:m:s.ms]:   0:01:12.032
+ 
+Get observables:
+dens site 1 =    0.922876233026    0.922876233026
+dens site 2 =    0.922876233026    0.922876233026
+dens site 3 =    0.922876233026    0.922876233026
+dens site 4 =    0.922876233026    0.922876233026
+dens  avg   =    0.922876233026    0.922876233026
+docc        =    0.032854578754
+ 
+ 
+Get local energy:
+Get cluster density matrix:
+Total time [h:m:s.ms]:   0:00:06.910
+Get single-particle density matrix (no print)
+  
+ Diagonalizing 4-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  3.3594570070318821
+  
+ Diagonalizing 3-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  3.3031171789091829
+  
+ Diagonalizing 2-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  2.4956969584292432
+  
+ Diagonalizing 1-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  1.5599081169107505
+
+ LOCAL-DM BENCHMARK [Mod.Phys.Lett.B.2013.27:05]
+ Semi-Analytical Estimate  |  Error
+  0.10997834572826187      |   2.0811130596598559E-013
+  0.42858353775864705      |   1.2129186544029835E-013
+  0.42858353775865027      |   1.1657341758564144E-013
+   3.2854578754440811E-002 |   3.0531133177191805E-016
+
+Get local Matsubara Green's function (no print)
+ 
+  +ETA --> fort.6
+  10% |ETA: 0:00:00.729 @26 October 2023  23:11:05
+  20% |ETA: 0:00:00.627
+  30% |ETA: 0:00:00.545
+  40% |ETA: 0:00:00.927
+  50% |ETA: 0:00:00.767 @26 October 2023  23:11:06
+  60% |ETA: 0:00:00.617
+  70% |ETA: 0:00:00.918
+  80% |ETA: 0:00:00.603
+  90% |ETA: 0:00:00.614
+Total time [h:m:s.ms]:   0:00:00.769
+Gloc dmft_gfio: write spin diagonal elements on many files.
+chi^2|iter=    6.140339747E-03 |    18  <--  All Orbs, All Spins
+ 
+       V ||       Re(H) | Im(H)
+ 
+  0.1751 ||   -0.1395   0.0315   0.0315   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1751 ||    0.0315  -0.1395   0.0000   0.0315   |    0.0000   0.0000   0.0000   0.0000
+  0.1751 ||    0.0315   0.0000  -0.1395   0.0315   |    0.0000   0.0000   0.0000   0.0000
+  0.1751 ||    0.0000   0.0315   0.0315  -0.1395   |    0.0000   0.0000   0.0000   0.0000
+ 
+  0.0871 ||    0.0579   0.0095   0.0095   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.0871 ||    0.0095   0.0579   0.0000   0.0095   |    0.0000   0.0000   0.0000   0.0000
+  0.0871 ||    0.0095   0.0000   0.0579   0.0095   |    0.0000   0.0000   0.0000   0.0000
+  0.0871 ||    0.0000   0.0095   0.0095   0.0579   |    0.0000   0.0000   0.0000   0.0000
+ 
+[1;91mmax error=[0m  3.1277322E-05       0
+[1;91m    error=[0m  1.6882189E-05       0
+[1;91mmin error=[0m  2.7451655E-06       0
+=====================================
+Total time [h:m:s.ms]:   0:04:00.063
+
+
+
+-----DMFT-loop   21 (max:  100)-----
+ 
+       V ||       Re(H) | Im(H)
+ 
+  0.1751 ||   -0.1394   0.0315   0.0315   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1751 ||    0.0315  -0.1394   0.0000   0.0315   |    0.0000   0.0000   0.0000   0.0000
+  0.1751 ||    0.0315   0.0000  -0.1394   0.0315   |    0.0000   0.0000   0.0000   0.0000
+  0.1751 ||    0.0000   0.0315   0.0315  -0.1394   |    0.0000   0.0000   0.0000   0.0000
+ 
+  0.0870 ||    0.0580   0.0095   0.0095   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.0870 ||    0.0095   0.0580   0.0000   0.0095   |    0.0000   0.0000   0.0000   0.0000
+  0.0870 ||    0.0095   0.0000   0.0580   0.0095   |    0.0000   0.0000   0.0000   0.0000
+  0.0870 ||    0.0000   0.0095   0.0095   0.0580   |    0.0000   0.0000   0.0000   0.0000
+ 
+Diagonalize impurity H:
+  10% |ETA: 0:00:09.584 @26 October 2023  23:11:11
+  20% |ETA: 0:00:27.862
+  30% |ETA: 0:01:16.598
+  40% |ETA: 0:02:03.965
+  50% |ETA: 0:01:41.794 @26 October 2023  23:12:54
+  60% |ETA: 0:01:18.609
+  70% |ETA: 0:00:53.839
+  80% |ETA: 0:00:32.502
+  90% |ETA: 0:00:14.918
+ 100% |ETA: 0:00:00.000
+Total time [h:m:s.ms]:   0:02:16.243
+Get impurity Greens functions:
+ 
+  +ETA --> fort.6
+  12% |ETA: 0:01:00.952
+  25% |ETA: 0:00:54.849
+  31% |ETA: 0:00:48.760
+  43% |ETA: 0:00:40.633
+  50% |ETA: 0:00:36.566 @26 October 2023  23:14:03
+  62% |ETA: 0:00:26.842
+  75% |ETA: 0:00:18.566
+  81% |ETA: 0:00:13.842
+  93% |ETA: 0:00:04.565
+ 100% |ETA: 0:00:00.000
+Total time [h:m:s.ms]:   0:01:12.603
+ 
+Get observables:
+dens site 1 =    0.922861432733    0.922861432733
+dens site 2 =    0.922861432733    0.922861432733
+dens site 3 =    0.922861432733    0.922861432733
+dens site 4 =    0.922861432733    0.922861432733
+dens  avg   =    0.922861432733    0.922861432733
+docc        =    0.032854010536
+ 
+ 
+Get local energy:
+Get cluster density matrix:
+Total time [h:m:s.ms]:   0:00:06.886
+Get single-particle density matrix (no print)
+  
+ Diagonalizing 4-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  3.3597852926044918
+  
+ Diagonalizing 3-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  3.3033044559864742
+  
+ Diagonalizing 2-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  2.4957926876032155
+  
+ Diagonalizing 1-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  1.5599339383452859
+
+ LOCAL-DM BENCHMARK [Mod.Phys.Lett.B.2013.27:05]
+ Semi-Analytical Estimate  |  Error
+  0.10999257780288903      |   1.2471967902882852E-013
+  0.42857670583069946      |   7.8159700933611020E-014
+  0.42857670583070345      |   7.4162898044960457E-014
+   3.2854010535708092E-002 |   2.2898349882893854E-016
+
+Get local Matsubara Green's function (no print)
+ 
+  +ETA --> fort.6
+  10% |ETA: 0:00:00.721 @26 October 2023  23:14:51
+  20% |ETA: 0:00:00.623
+  30% |ETA: 0:00:00.543
+  40% |ETA: 0:00:00.921
+  50% |ETA: 0:00:00.763 @26 October 2023  23:14:51
+  60% |ETA: 0:00:00.614
+  70% |ETA: 0:00:00.913
+  80% |ETA: 0:00:00.599
+  90% |ETA: 0:00:00.610
+Total time [h:m:s.ms]:   0:00:00.765
+Gloc dmft_gfio: write spin diagonal elements on many files.
+chi^2|iter=    6.138581661E-03 |    17  <--  All Orbs, All Spins
+ 
+       V ||       Re(H) | Im(H)
+ 
+  0.1751 ||   -0.1395   0.0315   0.0315   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1751 ||    0.0315  -0.1395   0.0000   0.0315   |    0.0000   0.0000   0.0000   0.0000
+  0.1751 ||    0.0315   0.0000  -0.1395   0.0315   |    0.0000   0.0000   0.0000   0.0000
+  0.1751 ||    0.0000   0.0315   0.0315  -0.1395   |    0.0000   0.0000   0.0000   0.0000
+ 
+  0.0871 ||    0.0579   0.0095   0.0095   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.0871 ||    0.0095   0.0579   0.0000   0.0095   |    0.0000   0.0000   0.0000   0.0000
+  0.0871 ||    0.0095   0.0000   0.0579   0.0095   |    0.0000   0.0000   0.0000   0.0000
+  0.0871 ||    0.0000   0.0095   0.0095   0.0579   |    0.0000   0.0000   0.0000   0.0000
+ 
+[1;91mmax error=[0m  2.6557867E-05       0
+[1;91m    error=[0m  1.4294755E-05       0
+[1;91mmin error=[0m  2.2332698E-06       0
+=====================================
+Total time [h:m:s.ms]:   0:03:45.009
+
+
+
+-----DMFT-loop   22 (max:  100)-----
+ 
+       V ||       Re(H) | Im(H)
+ 
+  0.1751 ||   -0.1395   0.0315   0.0315   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1751 ||    0.0315  -0.1395   0.0000   0.0315   |    0.0000   0.0000   0.0000   0.0000
+  0.1751 ||    0.0315   0.0000  -0.1395   0.0315   |    0.0000   0.0000   0.0000   0.0000
+  0.1751 ||    0.0000   0.0315   0.0315  -0.1395   |    0.0000   0.0000   0.0000   0.0000
+ 
+  0.0871 ||    0.0580   0.0095   0.0095   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.0871 ||    0.0095   0.0580   0.0000   0.0095   |    0.0000   0.0000   0.0000   0.0000
+  0.0871 ||    0.0095   0.0000   0.0580   0.0095   |    0.0000   0.0000   0.0000   0.0000
+  0.0871 ||    0.0000   0.0095   0.0095   0.0580   |    0.0000   0.0000   0.0000   0.0000
+ 
+Diagonalize impurity H:
+  10% |ETA: 0:00:09.591 @26 October 2023  23:14:56
+  20% |ETA: 0:00:26.840
+  30% |ETA: 0:01:23.650
+  40% |ETA: 0:02:00.940
+  50% |ETA: 0:01:42.797 @26 October 2023  23:16:39
+  60% |ETA: 0:01:18.609
+  70% |ETA: 0:00:54.845
+  80% |ETA: 0:00:34.531
+  90% |ETA: 0:00:15.970
+ 100% |ETA: 0:00:00.000
+Total time [h:m:s.ms]:   0:02:23.860
+Get impurity Greens functions:
+ 
+  +ETA --> fort.6
+  12% |ETA: 0:01:01.957
+  25% |ETA: 0:00:54.853
+  31% |ETA: 0:00:48.764
+  43% |ETA: 0:00:40.636
+  50% |ETA: 0:00:36.569 @26 October 2023  23:17:55
+  62% |ETA: 0:00:27.847
+  75% |ETA: 0:00:18.569
+  81% |ETA: 0:00:13.846
+  93% |ETA: 0:00:04.568
+ 100% |ETA: 0:00:00.000
+Total time [h:m:s.ms]:   0:01:12.960
+ 
+Get observables:
+dens site 1 =    0.922850103393    0.922850103393
+dens site 2 =    0.922850103393    0.922850103393
+dens site 3 =    0.922850103393    0.922850103393
+dens site 4 =    0.922850103393    0.922850103393
+dens  avg   =    0.922850103393    0.922850103393
+docc        =    0.032853662769
+ 
+ 
+Get local energy:
+Get cluster density matrix:
+Total time [h:m:s.ms]:   0:00:06.884
+Get single-particle density matrix (no print)
+  
+ Diagonalizing 4-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  3.3600302787923337
+  
+ Diagonalizing 3-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  3.3034444319876890
+  
+ Diagonalizing 2-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  2.4958651474501501
+  
+ Diagonalizing 1-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  1.5599541963025287
+
+ LOCAL-DM BENCHMARK [Mod.Phys.Lett.B.2013.27:05]
+ Semi-Analytical Estimate  |  Error
+  0.11000355937588290      |   3.2904234892328077E-014
+  0.42857138892741031      |   5.6621374255882984E-015
+  0.42857138892739233      |   1.8318679906315083E-015
+   3.2853662769314437E-002 |   2.0747292772682613E-015
+
+Get local Matsubara Green's function (no print)
+ 
+  +ETA --> fort.6
+  10% |ETA: 0:00:00.721 @26 October 2023  23:18:44
+  20% |ETA: 0:00:00.623
+  30% |ETA: 0:00:00.543
+  40% |ETA: 0:00:00.921
+  50% |ETA: 0:00:00.761 @26 October 2023  23:18:44
+  60% |ETA: 0:00:00.613
+  70% |ETA: 0:00:00.913
+  80% |ETA: 0:00:00.599
+  90% |ETA: 0:00:00.610
+Total time [h:m:s.ms]:   0:00:00.764
+Gloc dmft_gfio: write spin diagonal elements on many files.
+chi^2|iter=    6.136971787E-03 |    17  <--  All Orbs, All Spins
+ 
+       V ||       Re(H) | Im(H)
+ 
+  0.1751 ||   -0.1395   0.0315   0.0315   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1751 ||    0.0315  -0.1395   0.0000   0.0315   |    0.0000   0.0000   0.0000   0.0000
+  0.1751 ||    0.0315   0.0000  -0.1395   0.0315   |    0.0000   0.0000   0.0000   0.0000
+  0.1751 ||    0.0000   0.0315   0.0315  -0.1395   |    0.0000   0.0000   0.0000   0.0000
+ 
+  0.0871 ||    0.0579   0.0095   0.0095   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.0871 ||    0.0095   0.0579   0.0000   0.0095   |    0.0000   0.0000   0.0000   0.0000
+  0.0871 ||    0.0095   0.0000   0.0579   0.0095   |    0.0000   0.0000   0.0000   0.0000
+  0.0871 ||    0.0000   0.0095   0.0095   0.0579   |    0.0000   0.0000   0.0000   0.0000
+ 
+[1;91mmax error=[0m  2.2146942E-05       0
+[1;91m    error=[0m  1.1895457E-05       0
+[1;91mmin error=[0m  1.7912031E-06       0
+=====================================
+Total time [h:m:s.ms]:   0:03:53.548
+
+
+
+-----DMFT-loop   23 (max:  100)-----
+ 
+       V ||       Re(H) | Im(H)
+ 
+  0.1751 ||   -0.1395   0.0315   0.0315   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1751 ||    0.0315  -0.1395   0.0000   0.0315   |    0.0000   0.0000   0.0000   0.0000
+  0.1751 ||    0.0315   0.0000  -0.1395   0.0315   |    0.0000   0.0000   0.0000   0.0000
+  0.1751 ||    0.0000   0.0315   0.0315  -0.1395   |    0.0000   0.0000   0.0000   0.0000
+ 
+  0.0871 ||    0.0580   0.0095   0.0095   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.0871 ||    0.0095   0.0580   0.0000   0.0095   |    0.0000   0.0000   0.0000   0.0000
+  0.0871 ||    0.0095   0.0000   0.0580   0.0095   |    0.0000   0.0000   0.0000   0.0000
+  0.0871 ||    0.0000   0.0095   0.0095   0.0580   |    0.0000   0.0000   0.0000   0.0000
+ 
+Diagonalize impurity H:
+  10% |ETA: 0:00:10.632 @26 October 2023  23:18:50
+  20% |ETA: 0:00:29.907
+  30% |ETA: 0:01:26.678
+  40% |ETA: 0:02:13.520
+  50% |ETA: 0:01:45.827 @26 October 2023  23:20:37
+  60% |ETA: 0:01:20.630
+  70% |ETA: 0:00:55.868
+  80% |ETA: 0:00:33.519
+  90% |ETA: 0:00:15.948
+ 100% |ETA: 0:00:00.000
+Total time [h:m:s.ms]:   0:02:20.697
+Get impurity Greens functions:
+ 
+  +ETA --> fort.6
+  12% |ETA: 0:01:00.941
+  25% |ETA: 0:00:53.840
+  31% |ETA: 0:00:48.751
+  43% |ETA: 0:00:40.626
+  50% |ETA: 0:00:35.560 @26 October 2023  23:21:45
+  62% |ETA: 0:00:26.833
+  75% |ETA: 0:00:17.560
+  81% |ETA: 0:00:13.833
+  93% |ETA: 0:00:04.559
+ 100% |ETA: 0:00:00.000
+Total time [h:m:s.ms]:   0:01:11.807
+ 
+Get observables:
+dens site 1 =    0.922841688346    0.922841688346
+dens site 2 =    0.922841688346    0.922841688346
+dens site 3 =    0.922841688346    0.922841688346
+dens site 4 =    0.922841688346    0.922841688346
+dens  avg   =    0.922841688346    0.922841688346
+docc        =    0.032853484672
+ 
+ 
+Get local energy:
+Get cluster density matrix:
+Total time [h:m:s.ms]:   0:00:06.877
+Get single-particle density matrix (no print)
+  
+ Diagonalizing 4-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  3.3602068360236332
+  
+ Diagonalizing 3-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  3.3035455229806860
+  
+ Diagonalizing 2-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  2.4959183014951600
+  
+ Diagonalizing 1-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  1.5599696966524559
+
+ LOCAL-DM BENCHMARK [Mod.Phys.Lett.B.2013.27:05]
+ Semi-Analytical Estimate  |  Error
+  0.11001179632572691      |   2.9337643425719762E-014
+  0.42856735950127511      |   2.5701663020072374E-014
+  0.42856735950127878      |   2.3203661214665772E-014
+   3.2853484671719196E-002 |   7.0082828429463007E-016
+
+Get local Matsubara Green's function (no print)
+ 
+  +ETA --> fort.6
+  10% |ETA: 0:00:00.729 @26 October 2023  23:22:33
+  20% |ETA: 0:00:00.623
+  30% |ETA: 0:00:00.543
+  40% |ETA: 0:00:00.924
+  50% |ETA: 0:00:00.763 @26 October 2023  23:22:34
+  60% |ETA: 0:00:00.614
+  70% |ETA: 0:00:00.913
+  80% |ETA: 0:00:00.600
+  90% |ETA: 0:00:00.611
+Total time [h:m:s.ms]:   0:00:00.765
+Gloc dmft_gfio: write spin diagonal elements on many files.
+chi^2|iter=    6.135548100E-03 |    16  <--  All Orbs, All Spins
+ 
+       V ||       Re(H) | Im(H)
+ 
+  0.1751 ||   -0.1395   0.0315   0.0315   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1751 ||    0.0315  -0.1395   0.0000   0.0315   |    0.0000   0.0000   0.0000   0.0000
+  0.1751 ||    0.0315   0.0000  -0.1395   0.0315   |    0.0000   0.0000   0.0000   0.0000
+  0.1751 ||    0.0000   0.0315   0.0315  -0.1395   |    0.0000   0.0000   0.0000   0.0000
+ 
+  0.0871 ||    0.0580   0.0095   0.0095   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.0871 ||    0.0095   0.0580   0.0000   0.0095   |    0.0000   0.0000   0.0000   0.0000
+  0.0871 ||    0.0095   0.0000   0.0580   0.0095   |    0.0000   0.0000   0.0000   0.0000
+  0.0871 ||    0.0000   0.0095   0.0095   0.0580   |    0.0000   0.0000   0.0000   0.0000
+ 
+[1;93mmax error=[0m  1.8125463E-05       0
+[1;93m    error=[0m  9.7198006E-06       0
+[1;93mmin error=[0m  1.4171032E-06       0
+=====================================
+Total time [h:m:s.ms]:   0:03:48.915
+
+
+
+-----DMFT-loop   24 (max:  100)-----
+ 
+       V ||       Re(H) | Im(H)
+ 
+  0.1751 ||   -0.1395   0.0315   0.0315   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1751 ||    0.0315  -0.1395   0.0000   0.0315   |    0.0000   0.0000   0.0000   0.0000
+  0.1751 ||    0.0315   0.0000  -0.1395   0.0315   |    0.0000   0.0000   0.0000   0.0000
+  0.1751 ||    0.0000   0.0315   0.0315  -0.1395   |    0.0000   0.0000   0.0000   0.0000
+ 
+  0.0871 ||    0.0580   0.0095   0.0095   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.0871 ||    0.0095   0.0580   0.0000   0.0095   |    0.0000   0.0000   0.0000   0.0000
+  0.0871 ||    0.0095   0.0000   0.0580   0.0095   |    0.0000   0.0000   0.0000   0.0000
+  0.0871 ||    0.0000   0.0095   0.0095   0.0580   |    0.0000   0.0000   0.0000   0.0000
+ 
+Diagonalize impurity H:
+  10% |ETA: 0:00:10.679 @26 October 2023  23:22:39
+  20% |ETA: 0:00:29.912
+  30% |ETA: 0:01:26.676
+  40% |ETA: 0:02:01.948
+  50% |ETA: 0:01:42.800 @26 October 2023  23:24:22
+  60% |ETA: 0:01:19.619
+  70% |ETA: 0:00:54.857
+  80% |ETA: 0:00:32.511
+  90% |ETA: 0:00:14.934
+ 100% |ETA: 0:00:00.000
+Total time [h:m:s.ms]:   0:02:18.668
+Get impurity Greens functions:
+ 
+  +ETA --> fort.6
+  12% |ETA: 0:01:01.953
+  25% |ETA: 0:00:54.853
+  31% |ETA: 0:00:48.763
+  43% |ETA: 0:00:40.636
+  50% |ETA: 0:00:36.568 @26 October 2023  23:25:33
+  62% |ETA: 0:00:27.845
+  75% |ETA: 0:00:18.568
+  81% |ETA: 0:00:13.844
+  93% |ETA: 0:00:04.566
+ 100% |ETA: 0:00:00.000
+Total time [h:m:s.ms]:   0:01:12.724
+ 
+Get observables:
+dens site 1 =    0.922835663053    0.922835663053
+dens site 2 =    0.922835663053    0.922835663053
+dens site 3 =    0.922835663053    0.922835663053
+dens site 4 =    0.922835663053    0.922835663053
+dens  avg   =    0.922835663053    0.922835663053
+docc        =    0.032853432370
+ 
+ 
+Get local energy:
+Get cluster density matrix:
+Total time [h:m:s.ms]:   0:00:06.890
+Get single-particle density matrix (no print)
+  
+ Diagonalizing 4-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  3.3603284707600252
+  
+ Diagonalizing 3-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  3.3036153755627682
+  
+ Diagonalizing 2-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  2.4959557988107357
+  
+ Diagonalizing 1-site REDUCED DENSITY MATRIX
+  
+ > ENTANGLEMENT ENTROPY:
+  1.5599812207863410
+
+ LOCAL-DM BENCHMARK [Mod.Phys.Lett.B.2013.27:05]
+ Semi-Analytical Estimate  |  Error
+  0.11001776931737277      |   6.4240279762373120E-014
+  0.42856439915622463      |   4.6851411639181606E-014
+  0.42856439915622685      |   4.2299497238218464E-014
+   3.2853432370175725E-002 |   2.1857515797307769E-015
+
+Get local Matsubara Green's function (no print)
+ 
+  +ETA --> fort.6
+  10% |ETA: 0:00:00.729 @26 October 2023  23:26:22
+  20% |ETA: 0:00:00.623
+  30% |ETA: 0:00:00.543
+  40% |ETA: 0:00:00.924
+  50% |ETA: 0:00:00.763 @26 October 2023  23:26:22
+  60% |ETA: 0:00:00.614
+  70% |ETA: 0:00:00.913
+  80% |ETA: 0:00:00.600
+  90% |ETA: 0:00:00.611
+Total time [h:m:s.ms]:   0:00:00.765
+Gloc dmft_gfio: write spin diagonal elements on many files.
+chi^2|iter=    6.134326020E-03 |    15  <--  All Orbs, All Spins
+ 
+       V ||       Re(H) | Im(H)
+ 
+  0.1751 ||   -0.1395   0.0315   0.0315   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.1751 ||    0.0315  -0.1395   0.0000   0.0315   |    0.0000   0.0000   0.0000   0.0000
+  0.1751 ||    0.0315   0.0000  -0.1395   0.0315   |    0.0000   0.0000   0.0000   0.0000
+  0.1751 ||    0.0000   0.0315   0.0315  -0.1395   |    0.0000   0.0000   0.0000   0.0000
+ 
+  0.0871 ||    0.0580   0.0095   0.0095   0.0000   |    0.0000   0.0000   0.0000   0.0000
+  0.0871 ||    0.0095   0.0580   0.0000   0.0095   |    0.0000   0.0000   0.0000   0.0000
+  0.0871 ||    0.0095   0.0000   0.0580   0.0095   |    0.0000   0.0000   0.0000   0.0000
+  0.0871 ||    0.0000   0.0095   0.0095   0.0580   |    0.0000   0.0000   0.0000   0.0000
+ 
+[1;92mmax error=[0m  1.4553366E-05       0
+[1;92m    error=[0m  7.7946404E-06       0
+[1;92mmin error=[0m  1.1066558E-06       0
+=====================================
+Total time [h:m:s.ms]:   0:03:48.277
+
+
+Get local Realaxis Green's function (no print)
+  10% |ETA: 0:00:00.773 @26 October 2023  23:26:26
+  20% |ETA: 0:00:00.662
+  30% |ETA: 0:00:00.576
+  40% |ETA: 0:00:00.984
+  50% |ETA: 0:00:00.812 @26 October 2023  23:26:26
+  60% |ETA: 0:00:00.655
+  70% |ETA: 0:00:00.975
+  80% |ETA: 0:00:00.641
+  90% |ETA: 0:00:00.653
+Total time [h:m:s.ms]:   0:00:00.919
+Gloc dmft_gfio: write spin diagonal elements on many files.
+  
+ Luttinger invariants:
+           1           1           1   3.1984649516930910     
+           2           1           1   2.4869160721232491     
+           3           1           1   2.4044600599561012     
+           4           1           1   2.9552651857372205     
+           ilat        iorb        ispin
+ WARNING: not currently reliable for Nlat>1
+  
+(  0.000,  0.000)  ( -0.250, -0.000)  ( -0.250,  0.000)  (  0.000,  0.000)
+( -0.250,  0.000)  (  0.000,  0.000)  (  0.000,  0.000)  ( -0.250,  0.000)
+( -0.250, -0.000)  (  0.000,  0.000)  (  0.000,  0.000)  ( -0.250, -0.000)
+(  0.000,  0.000)  ( -0.250, -0.000)  ( -0.250,  0.000)  (  0.000,  0.000)
+ 
+Kinetic energy computation
+  10% |ETA: 0:00:01.567 @26 October 2023  23:26:27
+  20% |ETA: 0:00:01.504
+  30% |ETA: 0:00:00.879
+  40% |ETA: 0:00:00.754
+  50% |ETA: 0:00:00.628 @26 October 2023  23:26:28
+  60% |ETA: 0:00:00.502
+  70% |ETA: 0:00:00.754
+  80% |ETA: 0:00:00.502
+  90% |ETA: 0:00:00.502
+ 100% |ETA: 0:00:00.000
+Total time [h:m:s.ms]:   0:00:01.257
