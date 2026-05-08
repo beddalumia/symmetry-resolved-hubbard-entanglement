@@ -70,7 +70,7 @@ for d=1:length(fillings)
     OBDM(1:L^2, 1:L^2)         = OBDM_up;
     OBDM(L^2+1:end, L^2+1:end) = OBDM_dw;
     
-     if L < 30
+     if L <= 30
         OBDM_vectorized = OBDM;
         %% Numerical 1-body density matrix: loops
         OBDM = zeros(2*L^2,2*L^2); % [1,2,...,Nsites]_up[1,2,...,Nsites]_dw
@@ -96,8 +96,37 @@ for d=1:length(fillings)
         end
         err = norm(OBDM-OBDM_vectorized);
         assert(err<1e-12,"Vectorized code is not working",err)
+     end
+
+    %% Analytical benchmark (valid only at half filling)
+    OBDM_true = zeros(4,4); % [1,2,...,Nsites]_up[1,2,...,Nsites]_dw
+    disp("Building analytical formula in the thermodynamic limit to check size scaling")
+    for ix = 1:2
+        for iy = 1:1
+            i = (ix-1) + iy;
+            for jx = 1:2
+                for jy = 1:1
+                    j = (jx-1) + jy; 
+                    if ix==jx && iy==jy
+                        OBDM_true(i,j) = 0.5;
+                    else
+                        dd = (ix-jx)^2-(iy-jy)^2;
+                        if dd > 0
+                            OBDM_true(i,j) = -((-1)^(ix-jx)-(-1)^(iy-jy))/(pi^2*dd);
+                        end
+                    end
+                    if ix==jx && iy==jy
+                        OBDM_true(i+2,j+2) = 0.5;
+                    else
+                        dd = (ix-jx)^2-(iy-jy)^2;
+                        if dd > 0
+                            OBDM_true(i+2,j+2) = -((-1)^(ix-jx)-(-1)^(iy-jy))/(pi^2*dd);
+                        end
+                    end
+                end
+            end
+        end
     end
-    
 
     %% Build two-orbital RDMs
     OBDM_ij = zeros(4,4);
@@ -124,6 +153,7 @@ for d=1:length(fillings)
 
             disp("Peschel's formula")
             RDM = RDM0(OBDM_ij,2,sc_matrix);
+            RDM_true = RDM0(OBDM_true,2,sc_matrix);
             
             %% Apply SSR and measure entanglement
             counter = counter + 1;
@@ -137,6 +167,8 @@ for d=1:length(fillings)
         end
     end
 
-    writematrix(real(RDM),"reduced_density_matrix_2sites_noninteracting.dat","Delimiter","\t")
+    writematrix(RDM_true,"reduced_density_matrix_2sites_noninteracting.dat","Delimiter","\t")
+    writematrix(RDM,"reduced_density_matrix_2sites_noninteracting_size.dat","Delimiter","\t")
+    assert(norm(RDM-RDM_true)<1e-3)
 
 end
