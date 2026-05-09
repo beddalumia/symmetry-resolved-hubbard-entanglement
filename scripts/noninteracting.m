@@ -1,4 +1,4 @@
-%% Extension of our test to the 2D square lattice
+%% Compute Two-Site RDMs for the noninteracting square lattice, in the large size limit
 clear all
 L = 100; % Nsites = L^2;
 t = 1/4; % hopping amplitude

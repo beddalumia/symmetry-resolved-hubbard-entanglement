@@ -68,8 +68,8 @@ tiledlayout(1,3)
 nexttile
 
 % Symmetry-resolved entanglement
-plot(u(u>=0),En(u>=0),':+','LineWidth',0.5,'Color',str2rgb('sky')); hold on
-plot(u(u>=0),Ed(u>=0),':x','LineWidth',0.5,'Color',str2rgb('strawberry'))
+plot(u(u>0),En(u>0),':+','LineWidth',0.5,'Color',str2rgb('sky')); hold on
+plot(u(u>0),Ed(u>0),':x','LineWidth',0.5,'Color',str2rgb('strawberry'))
 
 % Axes
 xlabel("$U/D$")
@@ -85,9 +85,9 @@ legend('boxoff')
 nexttile
 
 % Symmetry-resolved negativity
-plot(u(u>=0),log2(2*N0(u>=0)+1),':+','LineWidth',0.5,'Color',str2rgb('cornflower')); hold on
-plot(u(u>=0),log2(2*N1(u>=0)+1),':x','LineWidth',0.5,'Color',str2rgb('amber'))
-plot(u(u>=0),log2(2*N2(u>=0)+1),':x','LineWidth',0.5,'Color',str2rgb('rose pink'))
+plot(u(u>0),log2(2*N0(u>0)+1),':+','LineWidth',0.5,'Color',str2rgb('cornflower')); hold on
+plot(u(u>0),log2(2*N1(u>0)+1),':x','LineWidth',0.5,'Color',str2rgb('amber'))
+plot(u(u>0),log2(2*N2(u>0)+1),':x','LineWidth',0.5,'Color',str2rgb('rose pink'))
 
 % Axes
 xlabel("$U/D$")
@@ -103,8 +103,8 @@ legend('boxoff')
 nexttile
 
 % Full entanglement
-plot(u(u>=0),MI(u>=0),':s','LineWidth',0.5,'Color',str2rgb('matlab4')); hold on
-plot(u(u>=0),logN(u>=0),':d','LineWidth',0.5,'Color',str2rgb('lilac'));
+plot(u(u>0),MI(u>0),':s','LineWidth',0.5,'Color',str2rgb('matlab4')); hold on
+plot(u(u>0),logN(u>0),':d','LineWidth',0.5,'Color',str2rgb('lilac'));
 
 % Axes
 xlabel("$U/D$")

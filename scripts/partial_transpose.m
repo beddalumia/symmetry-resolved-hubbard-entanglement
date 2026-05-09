@@ -49,8 +49,8 @@ function [FT,PT,new_indices] = partial_transpose(RDM_ij)
 end
 function [ROT,new_indices,fermi_signs] = single_site_sectors(RDM_ij)
 % Rotate the RDM_ij
-% from the |i_up j_up〉⊗ i_dw j_dw〉
-% to the   |i_up i_dw〉⊗ j_up j_dw〉
+% from the |i_up j_up〉⊗ |i_dw j_dw〉
+% to the   |i_up i_dw〉⊗ |j_up j_dw〉
 % basis (useful for negativity, partial trace, etc)
 % ACHTUNG: take care of all the fermionic signs!
 % 1       | •  • 〉⊗ | •  • 〉->    | •  • 〉⊗ | •  • 〉
