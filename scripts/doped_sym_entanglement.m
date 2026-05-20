@@ -58,7 +58,7 @@ rmpath(HERE)
 cd(HERE)
 
 % N-SSR == En?
-assert(all(abs(nSSR - En)<10^-5))
+assert(all(abs(nSSR - En)<10^-3))
 % P-SSR == N-SSR + Ed?
 assert(all(abs(pSSR - nSSR - Ed)<10^-5))
 

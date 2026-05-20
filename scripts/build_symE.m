@@ -50,39 +50,21 @@ function [E1,E2] = build_symE(RDM)
     q(11) = (b2-c2-sqrt(d2))/(4*(a2-p(6)));
     q(1) = p(1) + (p(6)+p(11)-q(6)-q(11))/2;
     q(16) = p(16) + (p(6)+p(11)-q(6)-q(11))/2;
-    % Global singlet assertion
-    if all(abs(RDM(4,4)-RDM(13,13))<1e-12)
-        %% 1-particle sector computation, assuming global singlet
-        t = p(7);
-        r = p(10) + p(4) + p(13);
-        E1 = 0;
-        E1 = E1 + r * log2(2*r/(r+t)) + t * log2(2*t/(r+t));
-   else
-        %% 1-particle sector computation, general formula
-        E1 = 0; indices = [4,7,10,13];
-        for i=indices
-            if(p(i)==0)
-                continue
-            end
-            E1 = E1 + p(i)*log2(p(i)/q(i));
+    %% Spin-singlet computation, general formula
+    E1 = 0; indices = [4,7,10,13];
+    for i=indices
+        if(p(i)==0)
+            continue
         end
+        E1 = E1 + p(i)*log2(p(i)/q(i));
     end
-    % Particle-hole symmetry assertion
-    if all(abs(RDM(1,1)-RDM(16,16))<1e-4)
-        %% holon-doublon computation, assuming particle-hole symmetry
-        T = p(6);
-        R = p(11) + p(1) + p(16);
-        E2 = 0;
-        E2 = E2 + R * log2(2*R/(R+T)) + T * log2(2*T/(R+T));
-    else
-        %% holon-doublon computation, general formula
-        E2 = 0; indices = [1,6,11,16];
-        for i=indices
-            if(p(i)==0)
-                continue
-            end
-            E2 = E2 + p(i)*log2(p(i)/q(i));
+    %% Holon-doublon computation, general formula
+    E2 = 0; indices = [1,6,11,16];
+    for i=indices
+        if(p(i)==0)
+            continue
         end
+        E2 = E2 + p(i)*log2(p(i)/q(i));
     end
     %% PPT criterion for each sector
     [N0,~,N2] = sym_negativity(RDM);
