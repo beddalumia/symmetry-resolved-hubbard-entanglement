@@ -11,19 +11,54 @@ cd('../half-filled')
 [u,udir] = QcmP.post.get_list('U');
 
 addpath(HERE)
+
+hop_cdmft = zeros(size(u))
 for i=1:length(u)
     cd(udir(i))
     RDM1 = load('reduced_density_matrix_1sites.dat');
     RDM2 = QcmP.post.get_Hloc('reduced_density_matrix_2sites.dat');
     cd ..
-    fprintf(udir(i))
+    fprintf("CDMFT @ U = %g\n\n",u(i))
     disp("Local OBDM")
     OBDM1 = get_obdm(RDM1);
     disp("2-site OBDM")
     OBDM2 = get_obdm(RDM2);
+    hop_cdmft(i) = OBDM2(1,2);
 end
 
+cd CRISBreference
+
+[uRISB,uRISBdir] = QcmP.post.get_list('U');
+
+hop_crisb = zeros(size(uRISB))
+for i=1:length(uRISB)
+    cd(uRISBdir(i))
+    RDM1 = load('reduced_density_matrix_i1l1.dat');
+    RDM2 = load('reduced_density_matrix_i1l1_i2l1.dat');
+    cd ..
+    fprintf("CRISB U = %g\n\n",uRISB(i))
+    disp("Local OBDM")
+    OBDM1 = get_obdm(RDM1);
+    disp("2-site OBDM")
+    OBDM2 = get_obdm(RDM2);
+    hop_crisb(i) = OBDM2(1,2);
+end
+
+cd ..
+
+rmpath(HERE)
 cd(HERE)
+
+%% Plotting
+plot(u,hop_cdmft,'o:')
+hold on
+plot(uRISB,hop_crisb,'*:')
+scatter(0, 2/pi^2, 100,'pentagram','filled','MarkerEdgeColor',str2rgb('k'),'MarkerFaceColor',str2rgb('goldenrod'));
+xlim([-0.2,5.2])
+ylim([0,0.25])
+ytickformat('%.2f')
+legend(["CDMFT","CRISB"],"Location","best","box","off","Interpreter","latex")
+
 
 %% contains
 
