@@ -117,14 +117,6 @@ legend(["$I_{\langle ij \rangle}$",...
 legend('boxoff')
 ylim([0,max(MI)])
 
-rmpath ../lib/qcmp-lab/
-
-%% Export to TikZ
-%addpath([HERE,'/../lib/m2tex/src']);
-%matlab2tikz('doped_entanglement.tex','strict',true,...
-%    'width','0.9\textwidth','height','1.5\textwidth')
-%rmpath([HERE,'/../lib/m2tex/src']);
-
 %% Utilities
 
 function E = vonNeumann(RDM)
