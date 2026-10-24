@@ -38,6 +38,7 @@ While reading the data, the scripts (re)write the summary `*.txt` tables at the 
 | Fig. 4 | `analytic_dimer.m` | none (exact isolated dimer) |
 | Eq. 27 | `noninteracting.m` | none (noninteracting square lattice) |
 | Fig. 5 | `half_sym_entanglement.m` | `half-filled/` |
+| Sec. 4.1, next-nearest neighbors | `nnn_sym_entanglement.m` | `half-filled/`, `doped/` |
 | Fig. 6 | `doped_nonfreeness.m` | `doped/` |
 | Fig. 7 | `doped_sym_entanglement.m` | `doped/` |
 | Fig. 8 | `doped_dominant_states.m` | `doped/` |
@@ -48,6 +49,22 @@ Notes:
 - `spy_symmetry_resolution.m` asks for a value of U among the computed ones. The sparsity patterns do not depend on it. It also draws a few intermediate orderings of the density matrix that are not shown in the paper.
 - `noninteracting.m` prints the values of Eq. 27 and writes the nearest-neighbor density matrix of the noninteracting lattice to `scripts/`: `reduced_density_matrix_2sites_noninteracting.dat` (infinite lattice, used for the stars in Fig. 11) and `reduced_density_matrix_2sites_noninteracting_size.dat` (100×100 lattice). At L = 100 the script needs well over 10 GB of RAM; both files are already included.
 - The manuscript figures were sometimes restyled in Inkscape after export; the inset of Fig. 7 was added there.
+
+### Next-nearest neighbors (Sec. 4.1)
+
+`nnn_sym_entanglement.m` computes the symmetry-resolved negativities and relative entropies of the two next-nearest-neighbor density matrices, i.e. the plaquette diagonals (1,4) and (2,3), at every computed point. It reports the points where a superselected sector is entangled, i.e. where its negativity exceeds $10^{-12}$. The two diagonals agree to three digits. At half filling:
+
+| Quantity | Result |
+|---|---|
+| $\mathcal{N}^{\uparrow\downarrow}$, $E^{\uparrow\downarrow}$ | exactly 0 for all U |
+| $\mathcal{N}^{\mathrm{hd}}$, $E^{\mathrm{hd}}$ | 0 up to U/D = 1.9, finite from U/D = 2.0 on |
+| largest $\mathcal{N}^{\mathrm{hd}}$ | 4.70·10⁻⁴ bit, at U/D = 2.4 |
+| largest $E^{\mathrm{hd}}$ | 7.45·10⁻⁵ bit, at U/D = 2.9 |
+| largest $\mathcal{N}^{\mathrm{F}}$ | 9.45·10⁻³ bit, at U/D = 1.6 |
+
+The hopping negativity $\mathcal{N}^{\mathrm{F}t}$ exceeds $\mathcal{N}^{\mathrm{hd}}$ at every U, but the holon-doublon share grows with U: at U/D = 8, $\mathcal{N}^{\mathrm{F}t} = 3.19·10^{-5}$ bit and $\mathcal{N}^{\mathrm{hd}} = 1.49·10^{-5}$ bit. The holon-doublon sector is entangled when $|\rho(6,11)|^2 > \rho(1,1)\,\rho(16,16)$ (Eq. 19); the ratio of the two sides grows smoothly with U, from 0.11 at U/D = 1.5 to 1.06 at U/D = 2.0 and about 470 at U/D = 8.
+
+In the doped dataset (U/D = 2.3) the antiferromagnetic sector vanishes everywhere as well, while the holon-doublon sector is entangled only at μ/D = −0.48, −0.47 and −0.46, with $\mathcal{N}^{\mathrm{hd}} \le 1.42·10^{-4}$ bit and $E^{\mathrm{hd}} \le 1.02·10^{-5}$ bit.
 
 ### Shared functions in `scripts/`
 

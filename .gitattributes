@@ -1,0 +1,4 @@
+# GitHub language statistics: count only our MATLAB sources
+* linguist-detectable=false
+*.m linguist-detectable=true linguist-language=MATLAB
+lib/** linguist-vendored
