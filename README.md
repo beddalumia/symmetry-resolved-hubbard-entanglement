@@ -141,3 +141,7 @@ The `*.txt` files at the top of `half-filled/` and `doped/` (e.g. `dens__site001
 ## Library
 
 `lib/qcmp-lab` is a frozen copy of [QcmP-lab](https://github.com/beddalumia/QcmP-LAB), which reads the solver output, together with the `colorlab` color library it bundles (MIT license, see `lib/qcmp-lab/lib/colorlab/LICENSE`).
+
+## License
+
+The data and the scripts in this repository are released under the [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by/4.0/) (CC BY 4.0, see `LICENSE`). The bundled library in `lib/` is not covered by it and keeps its own licenses, found in its subfolders.
