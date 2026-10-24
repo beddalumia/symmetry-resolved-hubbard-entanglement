@@ -1,14 +1,14 @@
 %% Compute negativity for a two-orbital RDM in usual EDIPACK ordering
 %
-%   >> [E,F,N,M] = negativity(RDMij)
+%   >> [logNB,logNF,NB,NF] = negativity(RDMij)
 %
-%      - E: Logarithmic negativity (standard "bosonic" partial transpose)
-%      - F: Logarithmic negativity (twisted fermionic  partial transpose)
-%      - N: "Original negativity"  (standard "bosonic" partial transpose)
-%      - M: "Original negativity"  (twisted fermionic  partial transpose)
+%      - logNB: Logarithmic negativity (standard "bosonic" partial transpose)
+%      - logNF: Logarithmic negativity (twisted fermionic  partial transpose)
+%      - NB:    "Original negativity"  (standard "bosonic" partial transpose)
+%      - NF:    "Original negativity"  (twisted fermionic  partial transpose)
 %
 %  © Gabriele, Bellomia, 2025
-function [E,F,N,M] = negativity(RDMij)
+function [logNB,logNF,NB,NF] = negativity(RDMij)
     if sum(sum(imag(RDMij)))>1e-8
     disp(imag(RDMij))
     error
@@ -18,22 +18,22 @@ function [E,F,N,M] = negativity(RDMij)
     % Get the eigenvalues
     p = eig(TiRDM);
     % Test for negativity
-    N = -sum(p(p<0));
-    N_= (trace(sqrtm(TiRDM'*TiRDM))-1)/2;
-    if(abs(N-N_)>1e-8);
-        warning('Negativity definitions mismatch: %g vs %g', N, N_);
+    NB = -sum(p(p<0));
+    NB_= (trace(sqrtm(TiRDM'*TiRDM))-1)/2;
+    if(abs(NB-NB_)>1e-8);
+        warning('Negativity definitions mismatch: %g vs %g', NB, NB_);
     end
     p = eig(FiRDM);
     % Test for twisted vs untwisted negativity
-    M = -sum(p(p<0)) + (trace(FiRDM) - 1)/2;
-    %M_ = (trace(sqrtm(FiRDM'*FiRDM))-1)/2;
-    M_ = (sum(svd(FiRDM))-1)/2;
-        if(abs(M-M_)>1e-8);
-        warning('Negativity definitions (Fermionic) mismatch: %g vs %g', M, M_);
+    NF = -sum(p(p<0)) + (trace(FiRDM) - 1)/2;
+    %NF_ = (trace(sqrtm(FiRDM'*FiRDM))-1)/2;
+    NF_ = (sum(svd(FiRDM))-1)/2;
+        if(abs(NF-NF_)>1e-8);
+        warning('Negativity definitions (Fermionic) mismatch: %g vs %g', NF, NF_);
     end
     % Measure the entanglement
-    E = log2(2*N+1);
-    F = log2(2*M_+1);
+    logNB = log2(2*NB+1);
+    logNF = log2(2*NF_+1);
  end
 
  

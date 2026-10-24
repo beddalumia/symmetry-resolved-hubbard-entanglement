@@ -47,17 +47,17 @@ addpath(HERE)
 
 [logN,N] = get_negativities(RDM12);
 
-[En,Ed] = symmetry_resolved(RDM12);
+[Eud,Ehd] = symmetry_resolved(RDM12);
 
-[N0,N1,N2] = imbalance_negativities(RDM12);
+[Nud,Nft,Nhd] = charge_jump_negativities(RDM12);
 
 rmpath(HERE)
 cd(HERE)
 
-% N-SSR == En?
-assert(all(abs(nSSR - En)<10^-3))
-% P-SSR == N-SSR + Ed?
-assert(all(abs(pSSR - nSSR - Ed)<10^-3))
+% N-SSR == Eud?
+assert(all(abs(nSSR - Eud)<10^-3))
+% P-SSR == N-SSR + Ehd?
+assert(all(abs(pSSR - nSSR - Ehd)<10^-3))
 
 %% Actual graphics
 
@@ -68,8 +68,8 @@ tiledlayout(1,3)
 nexttile
 
 % Symmetry-resolved entanglement
-plot(u(u>0),En(u>0),':+','LineWidth',0.5,'Color',str2rgb('sky')); hold on
-plot(u(u>0),Ed(u>0),':x','LineWidth',0.5,'Color',str2rgb('strawberry'))
+plot(u(u>0),Eud(u>0),':+','LineWidth',0.5,'Color',str2rgb('sky')); hold on
+plot(u(u>0),Ehd(u>0),':x','LineWidth',0.5,'Color',str2rgb('strawberry'))
 
 % Axes
 xlabel("$U/D$")
@@ -85,9 +85,9 @@ legend('boxoff')
 nexttile
 
 % Symmetry-resolved negativity
-plot(u(u>0),log2(2*N0(u>0)+1),':+','LineWidth',0.5,'Color',str2rgb('cornflower')); hold on
-plot(u(u>0),log2(2*N1(u>0)+1),':x','LineWidth',0.5,'Color',str2rgb('amber'))
-plot(u(u>0),log2(2*N2(u>0)+1),':x','LineWidth',0.5,'Color',str2rgb('rose pink'))
+plot(u(u>0),log2(2*Nud(u>0)+1),':+','LineWidth',0.5,'Color',str2rgb('cornflower')); hold on
+plot(u(u>0),log2(2*Nft(u>0)+1),':o','LineWidth',0.5,'Color',str2rgb('amber'))
+plot(u(u>0),log2(2*Nhd(u>0)+1),':x','LineWidth',0.5,'Color',str2rgb('rose pink'))
 
 % Axes
 xlabel("$U/D$")
@@ -124,16 +124,16 @@ function E = vonNeumann(RDM)
    E = -sum(p.*log2(p));
 end
 
-function [E,N] = get_negativities(RDMs)
+function [logN,N] = get_negativities(RDMs)
 
     [mold,UDIR] = QcmP.post.get_list('U');
  
-    E = zeros(size(mold));
+    logN = zeros(size(mold));
     N = zeros(size(mold));
  
     for i = 1:length(mold)
        cd(UDIR(i))
-       [~,E(i),~,N(i)] = negativity(RDMs{i});
+       [~,logN(i),~,N(i)] = negativity(RDMs{i});
        cd('..')
     end
  
@@ -162,13 +162,13 @@ function [x,y] = symmetry_resolved(RDMs)
 
    for i = 1:length(mold)
       cd(UDIR(i))
-      [x(i),y(i)] = build_symE(RDMs{i});
+      [x(i),y(i)] = sym_ree(RDMs{i});
       cd('..')
    end
 
 end
 
-function [x,y,z] = imbalance_negativities(RDMs)
+function [x,y,z] = charge_jump_negativities(RDMs)
 
    [mold,UDIR] = QcmP.post.get_list('U');
    x = zeros(size(mold));

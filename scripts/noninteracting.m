@@ -19,12 +19,12 @@ sc_matrix = slater_condon(2); % 4D array [2*nmodes,2*nmodes,4^nmodes,4^nmodes]
 % Filling of the band η = N/(2*L)
 global eta
 fillings = [0.5]
-E_nSSR = zeros(4,length(fillings)); 
-E_pSSR = zeros(4,length(fillings));
-E_nPPT = zeros(4,length(fillings)); 
-E_tPPT = zeros(4,length(fillings));
-E_hPPT = zeros(4,length(fillings));
-E_PPT = zeros(4,length(fillings));
+Eud = zeros(4,length(fillings));
+Ehd = zeros(4,length(fillings));
+logNud = zeros(4,length(fillings));
+logNft = zeros(4,length(fillings));
+logNhd = zeros(4,length(fillings));
+logN = zeros(4,length(fillings));
 for d=1:length(fillings)
     eta = fillings(d) 
     N = round(2*L^2*eta);
@@ -157,12 +157,12 @@ for d=1:length(fillings)
             
             %% Apply SSR and measure entanglement
             counter = counter + 1;
-            [~,E_PPT(counter,d)] = negativity(RDM);
-            [N0,N1,N2] = sym_negativity(RDM);
-            E_nPPT(counter,d) = log2(2*N0+1);
-            E_tPPT(counter,d) = log2(2*N1+1);
-            E_hPPT(counter,d) = log2(2*N2+1);
-            [E_nSSR(counter,d),E_pSSR(counter,d)] = build_symE(RDM);
+            [~,logN(counter,d)] = negativity(RDM);
+            [Nud,Nft,Nhd] = sym_negativity(RDM);
+            logNud(counter,d) = log2(2*Nud+1);
+            logNft(counter,d) = log2(2*Nft+1);
+            logNhd(counter,d) = log2(2*Nhd+1);
+            [Eud(counter,d),Ehd(counter,d)] = sym_ree(RDM);
 
         end
     end
@@ -170,5 +170,18 @@ for d=1:length(fillings)
     writematrix(RDM_true,"reduced_density_matrix_2sites_noninteracting.dat","Delimiter","\t")
     writematrix(RDM,"reduced_density_matrix_2sites_noninteracting_size.dat","Delimiter","\t")
     assert(norm(RDM-RDM_true)<1e-3)
+
+    %% Eq. 27: nearest-neighbor dimer in the infinite noninteracting lattice
+    RDMi_true = RDM0(OBDM_true([1,3],[1,3]),1,slater_condon(1)); % single site
+    S_true = vonNeumann(RDM_true);
+    I_true = 2*vonNeumann(RDMi_true) - S_true;
+    [Nud,Nft,Nhd] = sym_negativity(RDM_true);
+    fprintf("\nNearest neighbors in the infinite noninteracting lattice:\n")
+    fprintf("  <cdg_i c_j> = %.4f (2/pi^2 = %.4f)\n",OBDM_true(1,2),2/pi^2)
+    fprintf("  N^ud_ij     = %.4f bit\n",log2(2*Nud+1))
+    fprintf("  N^hd_ij     = %.4f bit\n",log2(2*Nhd+1))
+    fprintf("  N^Ft_ij     = %.4f bit\n",log2(2*Nft+1))
+    fprintf("  I_ij        = %.4f bit\n",I_true)
+    fprintf("  S_ij        = %.4f bit\n",S_true)
 
 end

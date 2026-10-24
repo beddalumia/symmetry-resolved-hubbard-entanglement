@@ -17,23 +17,23 @@ for i=1:length(U)
 
    fprintf('Checking subtraces for U=%.2f\n',U(i))
    if abs(norm(RDM12-RDM34))>=1e-4
-       warning('last',"We are breaking translational invariance along y (stripy phase?): RDM12 vs RDM34")
+       warning("We are breaking translational invariance along y (stripy phase?): RDM12 vs RDM34")
        fprintf('Difference norm for RDM12-RDM34: %.6e\n', abs(norm(RDM12-RDM34)))
    end
    if abs(norm(RDM13-RDM24))>=1e-4
-       warning('last',"We are breaking translational invariance along x (stripy phase?): RDM13 vs RDM24")
+       warning("We are breaking translational invariance along x (stripy phase?): RDM13 vs RDM24")
        fprintf('Difference norm for RDM13-RDM24: %.6e\n', abs(norm(RDM13-RDM24)))
    end
    if abs(norm(RDM12-RDM13))>=1e-4
-       warning('last',"We are breaking C4 symmetry (nematic phase?): RDM12 vs RDM13")
+       warning("We are breaking C4 symmetry (nematic phase?): RDM12 vs RDM13")
        fprintf('Difference norm for RDM12-RDM13: %.6e\n', abs(norm(RDM12-RDM13)))
    end
    if abs(norm(RDM34-RDM24))>=1e-4
-       warning('last',"We are breaking C4 symmetry (nematic phase?): RDM34 vs RDM24")
+       warning("We are breaking C4 symmetry (nematic phase?): RDM34 vs RDM24")
        fprintf('Difference norm for RDM34-RDM24: %.6e\n', abs(norm(RDM34-RDM24)))
    end
    if abs(norm(RDM14-RDM23))>=1e-4
-       warning('last',"We are breaking NNN symmetry (what?): RDM14 vs RDM23")
+       warning("We are breaking NNN symmetry (what?): RDM14 vs RDM23")
        fprintf('Difference norm for RDM14-RDM23: %.6e\n', abs(norm(RDM14-RDM23)))
    end
 

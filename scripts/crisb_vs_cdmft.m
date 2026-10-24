@@ -62,6 +62,16 @@ cd ..
 rmpath(HERE)
 cd(HERE)
 
+%% Exact noninteracting limit (stars), from the RDM written by noninteracting.m
+
+RDM2 = load('reduced_density_matrix_2sites_noninteracting.dat');
+disp("Noninteracting 2-site OBDM")
+OBDM2 = get_obdm(RDM2);
+RDM1 = RDM0(OBDM2([1,3],[1,3]),1,slater_condon(1)); % Gaussian state
+hop_exact = OBDM2(1,2);
+Iij_exact = 2*vonNeumann(RDM1)-vonNeumann(RDM2);
+[Nud_exact,Nft_exact,Nhd_exact] = sym_negativity(RDM2);
+
 %% Plotting
 tiledlayout(5,1)
 
@@ -69,7 +79,7 @@ nexttile % OBDM hopping term
 plot(u,hop_cdmft,'s:','Color',str2rgb('teal'))
 hold on
 plot(uRISB,hop_crisb,'.:','Color',str2rgb('teal'))
-scatter(0, 2/pi^2, 100,'pentagram','filled','MarkerEdgeColor',str2rgb('k'),'MarkerFaceColor',str2rgb('amber'));
+scatter(0, hop_exact, 100,'pentagram','filled','MarkerEdgeColor',str2rgb('k'),'MarkerFaceColor',str2rgb('amber'));
 xlim([-0.2,5.2])
 xticks([])
 xline(1.55,'--','Color',[0.6,0.6,0.6])
@@ -83,7 +93,7 @@ nexttile % Mutual Information
 plot(u,Iij_cdmft,'s:','Color',str2rgb('matlab4'))
 hold on
 plot(uRISB,Iij_crisb,'.:','Color',str2rgb('matlab4'))
-scatter(0, 0.4879, 100,'pentagram','filled','MarkerEdgeColor',str2rgb('k'),'MarkerFaceColor',str2rgb('amber'));
+scatter(0, Iij_exact, 100,'pentagram','filled','MarkerEdgeColor',str2rgb('k'),'MarkerFaceColor',str2rgb('amber'));
 xlim([-0.2,5.2])
 xticks([])
 xline(1.55,'--','Color',[0.6,0.6,0.6])
@@ -98,7 +108,7 @@ nexttile % Hopping negativity
 plot(u,log2(2*Nft_cdmft+1),'s:','Color',str2rgb('amber'))
 hold on
 plot(uRISB,log2(2*Nft_crisb+1),'.:','Color',str2rgb('amber'))
-scatter(0, 0.4388, 100,'pentagram','filled','MarkerEdgeColor',str2rgb('k'),'MarkerFaceColor',str2rgb('amber'));
+scatter(0, log2(2*Nft_exact+1), 100,'pentagram','filled','MarkerEdgeColor',str2rgb('k'),'MarkerFaceColor',str2rgb('amber'));
 xlim([-0.2,5.2])
 xticks([])
 xline(1.55,'--','Color',[0.6,0.6,0.6])
@@ -113,7 +123,7 @@ nexttile % AFM negativity
 plot(u,log2(2*Nud_cdmft+1),'s:','Color',str2rgb('cornflower'))
 hold on
 plot(uRISB,log2(2*Nud_crisb+1),'.:','Color',str2rgb('cornflower'))
-scatter(0, 0, 100,'pentagram','filled','MarkerEdgeColor',str2rgb('k'),'MarkerFaceColor',str2rgb('amber'));
+scatter(0, log2(2*Nud_exact+1), 100,'pentagram','filled','MarkerEdgeColor',str2rgb('k'),'MarkerFaceColor',str2rgb('amber'));
 xlim([-0.2,5.2])
 xticks([])
 xline(1.55,'--','Color',[0.6,0.6,0.6])
@@ -128,7 +138,7 @@ nexttile % Holon-Doublon negativity
 plot(u,log2(2*Nhd_cdmft+1),'s:','Color',str2rgb('rose pink'))
 hold on
 plot(uRISB,log2(2*Nhd_crisb+1),'.:','Color',str2rgb('rose pink'))
-scatter(0, 0, 100,'pentagram','filled','MarkerEdgeColor',str2rgb('k'),'MarkerFaceColor',str2rgb('amber'));
+scatter(0, log2(2*Nhd_exact+1), 100,'pentagram','filled','MarkerEdgeColor',str2rgb('k'),'MarkerFaceColor',str2rgb('amber'));
 xlim([-0.2,5.2])
 xlabel("$U/D$")
 xline(1.55,'--','Color',[0.6,0.6,0.6])

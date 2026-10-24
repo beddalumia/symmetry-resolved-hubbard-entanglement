@@ -1,10 +1,10 @@
 %% Compute symmetry-resolved negativity for a two-orbital RDM in usual EDIPACK ordering
 %
-%   >> [N0,N1,N2] = sym_negativity(RDMij)
+%   >> [Nud,Nft,Nhd] = sym_negativity(RDMij)
 %
 %  © Gabriele Bellomia, 2025
 
-function [N0,N1,N2] = sym_negativity(RDMij)
+function [Nud,Nft,Nhd] = sym_negativity(RDMij)
     
 % Build charge-jump blocks RDM_q (q: charge jump on each site)
 
@@ -46,9 +46,9 @@ function [N0,N1,N2] = sym_negativity(RDMij)
     p0 = eig(RDM_0);
     p2 = eig(RDM_2);
     % ...and their negativity :)
-    N0 = -sum(p0(p0<0));
-    N1 = NaN; % Unimplemented (TODO)
-    N2 = -sum(p2(p2<0));
+    Nud = -sum(p0(p0<0));
+    Nft = NaN; % Unimplemented (TODO)
+    Nhd = -sum(p2(p2<0));
     
     % > Let's leverage the additivity of negativities to get the q = 1 term!
     [FT, BT] = partial_transpose(RDMij);
@@ -57,6 +57,6 @@ function [N0,N1,N2] = sym_negativity(RDMij)
     if abs(Ntot_bosonic - Ntot) < 1e-12
        warning("You might want to investigate why bosonic and fermionic PPT coincide");
     end
-    N1 = Ntot - N2 - N0;
+    Nft = Ntot - Nhd - Nud;
     
 end

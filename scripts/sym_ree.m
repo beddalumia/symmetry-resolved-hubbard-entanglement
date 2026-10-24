@@ -1,4 +1,4 @@
-function [E1,E2] = build_symE(RDM)
+function [Eud,Ehd] = sym_ree(RDM)
     % Trim all off-diagonals
     nRDM = diag(diag(RDM));
     % Restore the spin-flip terms
@@ -51,27 +51,27 @@ function [E1,E2] = build_symE(RDM)
     q(1) = p(1) + (p(6)+p(11)-q(6)-q(11))/2;
     q(16) = p(16) + (p(6)+p(11)-q(6)-q(11))/2;
     %% Spin-singlet computation, general formula
-    E1 = 0; indices = [4,7,10,13];
+    Eud = 0; indices = [4,7,10,13];
     for i=indices
         if(p(i)==0)
             continue
         end
-        E1 = E1 + p(i)*log2(p(i)/q(i));
+        Eud = Eud + p(i)*log2(p(i)/q(i));
     end
     %% Holon-doublon computation, general formula
-    E2 = 0; indices = [1,6,11,16];
+    Ehd = 0; indices = [1,6,11,16];
     for i=indices
         if(p(i)==0)
             continue
         end
-        E2 = E2 + p(i)*log2(p(i)/q(i));
+        Ehd = Ehd + p(i)*log2(p(i)/q(i));
     end
     %% PPT criterion for each sector
-    [N0,~,N2] = sym_negativity(RDM);
-    if N0 < 1e-12
-       E1 = 0; 
+    [Nud,~,Nhd] = sym_negativity(RDM);
+    if Nud < 1e-12
+       Eud = 0; 
     end
-    if N2 < 1e-12
-       E2 = 0;
+    if Nhd < 1e-12
+       Ehd = 0;
     end
 end

@@ -25,16 +25,16 @@ for i = 1:length(Uspan)
     I(i) = 2*vonNeumann(RDMi) - vonNeumann(DMij);
     [B(i),F(i)] = negativity(DMij);
     % Symmetry-resolved entanglement
-    [En(i),Ed(i)] = build_symE(DMij);
+    [Eud(i),Ehd(i)] = sym_ree(DMij);
     p1 = RDMi(1,1); p2 = RDMi(2,2); p3 = RDMi(3,3); p4 = RDMi(4,4); 
     % Double-check with formulas for P-SSR and N-SSR local EE
     % As taken from J. Chem. Theory Comput. 2021, 17, 1, 79–95
     pEE(i) = (p1+p4).*log2(p1+p4) + (p2+p3).*log2(p2+p3) + I(i)/2;
     nEE(i) = (p2+p3).*log2(p2+p3) - p2.*log2(p2) - p3.*log2(p3);
-    assert(abs(nEE(i)-En(i))<1e-12)
-    assert(abs(pEE(i)-En(i)-Ed(i))<1e-12)
+    assert(abs(nEE(i)-Eud(i))<1e-12)
+    assert(abs(pEE(i)-Eud(i)-Ehd(i))<1e-12)
     %e1(i) = -p1.*log2(p1); e2(i) = -p2.*log2(p2); e3(i) = -p3.*log2(p3); e4(i) = -p4.*log2(p4);
-    [E0(i),E1(i),E2(i)] = sym_negativity(DMij);
+    [Nud(i),Nft(i),Nhd(i)] = sym_negativity(DMij);
 
     % One-body density matrix
     obdm = zeros(4,4);
@@ -78,14 +78,14 @@ assert(not(I_atomic))
 figure
 plot(Uspan,I./2,'LineWidth',3,'Color',str2rgb('matlab4'));
 hold on
-plot(Uspan,En,'Color',str2rgb('sky blue'),'LineWidth',3);
-plot(Uspan,I./2-En-Ed,'Color',str2rgb('goldenrod'),'LineWidth',3);
-plot(Uspan,Ed,'Color',str2rgb('strawberry'),'LineWidth',3);
+plot(Uspan,Eud,'Color',str2rgb('sky blue'),'LineWidth',3);
+plot(Uspan,I./2-Eud-Ehd,'Color',str2rgb('goldenrod'),'LineWidth',3);
+plot(Uspan,Ehd,'Color',str2rgb('strawberry'),'LineWidth',3);
 plot(Uspan,F,'--','Color',str2rgb('lilac'),'LineWidth',2);
-plot(Uspan,log2(2*E0+1),'--','Color',str2rgb('light teal'),'LineWidth',2)
-plot(Uspan,log2(2*E1+1),'--','Color',str2rgb('wheat'),'LineWidth',2)
-plot(Uspan,log2(2*E2+1),'--','Color',str2rgb('pink'),'LineWidth',2)
-%plot(Uspan,En+Ed,'Color',str2rgb('purple'));
+plot(Uspan,log2(2*Nud+1),'--','Color',str2rgb('light teal'),'LineWidth',2)
+plot(Uspan,log2(2*Nft+1),'--','Color',str2rgb('wheat'),'LineWidth',2)
+plot(Uspan,log2(2*Nhd+1),'--','Color',str2rgb('pink'),'LineWidth',2)
+%plot(Uspan,Eud+Ehd,'Color',str2rgb('purple'));
 legend([ ...
     "full entanglement", ...
     "antiferromagnetic entanglement",...
