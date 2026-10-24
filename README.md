@@ -1,4 +1,4 @@
-# SymEntanglement_CDMFT
+# Symmetry-resolved Hubbard entanglement
 
 Data and analysis scripts for
 
